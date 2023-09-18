@@ -8,9 +8,9 @@
 
 CREATE TABLE states (
 	state_abbr VARCHAR(2) NOT NULL,
-	state_name VARCHAR(20) NOT NULL, 
-	division_name VARCHAR(20) NOT NULL,
-	region_name VARCHAR(10) NOT NULL,
+	state VARCHAR(20) NOT NULL, 
+	division VARCHAR(20) NOT NULL,
+	region VARCHAR(10) NOT NULL,
 	PRIMARY KEY (state_abbr)
 );
 
@@ -36,7 +36,7 @@ CREATE TABLE agency_units (
 
 CREATE TABLE population_groups (
 	population_group_code VARCHAR(2) NOT NULL, 
-	population_group VARCHAR(50) NOT NULL,
+	population_group VARCHAR(70) NOT NULL,
 	PRIMARY KEY (population_group_code)
 );
 

@@ -40,21 +40,16 @@ CREATE TABLE population_groups (
 	PRIMARY KEY (population_group_code)
 );
 
-CREATE TABLE offender_race (
-	offender_race_id INT NOT NULL,
-	offender_race VARCHAR(50) NOT NULL,
-	PRIMARY KEY (offender_race_id)
+CREATE TABLE race (
+	race_id INT NOT NULL,
+	race VARCHAR(50) NOT NULL,
+	PRIMARY KEY (race_id)
 );
 
-CREATE TABLE offender_ethnicity (
-	offender_ethnicity_id INT NOT NULL,
-	offender_ethnicity VARCHAR(20) NOT NULL,
-	PRIMARY KEY (offender_ethnicity_id)
-);
-
-CREATE TABLE multiple_options (
-	option VARCHAR(1) NOT NULL,
-	PRIMARY KEY (option)
+CREATE TABLE ethnicity (
+	ethnicity_id INT NOT NULL,
+	ethnicity VARCHAR(20) NOT NULL,
+	PRIMARY KEY (ethnicity_id)
 );
 
 CREATE TABLE incidents (
@@ -71,18 +66,14 @@ CREATE TABLE incidents (
 	adult_offender_count INT NOT NULL,
 	juvenile_offender_count INT NOT NULL,
 	offender_race_id INT NOT NULL,
-	offender_ethnicity_ID INT NOT NULL,
+	offender_ethnicity_id INT NOT NULL,
 	victim_count INT NOT NULL,
 	total_individual_victims INT NOT NULL,
-	multiple_offense VARCHAR(2) NOT NULL,
-	multiple_bias VARCHAR(2) NOT NULL,
 	PRIMARY KEY (incident_id),
 	FOREIGN KEY (agency_id) REFERENCES agencies(agency_id),
 	FOREIGN KEY (population_group_code) REFERENCES population_groups(population_group_code),
-	FOREIGN KEY (offender_race_id) REFERENCES offender_race(offender_race_id),
-	FOREIGN KEY (offender_ethnicity_ID) REFERENCES offender_ethnicity(offender_ethnicity_ID),
-	FOREIGN KEY (multiple_offense) REFERENCES multiple_options(option),
-	FOREIGN KEY (multiple_bias) REFERENCES multiple_options(option)
+	FOREIGN KEY (offender_race_id) REFERENCES race(race_id),
+	FOREIGN KEY (offender_ethnicity_id) REFERENCES ethnicity(ethnicity_id),
 );
 
 CREATE TABLE offenses (
@@ -141,6 +132,16 @@ CREATE TABLE incident_victim_types (
 	FOREIGN KEY (victim_type_id) REFERENCES victim_types(victim_type_id)
 );
 
+CREATE TABLE census_data (
+	id INT NOT NULL,
+	year INT NOT NULL,
+	state_abbr VARCHAR(2) NOT NULL,
+	race_id INT NOT NULL,
+	population INT NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (state_abbr) REFERENCES states(state_abbr),
+	FOREIGN KEY (race_id) REFERENCES race(race_id)
+);
 
 -- 2. Review and verify imported data
 
@@ -164,12 +165,10 @@ SELECT * FROM incidents;
 SELECT COUNT(*) FROM incidents;				-- x records
 SELECT * FROM locations;
 SELECT COUNT(*) FROM locations;				-- x records
-SELECT * FROM multiple_options;
-SELECT COUNT(*) FROM multiple_options;		-- x records
-SELECT * FROM offender_ethnicity;
-SELECT COUNT(*) FROM offender_ethnicity;	-- x records
-SELECT * FROM offender_race;
-SELECT COUNT(*) FROM offender_race;			-- x records
+SELECT * FROM ethnicity;
+SELECT COUNT(*) FROM ethnicity;				-- x records
+SELECT * FROM race;
+SELECT COUNT(*) FROM race;					-- x records
 SELECT * FROM offenses;
 SELECT COUNT(*) FROM offenses;				-- x records
 SELECT * FROM population_groups;
@@ -178,3 +177,5 @@ SELECT * FROM states;
 SELECT COUNT(*) FROM states;				-- x records
 SELECT * FROM victim_types;
 SELECT COUNT(*) FROM victim_types;			-- x records
+SELECT * FROM census_data;
+SELECT COUNT(*) FROM census_data;			-- x records

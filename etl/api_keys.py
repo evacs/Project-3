@@ -1,7 +1,7 @@
-# US Government API Key
-usgov_key = "xZxFWvOLGhsTFKV76mlJpVfR9xrG8hwE118gesyc"
+# API keys for all Jupyter files
+
+# US Census Bureau API Key
+census_key = '921e59d6bcaa21630b4f53e74b7a522a3502b8cb'
 
 # Geoapify API Key
-geoapify_key = "8a730ddbc7d24a0ab9069d5969f59477"
-
-api_key = "1aceef27b7416d1057fef4c6da5f5972"
+geoapify_key = '8a730ddbc7d24a0ab9069d5969f59477'

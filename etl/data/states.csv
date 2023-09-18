@@ -1,4 +1,5 @@
-state_abbr,state_name,division_name,region_name
+state_abbr,state,division,region
+AK,Alaska,Pacific,West
 AL,Alabama,East South Central,South
 AR,Arkansas,West South Central,South
 AZ,Arizona,Mountain,West
@@ -8,7 +9,10 @@ CT,Connecticut,New England,Northeast
 DC,District of Columbia,South Atlantic,South
 DE,Delaware,South Atlantic,South
 FL,Florida,South Atlantic,South
+FS,Federal,Other,Other
 GA,Georgia,South Atlantic,South
+GM,Guam,U.S. Territories,U.S. Territories
+HI,Hawaii,Pacific,West
 IA,Iowa,West North Central,Midwest
 ID,Idaho,Mountain,West
 IL,Illinois,East North Central,Midwest
@@ -23,17 +27,28 @@ MI,Michigan,East North Central,Midwest
 MN,Minnesota,West North Central,Midwest
 MO,Missouri,West North Central,Midwest
 MS,Mississippi,East South Central,South
+MT,Montana,Mountain,West
+NB,Nebraska,West North Central,Midwest
 NC,North Carolina,South Atlantic,South
 ND,North Dakota,West North Central,Midwest
+NH,New Hampshire,New England,Northeast
 NJ,New Jersey,Middle Atlantic,Northeast
+NM,New Mexico,Mountain,West
 NV,Nevada,Mountain,West
 NY,New York,Middle Atlantic,Northeast
 OH,Ohio,East North Central,Midwest
 OK,Oklahoma,West South Central,South
 OR,Oregon,Pacific,West
 PA,Pennsylvania,Middle Atlantic,Northeast
+RI,Rhode Island,New England,Northeast
+SC,South Carolina,South Atlantic,South
+SD,South Dakota,West North Central,Midwest
 TN,Tennessee,East South Central,South
 TX,Texas,West South Central,South
+UT,Utah,Mountain,West
 VA,Virginia,South Atlantic,South
+VT,Vermont,New England,Northeast
 WA,Washington,Pacific,West
 WI,Wisconsin,East North Central,Midwest
+WV,West Virginia,South Atlantic,South
+WY,Wyoming,Mountain,West

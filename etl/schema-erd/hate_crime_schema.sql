@@ -107,8 +107,16 @@ CREATE TABLE incident_locations (
 CREATE TABLE bias (
 	bias_id INT NOT NULL,
 	bias VARCHAR(25) NOT NULL,
+	categpry INT NOT NULL,
 	PRIMARY KEY (bias_id)
 );	
+
+CREATE TABLE bias_categories (
+	category_id INT NOT NULL,
+	category VARCHAR(20) NOT NULL,
+	PRIMARY KEY (category_id),
+	FOREIGN KEY (category_id) REFERENCES bias(category_id)
+);
 
 CREATE TABLE incident_biases (
 	incident_id INT NOT NULL,
@@ -153,6 +161,8 @@ SELECT * FROM agency_units;
 SELECT COUNT(*) FROM agency_units;			-- x records
 SELECT * FROM bias;
 SELECT COUNT(*) FROM bias;					-- x records
+SELECT * FROM bias_categories;
+SELECT COUNT(*) FROM bias_categories;		-- x records
 SELECT * FROM incident_biases;
 SELECT COUNT(*) FROM incident_biases;		-- x records
 SELECT * FROM incident_locations;	

@@ -1,0 +1,36 @@
+bias_id,bias
+0,Anti-Black or African American
+1,Anti-White
+2,Anti-Jewish
+3,Anti-Arab
+4,Anti-Protestant
+5,Anti-Other Religion
+6,Anti-Islamic (Muslim)
+7,Anti-Gay (Male)
+8,Anti-Asian
+9,Anti-Catholic
+10,"Anti-Multiple Religions, Group"
+11,Anti-Hispanic or Latino
+12,"Anti-Multiple Races, Group"
+13,Anti-Lesbian (Female)
+14,Anti-Other Race/Ethnicity/Ancestry
+15,Anti-Heterosexual
+16,"Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)"
+17,Anti-American Indian or Alaska Native
+18,Anti-Atheism/Agnosticism
+19,Anti-Bisexual
+20,Anti-Physical Disability
+21,Anti-Mental Disability
+22,Anti-Gender Non-Conforming
+23,Anti-Female
+24,Anti-Transgender
+25,Anti-Native Hawaiian or Other Pacific Islander
+26,Anti-Male
+27,Anti-Jehovah's Witness
+28,Anti-Church of Jesus Christ
+29,Anti-Buddhist
+30,Anti-Sikh
+31,Anti-Other Christian
+32,Anti-Hindu
+33,"Anti-Eastern Orthodox (Russian, Greek, Other)"
+34,Unknown (offender's motivation not known)

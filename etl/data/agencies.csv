@@ -1,0 +1,5314 @@
+agency_id,agency
+0,Anchorage
+1,Bethel
+2,Hoover
+3,Mobile
+4,Leesburg
+5,Ozark
+6,Alabaster
+7,Jasper
+8,Arkansas
+9,Pea Ridge
+10,Harrison
+11,Berryville
+12,Arkadelphia
+13,Greers Ferry
+14,Conway
+15,Jonesboro
+16,West Memphis
+17,McGehee
+18,Mayflower
+19,Fulton
+20,Paragould
+21,Pine Bluff
+22,Cabot
+23,Texarkana
+24,Polk
+25,Mena
+26,Russellville
+27,Pulaski
+28,North Little Rock
+29,Sherwood
+30,Cammack Village
+31,Bryant
+32,Washington
+33,Springdale
+34,Searcy
+35,Judsonia
+36,Yell
+37,Magnolia
+38,Craighead
+39,Wynne
+40,Faulkner
+41,Hot Springs
+42,Jacksonville
+43,Fort Smith
+44,Barling
+45,Fayetteville
+46,Farmington
+47,Beebe
+48,Sierra Vista
+49,Northern Arizona University
+50,Avondale
+51,Buckeye
+52,Chandler
+53,Glendale
+54,Mesa
+55,Peoria
+56,Phoenix
+57,Maricopa
+58,Scottsdale
+59,Tempe
+60,Arizona State University:
+61,Bullhead City
+62,Pima
+63,Tucson
+64,University of Arizona
+65,Pima Community College
+66,Pinal
+67,Coolidge
+68,Yavapai
+69,Jerome
+70,Prescott Valley
+71,Show Low
+72,Lake Havasu City
+73,Albany
+74,Livermore
+75,Oakland
+76,Union City
+77,Dublin
+78,University of California:
+79,Amador
+80,Chico
+81,Oroville
+82,Angels Camp
+83,Antioch
+84,Brentwood
+85,Concord
+86,El Cerrito
+87,Pleasant Hill
+88,Richmond
+89,Walnut Creek
+90,Moraga
+91,San Francisco Bay Area Rapid Transit:
+92,Contra Costa Community College
+93,Orinda
+94,El Dorado
+95,Placerville
+96,Fresno
+97,Humboldt
+98,Arcata
+99,Eureka
+100,Kern
+101,Bakersfield
+102,Delano
+103,Clearlake
+104,Los Angeles
+105,Alhambra
+106,Avalon
+107,Azusa
+108,Agoura Hills
+109,West Hollywood
+110,Santa Clarita
+111,Beverly Hills
+112,Burbank
+113,Commerce
+114,Compton
+115,Covina
+116,Culver City
+117,Los Angeles Transportation Services Bureau
+118,Downey
+119,Duarte
+120,El Monte
+121,Gardena
+122,Hawaiian Gardens
+123,Hawthorne
+124,Huntington Park
+125,Inglewood
+126,Lakewood
+127,La Verne
+128,Lawndale
+129,Long Beach
+130,Manhattan Beach
+131,Monrovia
+132,Norwalk
+133,Palmdale
+134,Palos Verdes Estates
+135,Paramount
+136,Pasadena
+137,Pomona
+138,Redondo Beach
+139,Santa Monica
+140,South Gate
+141,Torrance
+142,West Covina
+143,Whittier
+144,Carson
+145,Rancho Palos Verdes
+146,California State University:
+147,Lancaster
+148,San Rafael
+149,Mammoth Lakes
+150,Salinas
+151,Soledad
+152,Orange
+153,Costa Mesa
+154,Cypress
+155,Fountain Valley
+156,Fullerton
+157,Garden Grove
+158,Huntington Beach
+159,Madera
+160,Chowchilla
+161,Twin Cities
+162,Novato
+163,Mendocino
+164,Pacific Grove
+165,Marina
+166,Anaheim
+167,Laguna Beach
+168,La Habra
+169,Newport Beach
+170,San Juan Capistrano
+171,Santa Ana
+172,Tustin
+173,Westminster
+174,Irvine
+175,Mission Viejo
+176,Lake Forest
+177,Placer
+178,Roseville
+179,Riverside
+180,Blythe
+181,Hemet
+182,Palm Springs
+183,Corona
+184,Cathedral City
+185,La Quinta
+186,Moreno Valley
+187,Wildomar
+188,Elk Grove
+189,Sacramento
+190,Galt
+191,Citrus Heights
+192,Hollister
+193,San Bernardino
+194,Ontario
+195,Redlands
+196,Upland
+197,Hesperia
+198,Yucaipa
+199,Lemon Grove
+200,Santee
+201,Poway
+202,San Diego
+203,Chula Vista
+204,Coronado
+205,Del Mar
+206,Escondido
+207,La Mesa
+208,Oceanside
+209,San Marcos
+210,Vista
+211,Port of San Diego Harbor
+212,San Francisco
+213,Escalon
+214,Lodi
+215,Stockton
+216,Tracy
+217,San Luis Obispo
+218,Morro Bay
+219,Department of Parks and Recreation:
+220,Atherton
+221,Belmont
+222,Millbrae
+223,Redwood City
+224,San Mateo
+225,Santa Barbara
+226,Lompoc
+227,Santa Clara
+228,Campbell
+229,Cupertino
+230,Los Gatos
+231,Mountain View
+232,Palo Alto
+233,San Jose
+234,Saratoga
+235,Sunnyvale
+236,Santa Cruz
+237,Watsonville
+238,Scotts Valley
+239,Shasta
+240,Redding
+241,Solano
+242,Rio Vista
+243,Vacaville
+244,Vallejo
+245,Healdsburg
+246,Stanislaus
+247,Turlock
+248,Sutter
+249,Farmersville
+250,Visalia
+251,Woodlake
+252,Sonora
+253,Ventura
+254,Oxnard
+255,Santa Paula
+256,Thousand Oaks
+257,Moorpark
+258,Davis
+259,West Sacramento
+260,Yuba
+261,Berkeley
+262,Newark
+263,San Leandro
+264,Ione
+265,Gridley
+266,Contra Costa
+267,Brawley
+268,Tehachapi
+269,Lake
+270,Bellflower
+271,Cudahy
+272,Cerritos
+273,Malibu
+274,Hermosa Beach
+275,Pico Rivera
+276,San Fernando
+277,South El Monte
+278,Temple City
+279,Los Alamitos
+280,Placentia
+281,Dana Point
+282,San Jacinto
+283,Monterey Park
+284,Lake Elsinore
+285,Temecula
+286,Fontana
+287,San Diego State University
+288,Daly City
+289,Pacifica
+290,Santa Maria
+291,Carpinteria
+292,Gilroy
+293,Milpitas
+294,Mount Shasta
+295,Benicia
+296,Fairfield
+297,Santa Rosa
+298,Modesto
+299,Yuba City
+300,Porterville
+301,Tulare
+302,Camarillo
+303,Marysville
+304,Denver
+305,Adams
+306,Aurora
+307,Commerce City
+308,Northglenn
+309,Arapahoe
+310,Englewood
+311,Centennial
+312,Bent
+313,Boulder
+314,Longmont
+315,University of Colorado:
+316,Chaffee
+317,Douglas
+318,Lone Tree
+319,Colorado Springs
+320,Canon City
+321,Gunnison
+322,Mount Crested Butte
+323,Jefferson
+324,Arvada
+325,Leadville
+326,Larimer
+327,Berthoud
+328,Estes Park
+329,Fort Collins
+330,Loveland
+331,Colorado State University:
+332,Trinidad
+333,Grand Junction
+334,Fruita
+335,Craig
+336,Montrose
+337,Fort Morgan
+338,Park
+339,Aspen
+340,Pueblo
+341,Steamboat Springs
+342,Summit
+343,Weld
+344,Greeley
+345,Littleton
+346,Lafayette
+347,Louisville
+348,Custer
+349,Castle Rock
+350,Basalt
+351,Fountain
+352,Glenwood Springs
+353,Eaton
+354,Broomfield
+355,Connecticut State Police
+356,Groton Town
+357,Bridgeport
+358,Bristol
+359,Canton
+360,Cheshire
+361,Coventry
+362,Danbury
+363,Easton
+364,Enfield
+365,Greenwich
+366,Hartford
+367,Manchester
+368,Meriden
+369,Middletown
+370,Milford
+371,Naugatuck
+372,New Britain
+373,New Haven
+374,New London
+375,Newtown
+376,Norwich
+377,Shelton
+378,Simsbury
+379,Southington
+380,Stratford
+381,Torrington
+382,Wallingford
+383,Waterford
+384,Watertown
+385,West Hartford
+386,West Haven
+387,Westport
+388,Winchester
+389,Willimantic
+390,Windsor Locks
+391,University of Connecticut:
+392,Metropolitan Transportation Authority
+393,Eastern Connecticut State University
+394,Western Connecticut State University
+395,Clinton
+396,Derby
+397,Glastonbury
+398,Guilford
+399,Madison
+400,Middlebury
+401,Newington
+402,Metro Transit Police
+403,New Castle County Police Department
+404,Wilmington
+405,University of Delaware
+406,Georgetown
+407,State Police:
+408,Selbyville
+409,Alachua
+410,Gainesville
+411,University of Florida
+412,Panama City
+413,Titusville
+414,Palm Bay
+415,Broward
+416,Dania Beach
+417,Deerfield Beach
+418,Wilton Manors
+419,Davie
+420,Miramar
+421,Sunrise
+422,Coral Springs
+423,Fort Lauderdale Airport
+424,Seminole Tribal
+425,Clay
+426,Collier
+427,Coral Gables
+428,Homestead
+429,Miami Beach
+430,North Miami
+431,Aventura
+432,Miami Gardens
+433,Arcadia
+434,Atlantic Beach
+435,Escambia
+436,Pensacola
+437,University of West Florida
+438,Chattahoochee
+439,Hillsborough
+440,Tampa
+441,Graceville
+442,Manatee
+443,Longboat Key
+444,Ocala
+445,Martin
+446,Key West
+447,Okaloosa
+448,Ocoee
+449,Orlando
+450,University of Central Florida
+451,Osceola
+452,Palm Beach
+453,Boca Raton
+454,Jupiter
+455,Palm Beach Gardens
+456,Wellington
+457,Pasco
+458,New Port Richey
+459,Largo
+460,St. Petersburg
+461,Winter Haven
+462,North Port
+463,Daytona Beach Shores
+464,Edgewater
+465,Port Orange
+466,Wakulla
+467,Pompano Beach
+468,Coconut Creek
+469,Atlanta
+470,University of West Georgia
+471,University of Georgia
+472,Morrow
+473,Helen
+474,Perry
+475,Iowa City
+476,Des Moines
+477,Urbandale
+478,Grinnell
+479,Bettendorf
+480,Davenport
+481,Ames
+482,Clarion
+483,Vinton
+484,Linn
+485,Marshall
+486,Nampa
+487,Coeur d'Alene
+488,Moscow
+489,Boise
+490,Pocatello
+491,Hailey
+492,Bellevue
+493,Caldwell
+494,Twin Falls
+495,Chicago
+496,Mount Sterling
+497,Beardstown
+498,Rantoul
+499,Buffalo Grove
+500,Des Plaines
+501,Mount Carroll
+502,Schaumburg
+503,Evanston
+504,Skokie
+505,Tinley Park
+506,Lincolnwood
+507,Lyons
+508,Northfield
+509,Park Ridge
+510,Robinson
+511,Genoa
+512,Northern Illinois University
+513,DuPage
+514,Carol Stream
+515,Downers Grove
+516,Naperville
+517,College of DuPage
+518,Batavia
+519,Elgin
+520,Knox
+521,Highwood
+522,Lindenhurst
+523,Kildeer
+524,Western Illinois University
+525,Bloomington
+526,Normal
+527,Decatur
+528,Rockford
+529,Wood River
+530,Southern Illinois University:
+531,Litchfield
+532,Mascoutah
+533,Shiloh
+534,Sangamon
+535,Springfield
+536,University of Illinois:
+537,Pekin
+538,Monmouth
+539,Bolingbrook
+540,Joliet
+541,Plainfield
+542,New Lenox
+543,Fort Wayne
+544,Goshen
+545,Fishers
+546,Greenwood
+547,Munster
+548,La Porte
+549,Indiana University:
+550,Porter
+551,Mishawaka
+552,Walkerton
+553,Purdue University
+554,Indiana State University
+555,Indiana State Police
+556,Clarksville
+557,Elkhart
+558,Iola
+559,Atchison
+560,Great Bend
+561,Hoisington
+562,Fort Scott
+563,Augusta
+564,Chautauqua
+565,Arma
+566,Abilene
+567,Lawrence
+568,Franklin
+569,Junction City
+570,Hesston
+571,Jackson
+572,Leawood
+573,Lenexa
+574,Kearny
+575,Parsons
+576,Leavenworth
+577,Lansing
+578,Osawatomie
+579,Chanute
+580,Pottawatomie
+581,Wamego
+582,Reno
+583,Hutchinson
+584,Riley County Police Department
+585,Kansas State University
+586,Salina
+587,Sedgwick
+588,Wichita
+589,Valley Center
+590,Maize
+591,Seward
+592,Shawnee
+593,Goodland
+594,University of Kansas:
+595,Unified School District:
+596,Washburn University
+597,Sumner
+598,Colby
+599,Bonner Springs
+600,Kansas City Kansas Community College
+601,Pittsburg
+602,Dickinson
+603,Doniphan
+604,Garden City
+605,Ottawa
+606,Newton
+607,Johnson
+608,Labette
+609,Oswego
+610,Lincoln
+611,Independence
+612,Larned
+613,Pratt
+614,Kansas Department of Wildlife and Parks
+615,Allen
+616,Ballard
+617,Boone
+618,Florence
+619,Cincinnati-Northern Kentucky International Airport
+620,Bullitt
+621,Mount Washington
+622,Princeton
+623,Dayton
+624,Hopkinsville
+625,Oak Grove
+626,Clark
+627,Clark County School System
+628,University of Kentucky
+629,Fayette County Schools
+630,Fleming
+631,Park Security
+632,Graves
+633,Mayfield
+634,Leitchfield
+635,Greenup
+636,Elizabethtown
+637,Vine Grove
+638,West Point
+639,Jefferson County School District
+640,Nicholasville
+641,Covington
+642,Elsmere
+643,Erlanger
+644,Kenton County Police Department
+645,Ludlow
+646,Cynthiana
+647,St. Matthews
+648,Shively
+649,Jeffersontown
+650,University of Louisville
+651,Audubon Park
+652,Meadow Vale
+653,Wilmore
+654,Whitesburg
+655,McCracken
+656,Paducah
+657,Berea
+658,Eastern Kentucky University
+659,Harrodsburg
+660,Ohio
+661,Ohio County School System
+662,Oldham County Police Department
+663,Rowan
+664,Shelby
+665,Shelbyville
+666,Union
+667,Warren
+668,Bowling Green
+669,Monticello
+670,Glasgow
+671,Danville
+672,Hardinsburg
+673,Murray State University
+674,Northern Kentucky University
+675,Lakeside Park-Crestview Hills
+676,Barbourville
+677,Laurel
+678,Maysville
+679,Bardstown
+680,Falmouth
+681,Pikeville
+682,Campbellsville
+683,Elkton
+684,Versailles
+685,East Carroll
+686,Livingston
+687,University of New Orleans
+688,St. James
+689,Houma
+690,Farmerville
+691,Bossier
+692,Barnstable
+693,Provincetown
+694,Lenox
+695,Pittsfield
+696,New Bedford
+697,North Attleboro
+698,Norton
+699,Amesbury
+700,Andover
+701,Beverly
+702,Haverhill
+703,Ipswich
+704,Lynn
+705,Newbury
+706,Newburyport
+707,Bernardston
+708,Erving
+709,East Longmeadow
+710,Holyoke
+711,Monson
+712,Southwick
+713,Wilbraham
+714,Northampton
+715,University of Massachusetts:
+716,Smith College
+717,Acton
+718,Arlington
+719,Cambridge
+720,Carlisle
+721,Everett
+722,Lowell
+723,Medford
+724,North Reading
+725,Tewksbury
+726,Bentley University
+727,Framingham State University
+728,Nantucket
+729,Cohasset
+730,Holbrook
+731,Needham
+732,Norfolk
+733,Quincy
+734,Randolph
+735,Stoughton
+736,Dean College
+737,Lakeville
+738,Marion
+739,Plymouth
+740,Bridgewater State University
+741,Boston
+742,Chelsea
+743,Revere
+744,Northeastern University
+745,Northborough
+746,Oxford
+747,Southbridge
+748,Sturbridge
+749,Upton
+750,West Boylston
+751,Worcester
+752,Amherst
+753,South Hadley
+754,Amherst College
+755,Burlington
+756,Framingham
+757,Malden
+758,Natick
+759,Somerville
+760,Waltham
+761,Harvard University
+762,Braintree
+763,Milton
+764,Plainville
+765,Sharon
+766,Wellesley
+767,Westwood
+768,Winthrop
+769,Hardwick
+770,Baltimore
+771,Annapolis
+772,Anne Arundel County Police Department
+773,Baltimore County Police Department
+774,Towson University
+775,Charles
+776,Harford
+777,Howard County Police Department
+778,Montgomery County Police Department
+779,Prince George's County Police Department
+780,Frederick
+781,Aberdeen
+782,University of Maryland:
+783,Wicomico
+784,Auburn
+785,Lewiston
+786,Aroostook
+787,Cumberland
+788,Gorham
+789,Portland
+790,South Portland
+791,University of Southern Maine
+792,Rumford
+793,Orono
+794,Biddeford
+795,Saco
+796,Sanford
+797,Ellsworth
+798,Sagadahoc
+799,Topsham
+800,York
+801,Old Orchard Beach
+802,Kennebunk
+803,Bellaire
+804,Bay City
+805,Hampton Township
+806,Berrien
+807,Berrien Springs-Oronoko Township
+808,Niles
+809,St. Joseph
+810,Branch
+811,Calhoun
+812,Dowagiac
+813,Crawford
+814,Grand Ledge
+815,Genesee
+816,Flint
+817,Genesee Township
+818,Mount Morris
+819,Mundy Township
+820,Traverse City
+821,East Lansing
+822,Stockbridge
+823,Meridian Township
+824,Mount Pleasant
+825,Blackman Township
+826,Portage
+827,Kent
+828,Cedar Springs
+829,Grand Rapids
+830,Sparta
+831,Wyoming
+832,Adrian
+833,Tecumseh
+834,Macomb
+835,Eastpointe
+836,New Baltimore
+837,Shelby Township
+838,Sterling Heights
+839,Clinton Township
+840,Chesterfield Township
+841,Scottville
+842,Monroe
+843,Greenville
+844,Muskegon Township
+845,Farmington Hills
+846,Ferndale
+847,Oak Park
+848,Pontiac
+849,Rochester
+850,Royal Oak
+851,Southfield
+852,Troy
+853,Waterford Township
+854,West Bloomfield Township
+855,White Lake Township
+856,Auburn Hills
+857,Ogemaw
+858,Evart
+859,Reed City
+860,Holland
+861,Zeeland
+862,Saginaw
+863,Carrollton Township
+864,Saginaw Township
+865,St. Clair
+866,Port Huron
+867,Croswell
+868,Sandusky
+869,Manistique
+870,Owosso
+871,Tuscola
+872,Lawton
+873,Covert Township
+874,Washtenaw
+875,Ann Arbor
+876,Ypsilanti
+877,University of Michigan:
+878,Dearborn
+879,Detroit
+880,Gibraltar
+881,Hamtramck
+882,Inkster
+883,Livonia
+884,Taylor
+885,Trenton
+886,Wayne
+887,Northville Township
+888,Canton Township
+889,Cadillac
+890,Allegan
+891,Bay
+892,Frankfort
+893,Benton Township
+894,New Buffalo
+895,Coldwater
+896,Cass
+897,Escanaba
+898,Fenton
+899,Grand Blanc
+900,Davison Township
+901,Ingham
+902,Michigan State University
+903,Central Michigan University
+904,Summit Township
+905,Kalamazoo
+906,Grandville
+907,Adrian Township
+908,Utica
+909,Forsyth Township
+910,Stephenson
+911,Fruitport Township
+912,Bloomfield Township
+913,Hazel Park
+914,Madison Heights
+915,Bridgeport Township
+916,Paw Paw
+917,Saline
+918,Northfield Township
+919,Dearborn Heights
+920,Grosse Pointe Farms
+921,Melvindale
+922,Redford Township
+923,Rockwood
+924,Van Buren Township
+925,Westland
+926,Wyandotte
+927,Plymouth Township
+928,Blaine
+929,Columbia Heights
+930,Beltrami
+931,Mankato
+932,Carver
+933,Brooklyn Park
+934,Minneapolis
+935,New Hope
+936,St. Louis Park
+937,University of Minnesota:
+938,Eden Prairie
+939,Maple Grove
+940,Kanabec
+941,Mille Lacs
+942,New Brighton
+943,St. Paul
+944,Hibbing
+945,Elk River
+946,Oakdale
+947,Winona
+948,Coon Rapids
+949,Blue Earth
+950,South St. Paul
+951,Eagan
+952,Duluth
+953,Savage
+954,Forest Lake
+955,Cottage Grove
+956,Kansas City
+957,St. Louis
+958,Audrain
+959,Columbia
+960,University of Missouri:
+961,Smithville
+962,Clarkton
+963,Greene
+964,Grandview
+965,Lee's Summit
+966,Raytown
+967,Missouri Southern State University
+968,Herculaneum
+969,Maryville
+970,Rolla
+971,St. Charles
+972,O'Fallon
+973,St. Peters
+974,Maryland Heights
+975,St. Louis County Police Department
+976,Clayton
+977,Maplewood
+978,Chesterfield
+979,Oran
+980,Shannon
+981,Summersville
+982,Warrensburg
+983,Northwest Missouri State University
+984,Cape Girardeau
+985,Steelville
+986,Buffalo
+987,Willard
+988,Grain Valley
+989,Gulfport
+990,Flathead
+991,Whitefish
+992,Bozeman
+993,Belgrade
+994,Lewis and Clark
+995,Helena
+996,Missoula
+997,Conrad
+998,Ravalli
+999,Sheridan
+1000,Butte-Silver Bow
+1001,Billings
+1002,Hastings
+1003,Kearney
+1004,Omaha
+1005,Ralston
+1006,Papillion
+1007,Buncombe
+1008,Asheville
+1009,Morganton
+1010,Charlotte-Mecklenburg
+1011,Mint Hill
+1012,Southern Pines
+1013,Chapel Hill
+1014,Carrboro
+1015,Pasquotank
+1016,Elizabeth City
+1017,Person
+1018,Pitt
+1019,Hickory
+1020,Maiden
+1021,Chatham
+1022,Cherokee
+1023,Currituck
+1024,Forsyth
+1025,Kernersville
+1026,Cherryville
+1027,Gastonia
+1028,Greensboro
+1029,High Point
+1030,Iredell
+1031,Smithfield
+1032,Roxboro
+1033,Hamlet
+1034,Rockingham
+1035,Eden
+1036,Reidsville
+1037,Salisbury
+1038,Rutherford
+1039,Albemarle
+1040,Transylvania
+1041,Cary
+1042,Wendell
+1043,Mount Airy
+1044,Stallings
+1045,Goldsboro
+1046,Burleigh
+1047,Grand Forks
+1048,Larimore
+1049,Mandan
+1050,Ward
+1051,Bismarck
+1052,Fargo
+1053,Morton
+1054,Laconia
+1055,Meredith
+1056,Hudson
+1057,Wilton
+1058,Pembroke
+1059,Portsmouth
+1060,Northumberland
+1061,Hanover
+1062,Lebanon
+1063,Bedford
+1064,Hancock
+1065,Merrimack
+1066,Bow
+1067,Greenland
+1068,Seabrook
+1069,Atlantic City
+1070,Egg Harbor Township
+1071,Galloway Township
+1072,Margate City
+1073,Cliffside Park
+1074,Fair Lawn
+1075,Little Ferry
+1076,Paramus
+1077,Ridgewood
+1078,River Vale Township
+1079,Teaneck Township
+1080,Woodcliff Lake
+1081,Delanco Township
+1082,Edgewater Park Township
+1083,Evesham Township
+1084,Lumberton Township
+1085,"Mansfield Township, Burlington County"
+1086,Maple Shade Township
+1087,Medford Township
+1088,Moorestown Township
+1089,Mount Laurel Township
+1090,North Hanover Township
+1091,Palmyra
+1092,Riverside Township
+1093,Brooklawn
+1094,Camden County Police Department
+1095,Gibbsboro
+1096,Gloucester Township
+1097,Haddonfield
+1098,Haddon Heights
+1099,Lower Township
+1100,Middle Township
+1101,Sea Isle City
+1102,Millville
+1103,Livingston Township
+1104,Millburn Township
+1105,Roseland
+1106,West Orange
+1107,Glassboro
+1108,Lindenwold
+1109,Runnemede
+1110,Voorhees Township
+1111,Winslow Township
+1112,Wildwood
+1113,South Orange Village
+1114,Harrison Township
+1115,"Washington Township, Gloucester County"
+1116,West Deptford Township
+1117,Woodbury
+1118,Bayonne
+1119,Hoboken
+1120,Jersey City
+1121,North Bergen Township
+1122,Frenchtown
+1123,Ewing Township
+1124,"Hamilton Township, Mercer County"
+1125,"Lawrence Township, Mercer County"
+1126,Carteret
+1127,East Brunswick Township
+1128,Edison Township
+1129,Old Bridge Township
+1130,Metuchen
+1131,Milltown
+1132,New Brunswick
+1133,North Brunswick Township
+1134,Piscataway Township
+1135,Plainsboro Township
+1136,Sayreville
+1137,South Brunswick Township
+1138,Spotswood
+1139,Woodbridge Township
+1140,Eatontown
+1141,Freehold Borough
+1142,Freehold Township
+1143,Howell Township
+1144,Keansburg
+1145,Little Silver
+1146,Manalapan Township
+1147,Marlboro Township
+1148,Aberdeen Township
+1149,Middletown Township
+1150,Neptune Township
+1151,Tinton Falls
+1152,Hazlet Township
+1153,Sea Girt
+1154,West Long Branch
+1155,Boonton Township
+1156,East Hanover Township
+1157,Harding Township
+1158,Montville Township
+1159,Morris Township
+1160,Mount Olive Township
+1161,Parsippany-Troy Hills Township
+1162,Pequannock Township
+1163,Rockaway Township
+1164,Wharton
+1165,Jackson Township
+1166,Lakehurst
+1167,Lakewood Township
+1168,Little Egg Harbor Township
+1169,Manchester Township
+1170,Plumsted Township
+1171,Stafford Township
+1172,Tuckerton
+1173,Little Falls Township
+1174,Passaic
+1175,Carney's Point Township
+1176,Bernards Township
+1177,Branchburg Township
+1178,Bridgewater Township
+1179,Hillsborough Township
+1180,Montgomery Township
+1181,North Plainfield
+1182,Cranford Township
+1183,Fanwood
+1184,Linden
+1185,Scotch Plains Township
+1186,Winfield Township
+1187,"Greenwich Township, Warren County"
+1188,Hackettstown
+1189,"Mansfield Township, Warren County"
+1190,Phillipsburg
+1191,Cresskill
+1192,Glen Rock
+1193,Oradell
+1194,Ramsey
+1195,River Edge
+1196,Waldwick
+1197,Cinnaminson Township
+1198,Paulsboro
+1199,Guttenberg
+1200,Secaucus
+1201,West New York
+1202,Raritan Township
+1203,East Windsor Township
+1204,West Windsor Township
+1205,Highland Park
+1206,"Monroe Township, Middlesex County"
+1207,South Plainfield
+1208,Asbury Park
+1209,Holmdel Township
+1210,Long Branch
+1211,Manasquan
+1212,Matawan
+1213,Red Bank
+1214,Sea Bright
+1215,Denville Township
+1216,Florham Park
+1217,Lincoln Park
+1218,Mendham Township
+1219,Randolph Township
+1220,Brick Township
+1221,Lacey Township
+1222,Point Pleasant
+1223,South Toms River
+1224,Clifton
+1225,Ringwood
+1226,Woodland Park
+1227,Bound Brook
+1228,Raritan
+1229,Warren Township
+1230,Hardyston Township
+1231,Elizabeth
+1232,Hillside Township
+1233,Union Township
+1234,Albuquerque
+1235,Gallup
+1236,Valencia
+1237,Las Vegas Metropolitan Police Department
+1238,North Las Vegas
+1239,University Police Services
+1240,Lyon
+1241,Bethlehem Town
+1242,Broome
+1243,Binghamton
+1244,Broome County Special Investigations Task Force
+1245,Vestal Town
+1246,Cayuga
+1247,Chemung
+1248,Dutchess
+1249,Poughkeepsie
+1250,Rhinebeck Village
+1251,Erie
+1252,Colonie Town
+1253,Cattaraugus
+1254,Plattsburgh City
+1255,Tonawanda
+1256,Amherst Town
+1257,Cheektowaga Town
+1258,Catskill Village
+1259,East Rochester Village
+1260,Greece Town
+1261,Nassau
+1262,Rockville Centre Village
+1263,New York
+1264,New York City Metropolitan Transportation Authority
+1265,Niagara
+1266,Niagara Falls
+1267,North Tonawanda
+1268,Oneida
+1269,Goshen Village
+1270,Blooming Grove Town
+1271,East Greenbush Town
+1272,Rockland
+1273,South Nyack Village
+1274,Spring Valley Village
+1275,Clarkstown Town
+1276,Ramapo Town
+1277,Saratoga Springs
+1278,Schenectady
+1279,Niskayuna Town
+1280,Suffolk County Police Department
+1281,Southold Town
+1282,Sullivan
+1283,Fallsburg Town
+1284,Ithaca
+1285,Saugerties Town
+1286,Hudson Falls Village
+1287,New Rochelle
+1288,Yonkers
+1289,Scarsdale Village
+1290,Hastings-on-Hudson Village
+1291,State University of New York Police:
+1292,Cornell University
+1293,Brighton Town
+1294,Freeport Village
+1295,Orangetown Town
+1296,Dobbs Ferry Village
+1297,Tarrytown Village
+1298,Cincinnati
+1299,Cleveland
+1300,Columbus
+1301,Fort Shawnee
+1302,Athens
+1303,Shadyside
+1304,Butler
+1305,Hamilton
+1306,West Chester Township
+1307,Fairfield Township
+1308,Champaign
+1309,Clermont
+1310,Coshocton
+1311,Parma
+1312,South Euclid
+1313,Defiance
+1314,Genoa Township
+1315,Gahanna
+1316,Reynoldsburg
+1317,Westerville
+1318,Worthington
+1319,Ohio State University:
+1320,Geauga
+1321,Wright State University
+1322,Blue Ash
+1323,Mount Healthy
+1324,Findlay
+1325,Napoleon
+1326,"Madison Township, Lake County"
+1327,Heath
+1328,Lorain
+1329,Lucas
+1330,Youngstown
+1331,Beaver Township
+1332,Mercer
+1333,Piqua
+1334,Montgomery
+1335,"Miami Township, Montgomery County"
+1336,Moraine
+1337,Trotwood
+1338,Huber Heights
+1339,Streetsboro
+1340,Mansfield
+1341,Chillicothe
+1342,Fremont
+1343,Seneca
+1344,Sidney
+1345,Stark
+1346,Massillon
+1347,North Canton
+1348,"Jackson Township, Stark County"
+1349,Akron
+1350,Stow
+1351,"Bath Township, Summit County"
+1352,Van Wert
+1353,Clearcreek Township
+1354,Ashland
+1355,"Miami Township, Clermont County"
+1356,Galion
+1357,Shaker Heights
+1358,Solon
+1359,Cleveland Metropolitan Park District
+1360,Delaware
+1361,Perkins Township
+1362,Pickerington
+1363,Capital University
+1364,Hilliard
+1365,Upper Arlington
+1366,Gallia
+1367,Beavercreek
+1368,Norwood
+1369,Holmes
+1370,Willoughby
+1371,Maumee
+1372,Boardman
+1373,Mill Creek Metropark
+1374,Celina
+1375,Germantown
+1376,Zanesville
+1377,Ross
+1378,Howland Township
+1379,Vienna Township
+1380,Norman
+1381,Creek
+1382,Chickasha
+1383,Altus
+1384,Ponca City
+1385,Latimer
+1386,Logan
+1387,Muskogee
+1388,Edmond
+1389,Oklahoma City
+1390,University of Oklahoma:
+1391,Miami
+1392,Cushing
+1393,Tulsa
+1394,Broken Arrow
+1395,Sand Springs
+1396,Bixby
+1397,Owasso
+1398,Coweta
+1399,University of Central Oklahoma
+1400,Stillwater
+1401,Ada
+1402,Sallisaw
+1403,Collinsville
+1404,Benton
+1405,Corvallis
+1406,Clackamas
+1407,Coos Bay
+1408,Bend
+1409,Roseburg
+1410,Lane
+1411,Eugene
+1412,Newport
+1413,Salem
+1414,Silverton
+1415,Troutdale
+1416,Tillamook
+1417,Umatilla
+1418,Hermiston
+1419,Milton-Freewater
+1420,Pendleton
+1421,La Grande
+1422,Beaverton
+1423,Tigard
+1424,McMinnville
+1425,Seaside
+1426,Reedsport
+1427,Winston
+1428,Woodburn
+1429,Philadelphia
+1430,Reading
+1431,Bensalem Township
+1432,Johnstown
+1433,Ferguson Township
+1434,Patton Township
+1435,Pennsylvania State University:
+1436,West Chester University
+1437,Mechanicsburg
+1438,Harrisburg
+1439,"Abington Township, Montgomery County"
+1440,"Springfield Township, Montgomery County"
+1441,West Pottsgrove Township
+1442,Northern York County Regional
+1443,Pittsburgh
+1444,Warwick
+1445,West Warwick
+1446,Little Compton
+1447,Cranston
+1448,East Providence
+1449,Johnston
+1450,Pawtucket
+1451,Providence
+1452,South Kingstown
+1453,University of Rhode Island
+1454,North Smithfield
+1455,Abbeville
+1456,Aiken
+1457,Allendale
+1458,Beaufort
+1459,Goose Creek
+1460,North Charleston
+1461,Charleston County Aviation Authority
+1462,Chester
+1463,Pageland
+1464,Colleton
+1465,Hartsville
+1466,Lamar
+1467,Dillon
+1468,Latta
+1469,Mauldin
+1470,Hampton
+1471,Coastal Carolina University
+1472,Laurens
+1473,Cayce
+1474,Lexington
+1475,Pickens
+1476,Spartanburg
+1477,Cowpens
+1478,Clover
+1479,Rock Hill
+1480,Calhoun Falls
+1481,New Ellenton
+1482,Anderson
+1483,Horry County Police Department
+1484,Holly Hill
+1485,Richland
+1486,Forest Acres
+1487,Pacolet
+1488,Wellford
+1489,Fort Mill
+1490,Miller
+1491,Pierre
+1492,Spearfish
+1493,Tea
+1494,Miner
+1495,Minnehaha
+1496,Sioux Falls
+1497,Rapid City
+1498,Yankton
+1499,Memphis
+1500,Department of Safety
+1501,Bradley
+1502,Elizabethton
+1503,Cheatham
+1504,Crossville
+1505,Metropolitan Nashville Police Department
+1506,Dickson
+1507,University of the South
+1508,Bradford
+1509,Grundy
+1510,Tracy City
+1511,Walters State Community College
+1512,Chattanooga
+1513,University of Tennessee:
+1514,Knoxville
+1515,Loudon
+1516,Hardin
+1517,Savannah
+1518,Spring Hill
+1519,Tennessee Technological University
+1520,Murfreesboro
+1521,Scott
+1522,Hendersonville
+1523,Tipton
+1524,Van Buren
+1525,Weakley
+1526,Tennessee Bureau of Investigation
+1527,Wartrace
+1528,Greenbrier
+1529,Smyrna
+1530,Dunlap
+1531,Sevierville
+1532,Bartlett
+1533,University of Memphis
+1534,Kingsport
+1535,Johnson City
+1536,Dallas
+1537,Houston
+1538,San Antonio
+1539,Galveston
+1540,Texas City
+1541,Denison
+1542,Grayson College
+1543,Longview
+1544,North Richland Hills
+1545,Richland Hills
+1546,Austin
+1547,Killeen
+1548,Alvin
+1549,Lake Jackson
+1550,Pearland
+1551,Brownwood
+1552,Harlingen
+1553,Frisco
+1554,McKinney
+1555,Plano
+1556,Colorado
+1557,New Braunfels
+1558,Carrollton
+1559,Garland
+1560,Richland College
+1561,Argyle
+1562,Denton
+1563,Lake Dallas
+1564,Highland Village
+1565,Trophy Club
+1566,Eastland
+1567,Odessa
+1568,El Paso
+1569,Missouri City
+1570,Kilgore
+1571,Harris
+1572,Beaumont
+1573,Burleson
+1574,Cleburne
+1575,Paris
+1576,Lubbock
+1577,Bellmead
+1578,Midland
+1579,Sweetwater
+1580,Corpus Christi
+1581,Vidor
+1582,Mineral Wells
+1583,Weatherford
+1584,Rockwall
+1585,Overton
+1586,Fort Worth
+1587,Del Rio
+1588,Wichita Falls
+1589,Round Rock
+1590,Leander
+1591,University of Texas:
+1592,Woods Cross
+1593,Salt Lake County Unified Police Department
+1594,Salt Lake City
+1595,South Salt Lake
+1596,Sandy
+1597,Draper
+1598,South Jordan
+1599,West Valley
+1600,Granite School District
+1601,Tooele
+1602,Provo
+1603,St. George
+1604,West Bountiful
+1605,Midvale
+1606,West Jordan
+1607,Utah Transit Authority
+1608,Uintah
+1609,Orem
+1610,Springville
+1611,Charlotte
+1612,Chesterfield County Police Department
+1613,Clarke
+1614,Culpeper
+1615,Dinwiddie
+1616,Fairfax County Police Department
+1617,George Mason University
+1618,Northern Virginia Community College
+1619,Pearisburg
+1620,Henrico County Police Department
+1621,James City County Police Department
+1622,Loudoun
+1623,Purcellville
+1624,University of Virginia
+1625,Albemarle County Police Department
+1626,Amelia
+1627,Arlington County Police Department
+1628,Botetourt
+1629,King and Queen
+1630,Christiansburg
+1631,Virginia Polytechnic Institute and State University
+1632,Manassas
+1633,Bluefield
+1634,Alexandria
+1635,Charlottesville
+1636,Chesapeake
+1637,Fairfax City
+1638,Fredericksburg
+1639,Galax
+1640,Harrisonburg
+1641,Lynchburg
+1642,Newport News
+1643,Roanoke
+1644,Suffolk
+1645,Virginia Beach
+1646,Radford University
+1647,Old Dominion University
+1648,New Kent
+1649,Manassas Park
+1650,Prince William County Police Department
+1651,Roanoke County Police Department
+1652,Spotsylvania
+1653,Stafford
+1654,Front Royal
+1655,Colonial Beach
+1656,Colonial Heights
+1657,Hampton University
+1658,Waynesboro
+1659,College of William and Mary
+1660,Caledonia
+1661,Essex
+1662,South Burlington
+1663,Colchester
+1664,Shelburne
+1665,University of Vermont
+1666,Hinesburg
+1667,Woodstock
+1668,Lyndonville
+1669,Seattle
+1670,Kennewick
+1671,Vancouver
+1672,Garfield
+1673,Grays Harbor
+1674,King
+1675,Redmond
+1676,Snoqualmie
+1677,Federal Way
+1678,Burien
+1679,Kitsap
+1680,Pierce
+1681,Tacoma
+1682,Mount Vernon
+1683,Mountlake Terrace
+1684,Spokane
+1685,Cheney
+1686,Eastern Washington University
+1687,Snohomish
+1688,Edmonds
+1689,Mill Creek
+1690,Thurston
+1691,Evergreen State College
+1692,Walla Walla
+1693,Bellingham
+1694,Lynden
+1695,Washington State University:
+1696,Yakima
+1697,Olympia
+1698,Pullman
+1699,Sequim
+1700,Camas
+1701,Kelso
+1702,Moses Lake
+1703,Tukwila
+1704,SeaTac
+1705,Shoreline
+1706,Maple Valley
+1707,Mossyrock
+1708,Spokane Valley
+1709,Milwaukee
+1710,Dane
+1711,Fond du Lac
+1712,Kewaunee
+1713,Luxemburg
+1714,La Crosse
+1715,Merrill
+1716,Manitowoc
+1717,Everest Metropolitan
+1718,Rhinelander
+1719,Outagamie
+1720,Appleton
+1721,Shiocton
+1722,River Falls
+1723,Racine
+1724,Janesville
+1725,University of Wisconsin:
+1726,Huntington
+1727,Marshall University
+1728,Weirton
+1729,Clarksburg
+1730,Charleston
+1731,Fairmont
+1732,Moundsville
+1733,Monongalia
+1734,Morgantown
+1735,Wheeling
+1736,Summers
+1737,Upshur
+1738,Buckhannon
+1739,Martinsburg
+1740,Kanawha
+1741,South Charleston
+1742,Gillette
+1743,Riverton
+1744,Green River
+1745,Blount
+1746,Oneonta
+1747,Lanett
+1748,Slocomb
+1749,Talladega
+1750,Tuscaloosa
+1751,Bentonville
+1752,Rogers
+1753,Siloam Springs
+1754,Marmaduke
+1755,University of Arkansas:
+1756,Lonoke
+1757,Marvell
+1758,Elkins
+1759,Crossett
+1760,Morrilton
+1761,White
+1762,Springerville
+1763,Flagstaff
+1764,Kingman
+1765,Mammoth
+1766,Apache Junction
+1767,Prescott
+1768,Yuma
+1769,Butte
+1770,Hercules
+1771,San Pablo
+1772,San Ramon
+1773,Oakley
+1774,South Lake Tahoe
+1775,Clovis
+1776,Parlier
+1777,Bishop
+1778,Ridgecrest
+1779,Baldwin Park
+1780,Calabasas
+1781,Rolling Hills Estates
+1782,Sierra Madre
+1783,California State Polytechnic University:
+1784,Fort Bragg
+1785,Merced
+1786,Carmel
+1787,Monterey
+1788,Truckee
+1789,Stanton
+1790,Yorba Linda
+1791,Rancho Santa Margarita
+1792,Aliso Viejo
+1793,Indio
+1794,Perris
+1795,Riverside Community College
+1796,Chino
+1797,Apple Valley
+1798,Encinitas
+1799,El Cajon
+1800,Ripon
+1801,San Bruno
+1802,Allan Hancock College
+1803,Santa Clara Transit District
+1804,Petaluma
+1805,Riverbank
+1806,Sonoma
+1807,Rohnert Park
+1808,Patterson
+1809,Red Bluff
+1810,Simi Valley
+1811,Alameda
+1812,Emeryville
+1813,Paradise
+1814,Colusa
+1815,Shafter
+1816,Lemoore
+1817,San Joaquin
+1818,Manteca
+1819,Maywood
+1820,Mariposa
+1821,Greenfield
+1822,Grass Valley
+1823,Buena Park
+1824,Murrieta
+1825,Rancho Cucamonga
+1826,Carlsbad
+1827,National City
+1828,Foster City
+1829,East Palo Alto
+1830,Greenwood Village
+1831,Pagosa Springs
+1832,Golden
+1833,Wheat Ridge
+1834,Breckenridge
+1835,Montezuma
+1836,Evans
+1837,State Patrol
+1838,Thornton
+1839,Monument
+1840,Cromwell
+1841,New Canaan
+1842,Seymour
+1843,South Windsor
+1844,Trumbull
+1845,Wolcott
+1846,Weston
+1847,Southern Connecticut State University
+1848,Old Saybrook
+1849,Stonington
+1850,Bethany Beach
+1851,Delmar
+1852,Rehoboth Beach
+1853,Melbourne
+1854,Fort Lauderdale
+1855,Hallandale Beach
+1856,Miami-Dade
+1857,Surfside
+1858,Key Biscayne
+1859,Flagler
+1860,Highlands
+1861,Temple Terrace
+1862,Fort Myers
+1863,Cape Coral
+1864,Tallahassee
+1865,Fort Walton Beach
+1866,St. Cloud
+1867,Kissimmee
+1868,Lake Worth
+1869,Palm Beach County School District
+1870,Port Richey
+1871,Pinellas
+1872,Clearwater
+1873,Indian Shores
+1874,Treasure Island
+1875,Seminole
+1876,Fort Pierce
+1877,Port St. Lucie
+1878,Volusia
+1879,Daytona Beach
+1880,DeLand
+1881,Brevard
+1882,Southern Polytechnic State University
+1883,Henry County Police Department
+1884,Sylvania
+1885,LaGrange
+1886,Dubuque
+1887,University of Iowa
+1888,Clarinda
+1889,Altoona
+1890,Council Bluffs
+1891,Iowa State University
+1892,Bonneville
+1893,Idaho Falls
+1894,Elmore
+1895,Kootenai
+1896,Payette
+1897,Urbana
+1898,Casey
+1899,Northwestern University:
+1900,Evergreen Park
+1901,Oakton Community College
+1902,Oak Lawn
+1903,Sycamore
+1904,Minooka
+1905,Nauvoo
+1906,Galesburg
+1907,Grand Ridge
+1908,Illinois State University
+1909,Macon
+1910,Will
+1911,Woodford
+1912,Centralia
+1913,Moline
+1914,Rock Island
+1915,Cahokia
+1916,East Peoria
+1917,Indianapolis
+1918,Hammond
+1919,Highland
+1920,Noble
+1921,West Lafayette
+1922,Winfield
+1923,Hays
+1924,Emporia
+1925,Emporia State University
+1926,Shepherdsville
+1927,Calloway
+1928,Fort Thomas
+1929,Owensboro
+1930,Flatwoods
+1931,Radcliff
+1932,Horse Cave
+1933,Eminence
+1934,Hopkins
+1935,Taylor Mill
+1936,McCracken County Public Schools
+1937,Jessamine
+1938,Fort Mitchell
+1939,Louisa
+1940,Calvert City
+1941,Nelson
+1942,Oldham
+1943,Somerset
+1944,Morehead State University
+1945,Western Kentucky University
+1946,Bell
+1947,Bourbon
+1948,Boyd
+1949,Grayson
+1950,Daviess
+1951,Menifee
+1952,Beaver Dam
+1953,Morehead
+1954,Simpson
+1955,Ascension
+1956,Caddo
+1957,Calcasieu
+1958,Grant
+1959,Plaquemine
+1960,Bossier City
+1961,Dennis
+1962,Egremont
+1963,Hinsdale
+1964,North Adams
+1965,Danvers
+1966,Marblehead
+1967,Methuen
+1968,Merrimack College
+1969,Chicopee
+1970,Hampden
+1971,Westfield
+1972,Billerica
+1973,Easthampton
+1974,Southampton
+1975,Williamsburg
+1976,Massachusetts Institute of Technology
+1977,Dedham
+1978,Medway
+1979,Wrentham
+1980,Duxbury
+1981,Hull
+1982,West Bridgewater
+1983,Berlin
+1984,Boylston
+1985,Spencer
+1986,Clark University
+1987,Bourne
+1988,Mashpee
+1989,Great Barrington
+1990,Lee
+1991,Stoneham
+1992,Brandeis University
+1993,Medfield
+1994,Weymouth
+1995,Brockton
+1996,Kingston
+1997,Massachusetts Bay Transportation Authority:
+1998,Emerson College
+1999,Webster
+2000,Assumption College
+2001,Calvert
+2002,Takoma Park
+2003,Salisbury University
+2004,Androscoggin
+2005,Livermore Falls
+2006,Yarmouth
+2007,Bucksport
+2008,Damariscotta
+2009,Bangor
+2010,Belfast
+2011,Bar Harbor
+2012,Baileyville
+2013,Kittery
+2014,Alger
+2015,Alpena
+2016,Elk Rapids
+2017,DeWitt Township
+2018,Flint Township
+2019,Mount Morris Township
+2020,Grand Blanc Township
+2021,Grand Traverse
+2022,Jonesville
+2023,Somerset Township
+2024,Lansing Community College
+2025,Morenci
+2026,St. Clair Shores
+2027,Ferris State University
+2028,Montcalm
+2029,Muskegon
+2030,Birmingham
+2031,Clawson
+2032,Pentwater
+2033,Oscoda
+2034,Presque Isle
+2035,"Richfield Township, Roscommon County"
+2036,Brown City
+2037,Mattawan
+2038,Eastern Michigan University
+2039,Pittsfield Township
+2040,Belleville
+2041,Benzie
+2042,Lincoln Township
+2043,Battle Creek
+2044,Boyne City
+2045,Chippewa
+2046,Clio
+2047,Flushing
+2048,Hillsdale
+2049,Center Line
+2050,Manistee
+2051,Missaukee
+2052,Muskegon Heights
+2053,Berkley
+2054,Bloomfield Hills
+2055,Keego Harbor
+2056,Laingsburg
+2057,Northville
+2058,Wayne County Airport
+2059,Lino Lakes
+2060,Chisago
+2061,Dakota
+2062,Mendota Heights
+2063,Robbinsdale
+2064,Olmsted
+2065,Jordan
+2066,Benson
+2067,Minnetonka
+2068,Fridley
+2069,Bemidji
+2070,State Highway Patrol:
+2071,Kirksville
+2072,Joplin
+2073,Byrnes Mill
+2074,Laclede
+2075,Bolivar
+2076,Bridgeton
+2077,Riverview
+2078,Town and Country
+2079,Ste. Genevieve
+2080,Big Horn
+2081,Red Lodge
+2082,Miles City
+2083,Deer Lodge
+2084,Kalispell
+2085,Phillips
+2086,Wadesboro
+2087,Black Mountain
+2088,Kannapolis
+2089,Sylva
+2090,Matthews
+2091,Catawba
+2092,Long View
+2093,New Bern
+2094,Durham
+2095,Gaston County Police Department
+2096,Creedmoor
+2097,Roanoke Rapids
+2098,Henderson
+2099,Mooresville
+2100,Asheboro
+2101,Raleigh-Durham International Airport
+2102,Wilson
+2103,Elkin
+2104,Raleigh
+2105,North Carolina State University
+2106,Devils Lake
+2107,Watford City
+2108,Tilton
+2109,Marlborough
+2110,Pelham
+2111,Derry
+2112,Hooksett
+2113,Exeter
+2114,Sandown
+2115,"Hamilton Township, Atlantic County"
+2116,Hammonton
+2117,Mullica Township
+2118,Fort Lee
+2119,Ridgefield
+2120,Mount Holly Township
+2121,Westampton Township
+2122,Haddon Township
+2123,Merchantville
+2124,Oaklyn
+2125,Pine Hill
+2126,Ocean City
+2127,Montclair
+2128,Verona
+2129,Elk Township
+2130,Pitman
+2131,Weehawken Township
+2132,Lambertville
+2133,Cranbury Township
+2134,Middlesex Borough
+2135,Colts Neck Township
+2136,Beachwood
+2137,Berkeley Township
+2138,Long Beach Township
+2139,Ocean Gate
+2140,Point Pleasant Beach
+2141,Barnegat Township
+2142,North Haledon
+2143,Woodstown
+2144,Watchung
+2145,Sparta Township
+2146,"Springfield Township, Union County"
+2147,Blairstown Township
+2148,Lopatcong Township
+2149,"Washington Township, Warren County"
+2150,Bergenfield
+2151,Bogota
+2152,Eastampton Township
+2153,Willingboro Township
+2154,North Caldwell
+2155,"Franklin Township, Gloucester County"
+2156,Woodbury Heights
+2157,East Newark
+2158,High Bridge
+2159,Hopewell Township
+2160,South River
+2161,Boonton
+2162,Chatham Township
+2163,Hanover Township
+2164,Paterson
+2165,Vernon Township
+2166,Pohatcong Township
+2167,San Juan
+2168,Bernalillo
+2169,Fallon
+2170,Coeymans Town
+2171,Elmira Heights Village
+2172,Cortland
+2173,Poughkeepsie Town
+2174,Hamburg Town
+2175,West Seneca Town
+2176,Saranac Lake Village
+2177,Camden Village
+2178,DeWitt Town
+2179,Newburgh
+2180,Port Jervis
+2181,Deerpark Town
+2182,Crawford Town
+2183,Orleans
+2184,Oswego City
+2185,Cooperstown Village
+2186,Haverstraw Town
+2187,South Glens Falls Village
+2188,Waterloo Village
+2189,Monticello Village
+2190,State Park:
+2191,Westchester Public Safety
+2192,Buchanan Village
+2193,Greenburgh Town
+2194,Yorktown Town
+2195,Suffolk County Parks
+2196,North Syracuse Village
+2197,Geddes Town
+2198,Canandaigua
+2199,Washingtonville Village
+2200,Suffern Village
+2201,Mechanicville
+2202,Shelter Island Town
+2203,Jamestown
+2204,Chenango
+2205,Evans Town
+2206,Ticonderoga Town
+2207,Frankfort Village
+2208,Hempstead Village
+2209,Powell
+2210,Fayette
+2211,Washington Court House
+2212,Grove City
+2213,Whitehall
+2214,Sharonville
+2215,Licking
+2216,Ottawa Hills
+2217,Kettering
+2218,Pickaway
+2219,Fostoria
+2220,Alliance
+2221,Hubbard
+2222,Brookfield Township
+2223,Weathersfield
+2224,Mason
+2225,Montpelier
+2226,New Albany
+2227,"Springfield Township, Hamilton County"
+2228,Miamisburg
+2229,Putnam
+2230,Canal Fulton
+2231,"Perry Township, Stark County"
+2232,Tulsa Community College
+2233,Atoka
+2234,Apache
+2235,Hinton
+2236,Yukon
+2237,Moore
+2238,Blackwell
+2239,Heavener
+2240,Valliant
+2241,The Village
+2242,Warr Acres
+2243,Choctaw
+2244,Okmulgee
+2245,Perkins
+2246,Deschutes
+2247,Central Point
+2248,Lake Oswego
+2249,Sutherlin
+2250,Yamhill
+2251,South Park Township
+2252,West Hills Regional
+2253,State College
+2254,Lower Paxton Township
+2255,Paxtang
+2256,Corry
+2257,Old Forge
+2258,East Hempfield Township
+2259,Avoca
+2260,Ambler
+2261,Shenandoah
+2262,Pine Grove
+2263,Burrillville
+2264,Brown University
+2265,Hopkinton
+2266,Charlestown
+2267,College of Charleston
+2268,Walterboro
+2269,Prosperity
+2270,Oconee
+2271,Sumter
+2272,Greeleyville
+2273,Williston
+2274,Andrews
+2275,Ninety Six
+2276,Myrtle Beach
+2277,Hardeeville
+2278,Batesburg-Leesville
+2279,Bennettsville
+2280,Clemson University
+2281,Belle Fourche
+2282,Freeman
+2283,Flandreau
+2284,Box Elder
+2285,Alcoa
+2286,Hamblen
+2287,Morristown
+2288,Soddy-Daisy
+2289,Mount Carmel
+2290,Brownsville
+2291,Madisonville
+2292,Lawrenceburg
+2293,Lewis
+2294,Maury
+2295,Cookeville
+2296,Middle Tennessee State University
+2297,Collierville
+2298,Memphis-Shelby County Airport Authority
+2299,Gallatin
+2300,Westmoreland
+2301,Oak Ridge
+2302,Vanderbilt University
+2303,Dyersburg
+2304,Cross Plains
+2305,Pigeon Forge
+2306,Stewart
+2307,Universal City
+2308,Bryan
+2309,Texas A&M University:
+2310,Wylie
+2311,Comal
+2312,Sachse
+2313,Rowlett
+2314,Lewisville
+2315,Tomball
+2316,Kaufman
+2317,Terrell
+2318,Thorndale
+2319,Center
+2320,Tyler
+2321,Grapevine
+2322,Dallas-Fort Worth International Airport
+2323,San Angelo
+2324,Travis
+2325,Victoria
+2326,Hutto
+2327,Cedar Park
+2328,Floydada
+2329,Sherman
+2330,Schertz
+2331,Houston Community College
+2332,Hurst
+2333,Edgewood
+2334,Wise
+2335,Utah State University:
+2336,Bountiful
+2337,Layton
+2338,Murray
+2339,University of Utah
+2340,Bluffdale
+2341,Utah
+2342,Ogden
+2343,Price
+2344,Syracuse
+2345,Vernal
+2346,Pleasant Grove
+2347,Accomack
+2348,Fauquier
+2349,King George
+2350,Page
+2351,Prince George County Police Department
+2352,Grottoes
+2353,University of Mary Washington
+2354,Christopher Newport University
+2355,Richmond International Airport
+2356,Vienna
+2357,Goochland
+2358,Longwood University
+2359,Vergennes
+2360,Bennington
+2361,Lamoille
+2362,Rutland
+2363,Brattleboro
+2364,West Richland
+2365,Chelan
+2366,Clallam
+2367,Port Angeles
+2368,Battle Ground
+2369,Issaquah
+2370,University of Washington
+2371,Port of Seattle
+2372,Puyallup
+2373,University Place
+2374,Liberty Lake
+2375,Grand Coulee
+2376,Oak Harbor
+2377,Mercer Island
+2378,Sammamish
+2379,Poulsbo
+2380,Stanwood
+2381,North Fond du Lac
+2382,Iowa
+2383,Tomahawk
+2384,Wausau
+2385,Oak Creek
+2386,Kaukauna
+2387,Sheboygan
+2388,Whitewater
+2389,Green Bay
+2390,Kenosha
+2391,Brooke
+2392,West Virginia University:
+2393,Beckley
+2394,Ceredo
+2395,Parkersburg
+2396,Nitro
+2397,Laramie
+2398,Niobrara
+2399,Fultondale
+2400,Irondale
+2401,Hueytown
+2402,Adamsville
+2403,Saraland
+2404,Prattville
+2405,Foley
+2406,Orange Beach
+2407,Piedmont
+2408,Weaver
+2409,Centre
+2410,Chilton
+2411,Clanton
+2412,Heflin
+2413,Elba
+2414,Enterprise
+2415,Sheffield
+2416,Tuscumbia
+2417,Coosa
+2418,Cullman
+2419,Fort Payne
+2420,Fyffe
+2421,Town Creek
+2422,Marengo
+2423,Guntersville
+2424,Phenix City
+2425,Sylacauga
+2426,Parrish
+2427,Haleyville
+2428,Helena-West Helena
+2429,Forrest City
+2430,Bald Knob
+2431,Gilbert
+2432,Surprise
+2433,Wickenburg
+2434,Mohave
+2435,Tucson Airport Authority
+2436,Central Arizona College
+2437,Camp Verde
+2438,Somerton
+2439,Hayward
+2440,Pinole
+2441,Sanger
+2442,Selma
+2443,State Center Community College District
+2444,Humboldt State University
+2445,Arvin
+2446,Susanville
+2447,Westlake Village
+2448,Artesia
+2449,Diamond Bar
+2450,Claremont
+2451,La Mirada
+2452,La Puente
+2453,Lynwood
+2454,San Dimas
+2455,San Gabriel
+2456,La Canada Flintridge
+2457,Marin
+2458,Napa
+2459,San Clemente
+2460,Banning
+2461,Coachella
+2462,Norco
+2463,Palm Desert
+2464,Rancho Cordova
+2465,Barstow
+2466,Rialto
+2467,Victorville
+2468,Big Bear 
+2469,Imperial Beach
+2470,Stockton Unified School District
+2471,Arroyo Grande
+2472,Menlo Park
+2473,South San Francisco
+2474,West Valley-Mission College
+2475,Foothill-De Anza College
+2476,Cotati
+2477,Tuolumne
+2478,Ojai
+2479,Woodland
+2480,Alamosa
+2481,Buena Vista
+2482,Parker
+2483,Palmer Lake
+2484,Parachute
+2485,Huerfano
+2486,Kit Carson
+2487,Durango
+2488,Fort Lewis College
+2489,Sterling
+2490,Moffat
+2491,Mancos
+2492,Otero
+2493,La Junta
+2494,Fort Lupton
+2495,Bloomfield
+2496,Darien
+2497,East Hampton
+2498,Hamden
+2499,Waterbury
+2500,Dover
+2501,Camden
+2502,River and Bay Authority
+2503,Baker
+2504,Oakland Park
+2505,Marco Island
+2506,Miami Shores
+2507,Doral
+2508,North Bay Village
+2509,Jacksonville Beach
+2510,Mount Dora
+2511,Stuart
+2512,Winter Garden
+2513,Boynton Beach
+2514,Royal Palm Beach
+2515,St. Johns
+2516,Sarasota
+2517,Walton
+2518,Catoosa
+2519,Athens-Clarke County
+2520,College of Coastal Georgia
+2521,Warner Robins
+2522,Cedar Rapids
+2523,Sioux City
+2524,Post Falls
+2525,Rathdrum
+2526,Rexburg
+2527,Shoshone
+2528,Teton
+2529,McCall
+2530,Cairo
+2531,Mattoon
+2532,Arlington Heights
+2533,Bellwood
+2534,Blue Island
+2535,Elmhurst
+2536,Kane
+2537,Kendall
+2538,La Salle
+2539,Leland
+2540,Alton
+2541,Olney
+2542,Beecher
+2543,Muncie
+2544,Rushville
+2545,Ellinwood
+2546,Clay Center
+2547,Ford
+2548,Overland Park
+2549,McPherson
+2550,Louisburg
+2551,Haysville
+2552,Wichita State University
+2553,Bel Aire
+2554,Woodson
+2555,Adair
+2556,Wilder
+2557,Christian
+2558,Greater Hardin County Narcotics Task Force
+2559,Harlan
+2560,Hart
+2561,Graymoor-Devondale
+2562,Laurel County Constable District 1
+2563,Meade
+2564,West Liberty
+2565,Guthrie
+2566,Gonzales
+2567,Iberia
+2568,Kenner
+2569,Sterlington
+2570,Brewster
+2571,Williamstown
+2572,Dartmouth
+2573,Taunton
+2574,Edgartown
+2575,Saugus
+2576,Ashfield
+2577,Western New England University
+2578,Belchertown
+2579,Mount Holyoke College
+2580,Hampshire College
+2581,Chelmsford
+2582,Holliston
+2583,Wayland
+2584,Brookline
+2585,Norwell
+2586,Whitman
+2587,Boston University
+2588,Gardner
+2589,Leominster
+2590,Carroll
+2591,Cecil
+2592,Bel Air
+2593,Bowie
+2594,Crisfield
+2595,Fort Kent
+2596,Mexico
+2597,Ogunquit
+2598,Benton Harbor
+2599,Buchanan
+2600,Albion
+2601,Emmett Township
+2602,Cheboygan
+2603,Sault Ste. Marie
+2604,Bath Township
+2605,Grayling
+2606,Clayton Township
+2607,Flushing Township
+2608,Ironwood
+2609,Oscoda Township
+2610,Kalamazoo Township
+2611,Western Michigan University
+2612,Grand Rapids Community College
+2613,Kentwood
+2614,Hamburg Township
+2615,Pinckney
+2616,Mackinac Island
+2617,Fraser
+2618,Romeo
+2619,Huron-Clinton Metropolitan Authority:
+2620,Menominee
+2621,Norton Shores
+2622,White Cloud
+2623,Holly
+2624,Orchard Lake
+2625,South Lyon
+2626,Wixom
+2627,Wolverine Lake
+2628,Oakland Community College
+2629,Ontonagon
+2630,Grand Haven
+2631,Buena Vista Township
+2632,Algonac
+2633,Marine City
+2634,Marlette
+2635,Caro
+2636,Allen Park
+2637,Grosse Pointe Park
+2638,Grosse Pointe Woods
+2639,Harper Woods
+2640,Manton
+2641,Carlton
+2642,Montevideo
+2643,Moorhead
+2644,Brainerd
+2645,Albert Lea
+2646,Red Wing
+2647,Brooklyn Center
+2648,Crystal
+2649,Edina
+2650,Richfield
+2651,McLeod
+2652,North St. Paul
+2653,Wright
+2654,Rich Hill
+2655,Poplar Bluff
+2656,Excelsior Springs
+2657,Gladstone
+2658,Gower
+2659,Lincoln University
+2660,Concordia
+2661,Waynesville
+2662,Breckenridge Hills
+2663,Des Peres
+2664,Woodson Terrace
+2665,Branson
+2666,Montana State University
+2667,Polson
+2668,Yellowstone
+2669,Grand Island
+2670,Crete
+2671,Anson
+2672,Shallotte
+2673,Hope Mills
+2674,Kill Devil Hills
+2675,Rocky Mount
+2676,Dunn
+2677,Lenoir
+2678,Williamston
+2679,University of North Carolina:
+2680,Wrightsville Beach
+2681,Archdale
+2682,Appalachian State University
+2683,West Fargo
+2684,Minot
+2685,Candia
+2686,Londonderry
+2687,Raymond
+2688,Rye
+2689,Buena
+2690,Somers Point
+2691,Alpine
+2692,Franklin Lakes
+2693,Hackensack
+2694,North Arlington
+2695,Ridgefield Park
+2696,Saddle River
+2697,Burlington City
+2698,Delran Township
+2699,Pemberton Township
+2700,Audubon
+2701,Clementon
+2702,Cherry Hill Township
+2703,Pennsauken Township
+2704,North Wildwood
+2705,Vineland
+2706,Maplewood Township
+2707,Nutley Township
+2708,Robbinsville Township
+2709,Brielle
+2710,Deal
+2711,Riverdale
+2712,"Ocean Township, Ocean County"
+2713,Pompton Lakes
+2714,Wayne Township
+2715,Green Brook Township
+2716,Byram Township
+2717,Clark Township
+2718,New Providence
+2719,Espanola
+2720,West Wendover
+2721,Nye
+2722,Guilderland Town
+2723,Horseheads Village
+2724,Fishkill Town
+2725,Tonawanda Town
+2726,Mount Morris Village
+2727,Chittenango Village
+2728,Floral Park Village
+2729,Garden City Village
+2730,New Hartford Town and Village
+2731,Medina Village
+2732,Otsego
+2733,Oneonta City
+2734,Ballston Spa Village
+2735,Schuyler
+2736,White Plains
+2737,Tuckahoe Village
+2738,Larchmont Village
+2739,Mamaroneck Town
+2740,New Castle Town
+2741,North Castle Town
+2742,East Liverpool
+2743,Bexley
+2744,Xenia
+2745,Sugarcreek Township
+2746,Oregon
+2747,London
+2748,Wadsworth
+2749,Centerville
+2750,Cardington
+2751,Circleville
+2752,Newcomerstown
+2753,Wooster
+2754,Walbridge
+2755,Bowling Green State University
+2756,Sapulpa
+2757,Enid
+2758,Pauls Valley
+2759,Stroud
+2760,McClain
+2761,Eufaula
+2762,Putnam City Campus
+2763,Tillman
+2764,Dewey
+2765,Toledo
+2766,Stayton
+2767,Keizer
+2768,Newberg-Dundee
+2769,Economy
+2770,York Area Regional
+2771,Woonsocket
+2772,Burnettown
+2773,Highway Patrol:
+2774,Port Royal
+2775,Moncks Corner
+2776,Hanahan
+2777,Isle of Palms
+2778,Clarendon
+2779,Summerville
+2780,Winnsboro
+2781,Simpsonville
+2782,North Myrtle Beach
+2783,Briarcliffe Acres
+2784,Walhalla
+2785,Easley
+2786,Landrum
+2787,Tega Cay
+2788,Codington
+2789,Pennington
+2790,Alamo
+2791,Trimble
+2792,Gibson
+2793,Milan
+2794,Vonore
+2795,Harriman
+2796,Coopertown
+2797,Millington
+2798,White House
+2799,Sul Ross State University
+2800,Murphy
+2801,Copperas Cove
+2802,Cedar Hill
+2803,Anthony
+2804,Leonard
+2805,West Tawakoni
+2806,Forney
+2807,"Reno, Lamar County"
+2808,Hallettsville
+2809,Texas State Technical College:
+2810,Corsicana
+2811,Potter
+2812,Royse City
+2813,Snyder
+2814,West Lake Hills
+2815,Huntsville
+2816,Williamson
+2817,Brigham City
+2818,Tremonton
+2819,North Salt Lake
+2820,Duchesne
+2821,Appomattox
+2822,J. Sargeant Reynolds Community College
+2823,Mathews
+2824,Blacksburg
+2825,Crewe
+2826,Pittsylvania
+2827,Farmville
+2828,Strasburg
+2829,Sussex
+2830,Big Stone Gap
+2831,Virginia State University
+2832,Virginia State Capitol
+2833,University of Richmond
+2834,Swanton
+2835,Othello
+2836,Cowlitz
+2837,East Wenatchee
+2838,Bothell
+2839,Woodinville
+2840,Newcastle
+2841,Bremerton
+2842,Port Orchard
+2843,Bainbridge Island
+2844,Ellensburg
+2845,Central Washington University
+2846,Chehalis
+2847,Omak
+2848,Orting
+2849,Skagit
+2850,Anacortes
+2851,Union Gap
+2852,West Allis
+2853,Minocqua
+2854,Fox Valley Metro
+2855,Sawyer
+2856,Moorefield
+2857,Nicholas
+2858,Tucker
+2859,Wood
+2860,Ola
+2861,Willcox
+2862,Paradise Valley
+2863,Fowler
+2864,Reedley
+2865,Orland
+2866,Taft
+2867,Hanford
+2868,Lomita
+2869,San Anselmo
+2870,Marin Community College
+2871,Ukiah
+2872,Villa Park
+2873,Calimesa
+2874,Eastvale
+2875,Colton
+2876,Adelanto
+2877,Atascadero
+2878,Capitola
+2879,Sonoma County Junior College
+2880,Rosemead
+2881,Laguna Hills
+2882,Chino Hills
+2883,Paso Robles
+2884,Hughson
+2885,Windsor
+2886,University of Northern Colorado
+2887,Hotchkiss
+2888,Auraria Higher Education Center
+2889,Meeker
+2890,Telluride
+2891,Groton
+2892,Stamford
+2893,Central Connecticut State University
+2894,New Milford
+2895,Green Cove Springs
+2896,Orange Park
+2897,Village of Pinecrest
+2898,University of South Florida:
+2899,Apopka
+2900,Lake Clarke Shores
+2901,Lakeland
+2902,New College of Florida
+2903,Casselberry
+2904,Oviedo
+2905,New Smyrna Beach
+2906,Ormond Beach
+2907,Pinellas Park
+2908,Bartow
+2909,Cobb County Police Department
+2910,Berry College
+2911,Meridian
+2912,Grangeville
+2913,Winnetka
+2914,North Riverside
+2915,Altamont
+2916,West Frankfort
+2917,Black Hawk College:
+2918,Carpentersville
+2919,Fairbury
+2920,Algonquin
+2921,Crystal Lake
+2922,Crest Hill
+2923,Alexander
+2924,La Grange
+2925,Oak Forest
+2926,Rolling Meadows
+2927,DeKalb
+2928,Basehor
+2929,Lindsborg
+2930,Beloit
+2931,Eudora
+2932,Dodge City
+2933,Merriam
+2934,Pittsburg State University
+2935,Rush
+2936,Liberal
+2937,Campbell County Police Department
+2938,Kentucky Horse Park
+2939,Flemingsburg
+2940,Prestonsburg
+2941,West Buechel
+2942,Louisville Metro
+2943,Park Hills
+2944,Vanceburg
+2945,Owen
+2946,Wolfe
+2947,Middlesboro
+2948,New Orleans
+2949,St. Tammany
+2950,Massachusetts College of Liberal Arts
+2951,Tisbury
+2952,Manchester-by-the-Sea
+2953,Hadley
+2954,Dracut
+2955,Hingham
+2956,Tufts University:
+2957,Millis
+2958,Bolton
+2959,Charlton
+2960,Fitchburg
+2961,Mendon
+2962,Uxbridge
+2963,Attleboro
+2964,Seekonk
+2965,Oak Bluffs
+2966,Montague
+2967,Longmeadow
+2968,Grafton
+2969,Harvard
+2970,Southborough
+2971,Maryland-National Capital Park Police:
+2972,Frostburg State University
+2973,New Carrollton
+2974,Houlton
+2975,Skowhegan
+2976,Wells
+2977,Saugatuck-Douglas
+2978,Homer
+2979,Clare
+2980,Delta
+2981,Eau Claire
+2982,Houghton
+2983,Crystal Falls
+2984,Shepherd
+2985,Vicksburg
+2986,Leelanau
+2987,Mecosta
+2988,Walled Lake
+2989,Oakland University
+2990,Saginaw Valley State University
+2991,Tittabawassee Township
+2992,Thomas Township
+2993,Capac
+2994,Three Rivers
+2995,Spring Lake-Ferrysburg
+2996,Yale
+2997,Flat Rock
+2998,Swartz Creek
+2999,Alma
+3000,Blissfield
+3001,Howard City
+3002,Huntington Woods
+3003,Novi
+3004,Woodhaven
+3005,Shakopee
+3006,Inver Grove Heights
+3007,Minnetrista
+3008,Le Sueur
+3009,Eveleth
+3010,Crocker
+3011,Creve Coeur
+3012,Edmundson
+3013,Overland
+3014,Stone
+3015,Belton
+3016,Peculiar
+3017,De Soto
+3018,Biloxi
+3019,University of Mississippi:
+3020,Carbon
+3021,Cascade
+3022,Golden Valley
+3023,Colstrip
+3024,North Platte
+3025,Keith
+3026,Thomasville
+3027,Cabarrus
+3028,North Carolina School of the Arts
+3029,Harnett
+3030,Carthage
+3031,New Hanover
+3032,Carolina Beach
+3033,Stoneville
+3034,Winston-Salem
+3035,Haywood
+3036,Statesville
+3037,Zebulon
+3038,Lisbon
+3039,Sargent
+3040,Slope
+3041,Steele
+3042,Walsh
+3043,Williams
+3044,Beulah
+3045,Barnstead
+3046,Dunbarton
+3047,Epping
+3048,University of New Hampshire
+3049,Egg Harbor City
+3050,Elmwood Park
+3051,Palisades Park
+3052,Saddle Brook Township
+3053,Upper Saddle River
+3054,Glen Ridge
+3055,East Greenwich Township
+3056,"Monroe Township, Gloucester County"
+3057,Hightstown
+3058,Princeton 
+3059,Jamesburg
+3060,Belmar
+3061,Bradley Beach
+3062,Jefferson Township
+3063,Tenafly
+3064,Florence Township
+3065,East Orange
+3066,South Harrison Township
+3067,Westville
+3068,Long Hill Township
+3069,Seaside Park
+3070,Bedminster Township
+3071,Los Lunas
+3072,Cohoes
+3073,Watervliet
+3074,Tupper Lake Village
+3075,Lowville Village
+3076,Manlius Town
+3077,Monroe Village
+3078,East Hampton Town
+3079,Peekskill
+3080,Croton-on-Hudson Village
+3081,Nissequogue Village
+3082,Glens Falls
+3083,Whitehall Village
+3084,Lackawanna
+3085,Gloversville
+3086,Rensselaer
+3087,Ashtabula
+3088,Powhatan Point
+3089,Miami University
+3090,Salineville
+3091,Highland Heights
+3092,Groveport
+3093,Greenhills
+3094,Henry
+3095,Toronto
+3096,University of Toledo
+3097,Austintown
+3098,Canfield
+3099,Port Clinton
+3100,Girard
+3101,Liberty Township
+3102,Marietta
+3103,Mahoning
+3104,Commercial Point
+3105,McArthur
+3106,"Hamilton Township, Warren County"
+3107,Springboro
+3108,Ellis
+3109,Luther
+3110,Hominy
+3111,Hartshorne
+3112,Verdigris
+3113,Woodward
+3114,Bristow
+3115,Mangum
+3116,Purcell
+3117,Lincoln City
+3118,Ross Township
+3119,Shippensburg University
+3120,Throop
+3121,Roseto
+3122,Moravian College
+3123,Selinsgrove
+3124,Tunkhannock
+3125,Barrington
+3126,Ware Shoals
+3127,Irmo
+3128,Lexington County Medical Center
+3129,Marlboro
+3130,Bluffton
+3131,Folly Beach
+3132,The Citadel
+3133,Cheraw
+3134,Darlington
+3135,West Columbia
+3136,Saluda
+3137,University of South Carolina:
+3138,Kingstree
+3139,Sturgis
+3140,Bledsoe
+3141,La Follette
+3142,Claiborne
+3143,Bells
+3144,Goodlettsville
+3145,Drug Task Force:
+3146,Giles
+3147,Ardmore
+3148,Grainger
+3149,Lookout Mountain
+3150,Lauderdale
+3151,Lenoir City
+3152,Bethel Springs
+3153,Baxter
+3154,Robertson
+3155,Brighton
+3156,Rhea
+3157,South Carthage
+3158,Bluff City
+3159,Bexar
+3160,Richwood
+3161,University Park
+3162,Southern Methodist University
+3163,Hickory Creek
+3164,Socorro
+3165,Fort Bend
+3166,Gladewater
+3167,Kyle
+3168,Hunt
+3169,Amarillo
+3170,Randall
+3171,Everman
+3172,Texas Christian University
+3173,Angelo State University
+3174,Temple
+3175,Brazos
+3176,Wolfe City
+3177,Burkburnett
+3178,Utah Highway Patrol
+3179,Helper
+3180,Hurricane
+3181,Daggett
+3182,Kaysville
+3183,Kanab
+3184,Herndon
+3185,Gloucester
+3186,Blackstone
+3187,Radford
+3188,Prince Edward
+3189,Winooski
+3190,Fair Haven
+3191,Kirkland
+3192,Renton
+3193,Pacific
+3194,Pend Oreille
+3195,Fircrest
+3196,Stevens
+3197,Sunnyside
+3198,Wapato
+3199,Lake Forest Park
+3200,Lynnwood
+3201,Port Townsend
+3202,Black Diamond
+3203,Burnett
+3204,Juneau
+3205,Waukesha
+3206,West Virginia University: 
+3207,West Liberty University
+3208,Rawlins
+3209,Sublette
+3210,Gurdon
+3211,England
+3212,Pope
+3213,Sebastian
+3214,Fairfield Bay
+3215,Eagar
+3216,Cochise
+3217,El Mirage
+3218,Goodyear
+3219,Calaveras
+3220,Holtville
+3221,Kings
+3222,Corcoran
+3223,Glendora
+3224,Vernon
+3225,Atwater
+3226,Jurupa Valley
+3227,Yucca Valley
+3228,Fontana Unified School District
+3229,Morgan Hill
+3230,Cheyenne
+3231,Rifle
+3232,Pitkin
+3233,Snowmass Village
+3234,East Hartford
+3235,East Windsor
+3236,North Branford
+3237,Suffield
+3238,Yale University
+3239,Delaware State University
+3240,New Castle
+3241,Seaford
+3242,Pembroke Pines
+3243,Parkland
+3244,North Miami Beach
+3245,Miami-Dade County Public Schools
+3246,Delray Beach
+3247,Lake Alfred
+3248,St. Lucie
+3249,Venice
+3250,Ponce Inlet
+3251,Villa Rica
+3252,Kennesaw State University
+3253,Conyers
+3254,Waterloo
+3255,Ida
+3256,Mills
+3257,Indianola
+3258,Chubbuck
+3259,Cassia
+3260,Cook
+3261,Berwyn
+3262,Harvey
+3263,Dixon
+3264,McLean
+3265,Irving
+3266,Mokena
+3267,Roscoe
+3268,Ball State University
+3269,South Bend
+3270,Protection
+3271,Arkansas City
+3272,Moundridge
+3273,Mulvane
+3274,Hillview
+3275,Burkesville
+3276,Ravenna
+3277,Knott
+3278,Montgomery County School District
+3279,Hazard
+3280,Trigg
+3281,Cadiz
+3282,Corbin
+3283,Westlake
+3284,Fall River
+3285,Peabody
+3286,Swampscott
+3287,West Springfield
+3288,Boston College
+3289,Middleboro
+3290,Lunenburg
+3291,Shrewsbury
+3292,Westborough
+3293,State Fire Marshal
+3294,Garrett
+3295,Greenbelt
+3296,St. Mary's College
+3297,Cape Elizabeth
+3298,Scarborough
+3299,Wiscasset
+3300,Waldo
+3301,Searsport
+3302,Machias
+3303,Essexville
+3304,Ontwa Township-Edwardsburg
+3305,Burton
+3306,Harbor Beach
+3307,East Grand Rapids
+3308,Gerald R. Ford International Airport
+3309,Madison Township
+3310,Chocolay Township
+3311,Newaygo
+3312,Lake Orion
+3313,Gerrish Township
+3314,Durand
+3315,Sumpter Township
+3316,Brownstown Township
+3317,Spring Lake Park
+3318,Chaska
+3319,Crosby
+3320,West St. Paul
+3321,Hennepin
+3322,St. Anthony
+3323,Mahnomen
+3324,Shoreview
+3325,Rice
+3326,Faribault
+3327,Waite Park
+3328,Wadena
+3329,Blue Springs
+3330,University City
+3331,Great Falls
+3332,Columbia Falls
+3333,Ronan City
+3334,Dawson
+3335,Gosper
+3336,Lilesville
+3337,Siler City
+3338,Wake Forest University
+3339,Huntersville
+3340,East Carolina University
+3341,Surry
+3342,Swain
+3343,Valley City
+3344,Carrington
+3345,Mountrail
+3346,Keene
+3347,Hampton Falls
+3348,Plaistow
+3349,Windham
+3350,Closter
+3351,Fairview
+3352,Mahwah Township
+3353,Burlington Township
+3354,Medford Lakes
+3355,Irvington
+3356,West Caldwell Township
+3357,Logan Township
+3358,Woolwich Township
+3359,Readington Township
+3360,Allenhurst
+3361,Oceanport
+3362,Union Beach
+3363,Mendham
+3364,Toms River Township
+3365,Totowa
+3366,West Milford Township
+3367,Belen
+3368,Carlin
+3369,Salamanca
+3370,Hyde Park Town
+3371,Schodack Town
+3372,St. Lawrence
+3373,Liberty Village
+3374,Owego Village
+3375,Ulster
+3376,Sleepy Hollow Village
+3377,Ithaca College
+3378,Nelsonville
+3379,Auglaize
+3380,Wapakoneta
+3381,"Union Township, Clermont County"
+3382,East Palestine
+3383,Bucyrus
+3384,Fairborn
+3385,North College Hill
+3386,Colerain Township
+3387,Mentor-on-the-Lake
+3388,Bellefontaine
+3389,Struthers
+3390,Medina
+3391,Meigs
+3392,Vandalia
+3393,Butler Township
+3394,Kent State University
+3395,Barberton
+3396,Twinsburg
+3397,North Baltimore
+3398,Elk City
+3399,Sayre
+3400,Southwestern Oklahoma State University
+3401,Grady
+3402,Tonkawa
+3403,Tonkawa Tribal
+3404,Talihina
+3405,Blanchard
+3406,Fairfax
+3407,Roger Mills
+3408,Skiatook
+3409,Wagoner
+3410,"Richland Township, Cambria County"
+3411,Lancaster 
+3412,Lewistown
+3413,Lehigh University
+3414,Central Falls
+3415,Salley
+3416,Honea Path
+3417,Manning
+3418,Chapin
+3419,Orangeburg
+3420,Division of Criminal Investigation
+3421,Vermillion
+3422,Corson
+3423,Mitchell
+3424,Jerauld
+3425,Sully
+3426,Ashland City
+3427,Tullahoma
+3428,Burns
+3429,Rossville
+3430,Greeneville
+3431,Collegedale
+3432,Hickman
+3433,Gates
+3434,Wartburg
+3435,Graysville
+3436,Oliver Springs
+3437,Gatlinburg
+3438,Southwest Tennessee Community College
+3439,Christian Brothers University
+3440,Millersville
+3441,Munford
+3442,Jonesborough
+3443,Marble Falls
+3444,Collin
+3445,Goliad
+3446,Katy
+3447,Independent School District:
+3448,McAllen
+3449,Mercedes
+3450,Edna
+3451,Nueces
+3452,Springtown
+3453,Amarillo College
+3454,Whitehouse
+3455,Benbrook
+3456,Parks and Recreation
+3457,Roosevelt
+3458,Emery
+3459,Moab
+3460,Grantsville
+3461,Heber
+3462,Roy
+3463,Fluvanna
+3464,Powhatan
+3465,Virginia Military Institute
+3466,James Madison University
+3467,Poquoson
+3468,Thomas Nelson Community College
+3469,Hopewell
+3470,Virginia Commonwealth University
+3471,St. Albans
+3472,Castleton
+3473,Clarkston
+3474,Wenatchee
+3475,Washougal
+3476,Kalama
+3477,Hoquiam
+3478,Normandy Park
+3479,Kenmore
+3480,Klickitat
+3481,Napavine
+3482,Fife
+3483,Sedro Woolley
+3484,Skamania
+3485,Granite Falls
+3486,Tumwater
+3487,Lacey
+3488,Western Washington University
+3489,Algoma
+3490,Wellsburg
+3491,Barboursville
+3492,Oak Hill
+3493,Dunbar
+3494,McDowell
+3495,Oro Valley
+3496,Cottonwood
+3497,Coalinga
+3498,Glenn
+3499,Imperial
+3500,Los Angeles County Metropolitan Transportation Authority
+3501,Central Marin
+3502,Brea
+3503,Laguna Niguel
+3504,Twentynine Palms
+3505,Grover Beach
+3506,Buellton
+3507,Goleta
+3508,Yolo
+3509,Idaho Springs
+3510,Gilpin
+3511,La Plata
+3512,Teller
+3513,Brookfield
+3514,North Haven
+3515,Woodbridge
+3516,Margate
+3517,Clewiston
+3518,West Palm Beach
+3519,Gwinnett County Police Department
+3520,Atlantic
+3521,Fort Dodge
+3522,Streamwood
+3523,Glenview
+3524,Hoffman Estates
+3525,Homewood
+3526,Palestine
+3527,Addison
+3528,Lombard
+3529,West Chicago
+3530,Grayslake
+3531,Wamac
+3532,Hillsboro
+3533,Winnebago
+3534,Hiawatha
+3535,Elwood
+3536,Johnson County Park
+3537,Paola
+3538,Goddard
+3539,Edwardsville
+3540,Owingsville
+3541,Breckinridge
+3542,Cold Spring
+3543,Pennyrile Narcotics Task Force
+3544,Raceland
+3545,Kenton
+3546,Stanford
+3547,Russell Springs
+3548,Harahan
+3549,Bernice
+3550,Raynham
+3551,West Tisbury
+3552,Merrimac
+3553,North Andover
+3554,Deerfield
+3555,Agawam
+3556,Springfield Technical Community College
+3557,Ware
+3558,Melrose
+3559,Wakefield
+3560,Woburn
+3561,Mattapoisett
+3562,Massasoit Community College
+3563,Massachusetts General Hospital
+3564,Thurmont
+3565,Westbrook
+3566,Gouldsboro
+3567,Kennebec
+3568,Waterville
+3569,Bath
+3570,Prairieville Township
+3571,Chikaming Township
+3572,Eaton Rapids
+3573,Montrose Township
+3574,Gratiot
+3575,Isabella
+3576,Lapeer
+3577,"Richland Township, Saginaw County"
+3578,Clay Township
+3579,South Haven
+3580,Grosse Pointe Shores
+3581,River Rouge
+3582,Romulus
+3583,Schoolcraft College
+3584,Wexford
+3585,Anoka
+3586,Hazelwood
+3587,Jennings
+3588,Chadron
+3589,Nebraska City
+3590,Blair
+3591,Fayetteville State University
+3592,Western Carolina University
+3593,Wilkes
+3594,Bottineau
+3595,Rolette
+3596,Tioga
+3597,Bordentown Township
+3598,Collingswood
+3599,Mantua Township
+3600,Dunellen
+3601,Atlantic Highlands
+3602,Neptune City
+3603,Rumson
+3604,Spring Lake
+3605,Roxbury Township
+3606,University of New Mexico
+3607,Lake Placid Village
+3608,Carthage Village
+3609,Geneseo Village
+3610,Lima
+3611,Minster
+3612,St. Clair Township
+3613,Garfield Heights
+3614,Wauseon
+3615,Bellbrook
+3616,Forest Park
+3617,Lockland
+3618,Milton Township
+3619,Brunswick Hills Township
+3620,Pomeroy
+3621,Tipp City
+3622,Morgan
+3623,Muskingum
+3624,Carroll Township
+3625,Paulding
+3626,Preble
+3627,Leipsic
+3628,Scioto
+3629,Jackson Center
+3630,Newton Falls
+3631,Northwood
+3632,Hughes
+3633,Fort Gibson
+3634,Bethany
+3635,Payne
+3636,Mooreland
+3637,Hood River
+3638,Madras
+3639,Grants Pass
+3640,Wasco
+3641,Lehighton
+3642,Lock Haven University
+3643,Mercersburg
+3644,"Washington Township, Franklin County"
+3645,Scranton
+3646,Allentown
+3647,Hazleton
+3648,Southwest Mercer County Regional
+3649,Horsham Township
+3650,Charles Mix
+3651,Hamlin
+3652,Carter
+3653,Nashville International Airport
+3654,Department of Correction
+3655,Decaturville
+3656,Monteagle
+3657,Jefferson City
+3658,Ridgely
+3659,College Station
+3660,South Padre Island
+3661,Richardson
+3662,Spur
+3663,Freer
+3664,Tarleton State University
+3665,Sugar Land
+3666,League City
+3667,Baytown
+3668,Texas State University:
+3669,Paris Junior College
+3670,Lampasas
+3671,Conroe
+3672,Keller
+3673,Gilmer
+3674,Hempstead
+3675,Iowa Park
+3676,Rich Creek
+3677,Tazewell
+3678,Falls Church
+3679,Staunton
+3680,Bellows Falls
+3681,Ritzville
+3682,Ocean Shores
+3683,Eatonville
+3684,Bonney Lake
+3685,Whatcom
+3686,Colfax
+3687,Waupun
+3688,Stevens Point
+3689,Sauk
+3690,Vilas
+3691,West Virginia State University
+3692,Kotzebue
+3693,Soldotna
+3694,North Pole
+3695,Graham
+3696,Nogales
+3697,East Bay Regional Park District
+3698,Del Norte
+3699,Firebaugh
+3700,Kerman
+3701,Bell Gardens
+3702,El Segundo
+3703,Industry
+3704,Montebello
+3705,San Marino
+3706,Nevada
+3707,Folsom
+3708,Brisbane
+3709,Port Hueneme
+3710,Ventura County Community College District
+3711,Walsenburg
+3712,Park Rangers
+3713,North Palm Beach
+3714,South Daytona
+3715,Georgia Institute of Technology
+3716,Guam
+3717,DeWitt
+3718,St. Maries
+3719,Canyon
+3720,Spirit Lake
+3721,Osburn
+3722,Kimberly
+3723,Chicago Ridge
+3724,Orland Park
+3725,Geneseo
+3726,North Chicago
+3727,Round Lake Park
+3728,Silvis
+3729,Marissa
+3730,Moweaqua
+3731,Baxter Springs
+3732,Cowley
+3733,Gray
+3734,Blue Valley School District
+3735,Topeka
+3736,Scottsville
+3737,Bracken
+3738,Dawson Springs
+3739,Lynnview
+3740,Indian Hills
+3741,Larue
+3742,Taylorsville
+3743,Shreveport
+3744,East Feliciana
+3745,Mamou
+3746,Lafourche
+3747,Natchitoches
+3748,Ouachita
+3749,St. Helena
+3750,Bristol Community College
+3751,Nahant
+3752,Rockport
+3753,Endicott College
+3754,Palmer
+3755,Granby
+3756,Sherborn
+3757,Wareham
+3758,Northbridge
+3759,Sutton
+3760,Brewer
+3761,Islesboro
+3762,Cassopolis
+3763,Elsie
+3764,Emmet
+3765,Calumet
+3766,Lake Linden
+3767,Kinde
+3768,Lansing Township
+3769,Ionia
+3770,Howell
+3771,Negaunee
+3772,Coleman
+3773,Highland Township
+3774,Independence Township
+3775,Oxford Township
+3776,Rochester Hills
+3777,Pleasant Ridge
+3778,Oceana
+3779,Gaylord
+3780,Vassar
+3781,Huron Township
+3782,Nicollet
+3783,Sartell
+3784,Fredericktown
+3785,Nodaway
+3786,St. Louis Community College:
+3787,Pagedale
+3788,Taney
+3789,Warrenton
+3790,Worth
+3791,McCone
+3792,Stevensville
+3793,Rosebud
+3794,University of Nebraska:
+3795,Bladen
+3796,Mocksville
+3797,Duke University
+3798,Erwin
+3799,Mars Hill
+3800,Elizabeth City State University
+3801,Mayodan
+3802,Apex
+3803,Barnes
+3804,University of North Dakota
+3805,McKenzie
+3806,Rugby
+3807,Wahpeton
+3808,Belfield
+3809,Antrim
+3810,Ho-Ho-Kus
+3811,Midland Park
+3812,Wallington
+3813,Gloucester City
+3814,Stone Harbor
+3815,"Fairfield Township, Essex County"
+3816,South Amboy
+3817,Bloomingdale
+3818,"Franklin Township, Somerset County"
+3819,Garwood
+3820,Roselle
+3821,Truckee Meadows Community College
+3822,Lancaster Town
+3823,Cairo Town
+3824,Webster Town and Village
+3825,Port Washington
+3826,Solvay Village
+3827,North Greenbush Town
+3828,Ogdensburg
+3829,Scotia Village
+3830,Ohio State Highway Patrol
+3831,Conneaut
+3832,Glouster
+3833,Lyndhurst
+3834,Sunbury
+3835,"Madison Township, Franklin County"
+3836,Cheviot
+3837,Elmwood Place
+3838,Hamilton County Park District
+3839,Wellston
+3840,Mentor
+3841,Lakeland Community College
+3842,Medina Township
+3843,West Carrollton
+3844,Columbus Grove
+3845,Haskins
+3846,Stilwell
+3847,Stigler
+3848,Kiowa
+3849,Broken Bow
+3850,McAlester
+3851,Guymon
+3852,Jenks
+3853,University of Pittsburgh:
+3854,Allegheny County Port Authority
+3855,Brighton Township
+3856,New Garden Township
+3857,New Cumberland
+3858,Delaware County Park
+3859,United States Department of Energy Savannah River Plant
+3860,Trident Technical College
+3861,Surfside Beach
+3862,Hemingway
+3863,Brookings
+3864,Brown
+3865,Gettysburg
+3866,Beresford
+3867,Cowan
+3868,Huntland
+3869,Niota
+3870,Roane
+3871,East Tennessee State University
+3872,Alamo Colleges District
+3873,Brazoria
+3874,Port Lavaca
+3875,Rusk
+3876,Dalhart
+3877,Grand Prairie
+3878,Hospital District:
+3879,Cisco
+3880,Texas Tech University:
+3881,Smith
+3882,Young
+3883,Zavala
+3884,Brigham Young University
+3885,Altavista
+3886,Kenbridge
+3887,Rockbridge
+3888,Chilhowie
+3889,Norfolk State University
+3890,Lummi Tribal
+3891,Asotin
+3892,Republic
+3893,Soap Lake
+3894,Okanogan
+3895,Steilacoom
+3896,Mukilteo
+3897,Woodway
+3898,Zillah
+3899,Menomonie
+3900,Fennimore
+3901,Muscoda
+3902,Onalaska
+3903,Campbell Township
+3904,Rock
+3905,New Berlin
+3906,Wasilla
+3907,Little Rock
+3908,Sevier
+3909,Sahuarita
+3910,Kingsburg
+3911,Desert Hot Springs
+3912,California State Fair
+3913,Loma Linda
+3914,Solvang
+3915,Suisun City
+3916,Sebastopol
+3917,Nederland
+3918,Carbondale
+3919,Silverthorne
+3920,Mashantucket Pequot Tribal
+3921,East Haven
+3922,Ledyard
+3923,Rocky Hill
+3924,Wethersfield
+3925,Cocoa
+3926,Tamarac
+3927,Southwest Ranches
+3928,West Park
+3929,Fulton County Police Department
+3930,North Liberty
+3931,Oskaloosa
+3932,West Des Moines
+3933,Benewah
+3934,Blackfoot
+3935,Mountain Home
+3936,Elk Grove Village
+3937,Flossmoor
+3938,Glenwood
+3939,Effingham
+3940,Morrison
+3941,Braidwood
+3942,Dubois
+3943,Coffeyville
+3944,Wabaunsee
+3945,Cave City
+3946,Cloverport
+3947,Highland Heights 
+3948,Loyall
+3949,Northern Kentucky Drug Strike Force
+3950,Letcher
+3951,McCreary
+3952,Edmonton
+3953,Muhlenberg County Police Department
+3954,Avoyelles
+3955,Baton Rouge
+3956,Thibodaux
+3957,St. John the Baptist
+3958,Freetown
+3959,Boxford
+3960,Topsfield
+3961,Salem State University
+3962,Pepperell
+3963,Sudbury
+3964,Dudley
+3965,Millbury
+3966,Barry
+3967,St. Joseph Township
+3968,Mott Community College
+3969,Huron
+3970,Leslie
+3971,Luce
+3972,Marquette
+3973,Ishpeming
+3974,Ludington
+3975,Big Rapids
+3976,Commerce Township
+3977,Grand Valley State University
+3978,Sanilac
+3979,Southgate
+3980,Crow Wing
+3981,Wayzata
+3982,Minneapolis-St. Paul International Airport
+3983,Little Falls
+3984,Sauk Centre
+3985,North Kansas City
+3986,Cameron
+3987,Battlefield
+3988,Marionville
+3989,DeSoto
+3990,Olive Branch
+3991,Byram
+3992,Broadwater
+3993,Havre
+3994,North Carolina Central University
+3995,University of North Carolina Hospitals
+3996,Sampson
+3997,Yadkin
+3998,Hettinger
+3999,Boscawen
+4000,Linwood
+4001,East Rutherford
+4002,Moonachie
+4003,Monmouth Beach
+4004,"Ocean Township, Monmouth County"
+4005,Mount Arlington
+4006,Wellsville Village
+4007,Elmira
+4008,Glen Cove
+4009,Schoharie
+4010,Southampton Town
+4011,Bedford Town
+4012,Fairview Park
+4013,Mayfield Heights
+4014,Ohio Department of Natural Resources
+4015,Otterbein University
+4016,Yellow Springs
+4017,Delhi Township
+4018,Green Township
+4019,Steubenville
+4020,Elyria
+4021,West Jefferson
+4022,Pike
+4023,"Springfield Township, Summit County"
+4024,University of Akron
+4025,New Franklin
+4026,Upper Sandusky
+4027,Anadarko
+4028,Garvin
+4029,Kingfisher
+4030,Nowata
+4031,Oregon City
+4032,Crook
+4033,Talent
+4034,Gervais
+4035,Gresham
+4036,Cornelius
+4037,Tualatin
+4038,Allegheny
+4039,Hamburg
+4040,Camp Hill
+4041,Whitemarsh Township
+4042,Tiverton
+4043,Bamberg
+4044,Blackville
+4045,Cottageville
+4046,Greer
+4047,Kershaw
+4048,Chamberlain
+4049,Brandon
+4050,Gallaway
+4051,East Ridge
+4052,Pellissippi State Community College
+4053,Frankston
+4054,Pleasanton
+4055,Sealy
+4056,Converse
+4057,Teague
+4058,Hedwig Village
+4059,Weslaco
+4060,Levelland
+4061,Borger
+4062,Baylor University:
+4063,Willis
+4064,Tyler Junior College
+4065,Southwestern University
+4066,Payson
+4067,Lindon
+4068,Santa Clara/Ivins
+4069,South Ogden
+4070,North Ogden
+4071,Pleasant View
+4072,Rappahannock
+4073,Emory and Henry College
+4074,Clifton Forge
+4075,Department of Game and Inland Fisheries
+4076,St. Johnsbury
+4077,Barre
+4078,Barre Town
+4079,Forks
+4080,Island
+4081,Enumclaw
+4082,Algona
+4083,White Salmon
+4084,Brier
+4085,Darrington
+4086,Lake Stevens
+4087,Kettle Falls
+4088,Tenino
+4089,St. Croix
+4090,New Richmond
+4091,Philippi
+4092,Cabell
+4093,Ranson
+4094,Alaska State Troopers
+4095,Jacksonville State University
+4096,Colma
+4097,Corning
+4098,Lakeport
+4099,Walnut
+4100,Martinez
+4101,Plumas
+4102,Crescent City
+4103,San Francisco State University
+4104,Routt
+4105,Avon
+4106,Mohegan Tribal
+4107,State Capitol Police
+4108,Dewey Beach
+4109,Fish and Wildlife
+4110,Rockledge
+4111,Hollywood
+4112,Cooper City
+4113,Lauderdale-by-the-Sea
+4114,Lake City
+4115,Hendry
+4116,Florida Gulf Coast University
+4117,Leon
+4118,Tallahassee Community College
+4119,Winter Park
+4120,Mangonia Park
+4121,St. Augustine
+4122,United States Navy Law Enforcement
+4123,United States Marine Corps Law Enforcement
+4124,Honolulu
+4125,Waukee
+4126,Marshalltown
+4127,Middleton
+4128,Weiser
+4129,Wheaton
+4130,Sandoval
+4131,Manhattan
+4132,Mount Prospect
+4133,Fox River Grove
+4134,Fox Lake
+4135,Calumet City
+4136,Whitestown
+4137,Vigo
+4138,Michigan City
+4139,Herington
+4140,Tonganoxie
+4141,Haven
+4142,Barton
+4143,Rockcastle
+4144,Department of Insurance Fraud Unit
+4145,South Central Kentucky Drug Task Force
+4146,La Center
+4147,Floyd
+4148,Boyle
+4149,Villa Hills
+4150,Kentucky State University
+4151,Barren County Drug Task Force
+4152,Greensburg
+4153,Louisiana State University:
+4154,Gretna
+4155,Vidalia
+4156,College of the Holy Cross
+4157,Westfield State University
+4158,Ashburnham
+4159,Walpole
+4160,Truro
+4161,Bridgewater
+4162,Taneytown
+4163,Transit Administration
+4164,Tawas
+4165,Raisin Township
+4166,Gaines Township
+4167,Ovid
+4168,Petoskey
+4169,Little River Band of Ottawa Indians
+4170,Charlevoix
+4171,Metro Police Authority of Genesee County
+4172,Roosevelt Park
+4173,Ecorse
+4174,Iron River
+4175,Grosse Pointe
+4176,Nottawaseppi Huron Band of Potawatomi
+4177,Schoolcraft
+4178,Mackinac
+4179,Burnsville
+4180,Crookston
+4181,Willmar
+4182,Belle Plaine
+4183,Otter Tail
+4184,Goodhue
+4185,Clearbrook
+4186,Festus
+4187,Crystal City
+4188,Wentzville
+4189,Normandy
+4190,Camdenton
+4191,University of Montana
+4192,South Sioux City
+4193,Red Willow
+4194,Brunswick
+4195,Burke
+4196,Hertford
+4197,Wake
+4198,Montvale
+4199,Bergen
+4200,Rutgers University:
+4201,Monmouth University
+4202,Montclair State University
+4203,State Police
+4204,Cape May
+4205,Princeton University
+4206,Kinnelon
+4207,Pennsville Township
+4208,Berkeley Heights Township
+4209,Haworth
+4210,Emerson
+4211,Interlaken
+4212,Brigantine
+4213,Stockton University
+4214,Old Tappan
+4215,Belvidere
+4216,Roselle Park
+4217,Clark County School District
+4218,Fulton City
+4219,Johnson City Village
+4220,Ilion Village
+4221,Gates Town
+4222,New Paltz Town and Village
+4223,Ardsley Village
+4224,Oberlin
+4225,Copley Township
+4226,Brecksville
+4227,Pierce Township
+4228,Sabina
+4229,Columbus State Community College
+4230,Rocky River
+4231,Sylvania Township
+4232,Hocking
+4233,Ironton
+4234,Garrettsville
+4235,"Perry Township, Franklin County"
+4236,Oklahoma State University:
+4237,Wewoka
+4238,Langston University
+4239,Fairland
+4240,Muldrow
+4241,Grand Ronde Tribal
+4242,Klamath Falls
+4243,North Plains
+4244,Baker City
+4245,Canby
+4246,Portland State University
+4247,Murrysville
+4248,Lower Windsor Township
+4249,"Manor Township, Lancaster County"
+4250,Wilkes-Barre
+4251,Elizabethtown College
+4252,Bethlehem
+4253,East Earl Township
+4254,Medical University of South Carolina
+4255,Sullivans Island
+4256,Denmark
+4257,Elloree
+4258,Benedict College
+4259,McCook
+4260,Coffee
+4261,Ripley
+4262,White Bluff
+4263,Chattanooga State Community College
+4264,Rogersville
+4265,McMinn
+4266,Aubrey
+4267,Galena Park
+4268,Schulenburg
+4269,Giddings
+4270,Hitchcock
+4271,Leon Valley
+4272,Seven Points
+4273,South Plains College
+4274,Dumas
+4275,Webb
+4276,Wolfforth
+4277,Flower Mound
+4278,Hewitt
+4279,Lacy-Lakeview
+4280,Pampa
+4281,Pflugerville
+4282,Burnet
+4283,Balch Springs
+4284,Devine
+4285,San Saba
+4286,Silsbee
+4287,Petersburg
+4288,Germanna Community College
+4289,Patrick
+4290,Martinsville
+4291,Dupont
+4292,Toppenish
+4293,Wisconsin Rapids
+4294,South Milwaukee
+4295,Lac Courte Oreilles Tribal
+4296,Platteville
+4297,Shepherd University
+4298,Braxton
+4299,White Sulphur Springs
+4300,Marmet
+4301,Capitol Protective Services
+4302,University of Wyoming
+4303,Fairbanks
+4304,La Paz
+4305,Federal Bureau of Investigation
+4306,South Pasadena
+4307,Fillmore
+4308,American Canyon
+4309,Lassen
+4310,Twin Rivers Unified School District
+4311,Laguna Woods
+4312,Los Banos
+4313,Archuleta
+4314,Felton
+4315,Delaware City
+4316,Lauderdale Lakes
+4317,Pensacola State College
+4318,Groveland
+4319,Minneola
+4320,Federal Bureau of Investigations
+4321,Pentagon Force Protection Agency
+4322,Chatham County Police Department
+4323,Suwanee
+4324,Mount Vernon-Lisbon
+4325,Le Mars
+4326,Pella
+4327,Filer
+4328,Ketchum
+4329,Harwood Heights
+4330,Watseka
+4331,Kankakee
+4332,Herscher
+4333,Romeoville
+4334,Willow Springs
+4335,Countryside
+4336,Terre Haute
+4337,Butler University
+4338,Olathe
+4339,Potawatomi Tribal
+4340,Edwards
+4341,Uniontown
+4342,Whitley
+4343,Tompkinsville
+4344,Garrard County Police Department
+4345,Franklinton
+4346,Southern University and A&M College:
+4347,Rapides
+4348,Tallulah
+4349,Evangeline
+4350,Morehouse
+4351,Ayer
+4352,Wales
+4353,Chilmark
+4354,Natural Resources Police
+4355,Riverdale Park
+4356,Eastport
+4357,Kingsford
+4358,Unadilla Township
+4359,Bronson
+4360,Grosse Ile Township
+4361,Belding
+4362,Gladwin
+4363,Fowlerville
+4364,Walker
+4365,Frankenmuth
+4366,Orion Township
+4367,Coloma Township
+4368,Bad Axe
+4369,North Branch
+4370,Sherburne
+4371,Prior Lake
+4372,Fergus Falls
+4373,Waseca
+4374,Detroit Lakes
+4375,Mounds View
+4376,St. Peter
+4377,White Earth Tribal
+4378,Dade
+4379,West Plains
+4380,Lilbourn
+4381,Duquesne
+4382,Holly Springs
+4383,Tishomingo
+4384,Ridgeland
+4385,La Vista
+4386,Ogallala
+4387,Valley
+4388,Pittsboro
+4389,Southern Shores
+4390,Goffstown
+4391,Plymouth State University
+4392,New Jersey Transit Police
+4393,Pleasantville
+4394,The College of New Jersey
+4395,Dumont
+4396,Leonia
+4397,"Washington Township, Morris County"
+4398,Mountainside
+4399,Stanhope
+4400,Rahway
+4401,Boulder City
+4402,Westhampton Beach Village
+4403,Rosendale Town
+4404,Hoosick Falls Village
+4405,New York City Department of Environmental Protection Police:
+4406,Endicott Village
+4407,Pelham Village
+4408,Notre Dame College
+4409,Mount Orab
+4410,Poland Township
+4411,Greater Cleveland Regional Transit Authority
+4412,Village of Leesburg
+4413,Cuyahoga
+4414,New Waterford
+4415,Pryor Creek
+4416,Checotah
+4417,Maud
+4418,Mayes
+4419,North Enid
+4420,Okfuskee
+4421,Jay
+4422,Astoria
+4423,North Bend
+4424,Milwaukie
+4425,West Linn
+4426,Watsontown
+4427,Old Lycoming Township
+4428,California University
+4429,North Kingstown
+4430,South Congaree
+4431,Estill
+4432,Duncan
+4433,Pamplico
+4434,Turner
+4435,Jones
+4436,Whitwell
+4437,Mount Juliet
+4438,Algood
+4439,Hardeman
+4440,Dandridge
+4441,University of Houston:
+4442,Ferris
+4443,Manor
+4444,Erath
+4445,Plainview
+4446,Horseshoe Bay
+4447,Ennis
+4448,Navarro
+4449,Bee
+4450,Blanco
+4451,Mont Belvieu
+4452,Chambers
+4453,Freeport
+4454,Nacogdoches
+4455,Oak Ridge North
+4456,Brenham
+4457,Port Isabel
+4458,Rosenberg
+4459,Deaf Smith
+4460,Mesquite
+4461,El Campo
+4462,Liberty
+4463,Hudspeth
+4464,Stephen F. Austin State University
+4465,Watauga
+4466,Lyford
+4467,Clearfield
+4468,King William
+4469,Middleburg
+4470,Stowe
+4471,Vermont State Police Headquarters Bureau of Criminal Investigations
+4472,Chittenden
+4473,Winhall
+4474,Airway Heights
+4475,Lake Delton
+4476,Dodge
+4477,Marshall Village
+4478,Ashwaubenon
+4479,Oneida Tribal
+4480,McFarland
+4481,Ravenswood
+4482,Kenova
+4483,Pocahontas
+4484,Hardy
+4485,Casa Grande
+4486,San Luis
+4487,Silt
+4488,Timnath
+4489,Manitou Springs
+4490,San Miguel
+4491,East Lyme
+4492,Bal Harbour Village
+4493,Sunny Isles Beach
+4494,United States Army
+4495,United States Air Force 
+4496,Banks
+4497,Griffin
+4498,Haralson
+4499,Cobb County Board of Education
+4500,Fort Valley State University
+4501,Glynn County Police Department
+4502,Hall
+4503,Douglasville
+4504,Dunwoody 
+4505,Cartersville
+4506,Gwinnett County Public Schools
+4507,Fannin
+4508,Atlanta Public Schools
+4509,Kennesaw
+4510,Glennville
+4511,Newnan
+4512,Brookhaven
+4513,Lilburn
+4514,Omega
+4515,Fulton County School System
+4516,Sandy Springs
+4517,Whitfield
+4518,College Park
+4519,Johns Creek
+4520,Snellville
+4521,Alpharetta
+4522,Barrow
+4523,Moultrie
+4524,Cedartown
+4525,Port Wentworth
+4526,Ocilla
+4527,Crisp
+4528,Waycross
+4529,Polk County Police Department
+4530,Thomaston
+4531,Bulloch
+4532,Idaho
+4533,Idaho State Police
+4534,Bartonville
+4535,Hoopeston
+4536,Steger
+4537,Pingree Grove
+4538,Fairview Heights
+4539,Glencoe
+4540,Wonder Lake
+4541,Evansville
+4542,Howard
+4543,Linton
+4544,Blackford
+4545,Hobart
+4546,University of Indianapolis
+4547,Nemaha
+4548,Cherryvale
+4549,Thomas
+4550,Garnett
+4551,Trego
+4552,Hodgenville
+4553,Todd
+4554,Metcalfe County Schools
+4555,West Monroe
+4556,Wheaton College
+4557,Worcester Polytechnic Institute
+4558,Fitchburg State University
+4559,Sunderland
+4560,Hyattsville
+4561,Alcona
+4562,Baroda-Lake Township
+4563,Washtenaw Community College
+4564,Sylvan Lake
+4565,Imlay City
+4566,Three Oaks
+4567,Almont
+4568,Cambridge Township
+4569,Baraga
+4570,Kandiyohi
+4571,Capitol Security
+4572,East Grand Forks
+4573,South Lake Minnetonka
+4574,Lakes Area
+4575,Wabasha
+4576,New Ulm
+4577,Lac qui Parle
+4578,Missouri University of Science and Technology
+4579,Sunset Hills
+4580,St. Charles County Police Department
+4581,Missouri Western State University
+4582,Boonville
+4583,Lawson
+4584,Missouri State Highway Patrol
+4585,George
+4586,Starkville
+4587,Kosciusko
+4588,Hernando
+4589,Gordon
+4590,Sarpy
+4591,Mebane
+4592,Conover
+4593,Granville
+4594,Bryson City
+4595,Caswell
+4596,Ashe
+4597,Dare
+4598,Pineville
+4599,Wake Forest
+4600,Burgaw
+4601,Robeson
+4602,WakeMed Campus Police
+4603,Alamance
+4604,Onslow
+4605,Pinehurst
+4606,Pamlico
+4607,Elon
+4608,Coats
+4609,Maxton
+4610,Edgecombe
+4611,Lillington
+4612,Lincolnton
+4613,Avery
+4614,Bowman
+4615,Stanley
+4616,Jaffrey
+4617,Henniker
+4618,Somersworth
+4619,State Park Police
+4620,"Washington Township, Bergen County"
+4621,Perth Amboy
+4622,Mountain Lakes
+4623,Park Police:
+4624,Ventnor City
+4625,Wyckoff Township
+4626,Bordentown City
+4627,Englewood Cliffs
+4628,"Franklin Township, Hunterdon County"
+4629,Wall Township
+4630,Rowan University
+4631,Tewksbury Township
+4632,Helmetta
+4633,Avon-by-the-Sea
+4634,Island Heights
+4635,Wanaque
+4636,William Paterson University
+4637,South Bound Brook
+4638,Prosecutor:
+4639,Peapack-Gladstone
+4640,Morris Plains
+4641,Manville
+4642,Middlesex County College
+4643,Englishtown
+4644,Las Cruces
+4645,Dona Ana
+4646,Sunland Park
+4647,Washoe
+4648,Cobleskill Village
+4649,Geneva
+4650,Lloyd Harbor Village
+4651,Blanchester
+4652,New Boston
+4653,New Philadelphia
+4654,Columbiana
+4655,Tuscarawas
+4656,Archbold
+4657,Orrville
+4658,Lithopolis
+4659,Grandview Heights
+4660,Waverly
+4661,Bay Village
+4662,Northeastern Oklahoma A&M College
+4663,Marlow
+4664,Sulphur
+4665,Pawnee
+4666,Major
+4667,Washita
+4668,West Siloam Springs
+4669,University of Oregon
+4670,St. Helens
+4671,Myrtle Creek
+4672,Forest Grove
+4673,Coos
+4674,Westtown-East Goshen Regional
+4675,Forest City
+4676,Rush Township
+4677,Kenhorst 
+4678,East Pennsboro Township
+4679,Hampden Township
+4680,Upper Allen Township
+4681,East Greenwich
+4682,Lake View
+4683,Gaffney
+4684,McColl
+4685,Walworth
+4686,Dyer
+4687,Mountain City
+4688,Newbern
+4689,Angleton
+4690,Kerr
+4691,Kingsville
+4692,Tarrant
+4693,Winters
+4694,Bailey
+4695,Gatesville
+4696,Corrigan
+4697,Floresville
+4698,Boerne
+4699,Laredo
+4700,Waco
+4701,Brady
+4702,Rockdale
+4703,Grapeland
+4704,Duval
+4705,Hollywood Park
+4706,Fate
+4707,Itasca
+4708,Tool
+4709,Crockett
+4710,Edcouch
+4711,Tahoka
+4712,Granbury
+4713,Kennedale
+4714,Llano
+4715,Rio Grande City
+4716,Sweeny
+4717,Texas Woman's University
+4718,Wallis
+4719,Willow Park
+4720,McCulloch
+4721,Harker Heights
+4722,Palmview
+4723,Parowan
+4724,Richlands
+4725,Department of Liquor Control
+4726,Montesano
+4727,Ruston
+4728,Index
+4729,Town of Madison
+4730,Menasha
+4731,Barron
+4732,Chippewa Falls
+4733,Wauwatosa
+4734,Neenah
+4735,Winneconne
+4736,Metropolitan Drug Enforcement Network Team
+4737,Cody
+4738,Bayou La Batre
+4739,Evergreen
+4740,Crenshaw
+4741,Dora
+4742,Etowah
+4743,Tuskegee
+4744,Margaret
+4745,Izard
+4746,Coconino
+4747,Quartzsite
+4748,Sausalito
+4749,Los Altos
+4750,Calexico
+4751,Signal Hill
+4752,Porterville Developmental Center
+4753,Rio Dell
+4754,Mendota
+4755,Las Animas
+4756,Blue River
+4757,Empire
+4758,Cripple Creek
+4759,Crested Butte
+4760,Vail
+4761,Crowley
+4762,Hialeah
+4763,St. Pete Beach
+4764,Lumpkin
+4765,Chamblee
+4766,Columbus State University
+4767,McIntosh
+4768,South Fulton
+4769,Peachtree City
+4770,Clayton County Police Department
+4771,DeKalb County Police Department
+4772,Byron
+4773,Hiram
+4774,Rome
+4775,Brooks
+4776,Rockmart
+4777,Tattnall
+4778,Toccoa
+4779,Demorest
+4780,Eastman
+4781,Oglethorpe
+4782,Peach
+4783,Pine Mountain
+4784,Floyd County Police Department
+4785,Clayton State University
+4786,Dalton
+4787,Wilcox
+4788,Loganville
+4789,Winder
+4790,Clear Lake
+4791,Ottumwa
+4792,Adel
+4793,Story
+4794,Keokuk
+4795,Chickasaw
+4796,Gooding
+4797,Fruitland
+4798,Kellogg
+4799,Fairmont City
+4800,Carlyle
+4801,Palatine
+4802,Cook County Forest Preserve
+4803,"State Police, Peru"
+4804,Jeffersonville
+4805,Warsaw
+4806,Edinburgh
+4807,Angola
+4808,Kokomo
+4809,McCordsville
+4810,Noblesville
+4811,Vanderburgh
+4812,Indiana Gaming Commission
+4813,Hendricks
+4814,Brownsburg
+4815,East Chicago
+4816,Schererville
+4817,Russell
+4818,Reno County Drug Enforcement Unit
+4819,Fort Hays State University
+4820,Barren
+4821,Louisville Regional Airport Authority
+4822,Port Allen
+4823,Rayne
+4824,Lake Charles
+4825,Lynnfield
+4826,Wenham
+4827,Holyoke Community College
+4828,Westford
+4829,Halifax
+4830,Oakham
+4831,Gordon College
+4832,Transportation Authority
+4833,Fryeburg
+4834,Norway
+4835,Boothbay Harbor
+4836,Birch Run
+4837,Columbia Township
+4838,Genesee County Parks and Recreation
+4839,Denton Township
+4840,Department of Natural Resources Law Enforcement Division
+4841,Chesaning
+4842,Spring Arbor Township
+4843,Michigan Technological University
+4844,Sleepy Eye
+4845,Mountain Lake
+4846,Pine
+4847,Metropolitan Transit Commission
+4848,St. Paul Park
+4849,New Prague
+4850,Platte City
+4851,Eldon
+4852,Kirkwood
+4853,Thayer
+4854,Potosi
+4855,Harrisonville
+4856,Marceline
+4857,Sikeston
+4858,Strafford
+4859,Tupelo
+4860,Southaven
+4861,Lucedale
+4862,Flowood
+4863,Corinth
+4864,Merrick
+4865,Scotts Bluff
+4866,Gering
+4867,Ord
+4868,Frontier
+4869,Scottsbluff
+4870,Cedar
+4871,Lumberton
+4872,Sharpsburg
+4873,Taylortown
+4874,Emerald Isle
+4875,Knightdale
+4876,Weldon
+4877,Biltmore Forest
+4878,Alleghany
+4879,Duplin
+4880,Winston-Salem State University
+4881,North Carolina Agricultural and Technical State University
+4882,Craven
+4883,Scotland Neck
+4884,New Ipswich
+4885,New Hampton
+4886,Nashua
+4887,Harvey Cedars
+4888,Seaside Heights
+4889,Longport
+4890,Carlstadt
+4891,Wood-Ridge
+4892,Cedar Grove Township
+4893,Deptford Township
+4894,National Park
+4895,West Amwell Township
+4896,Barnegat Light
+4897,Bernardsville
+4898,Hasbrouck Heights
+4899,Northvale
+4900,Orange City
+4901,Swedesboro
+4902,Keyport
+4903,Kean University
+4904,Absecon
+4905,Lebanon Township
+4906,Pine Beach
+4907,New Jersey Institute of Technology
+4908,Mantoloking
+4909,New Mexico State Police
+4910,Sparks
+4911,Mineral
+4912,University of Nevada:
+4913,Capitol Police
+4914,Colchester Town
+4915,Riverhead Town
+4916,Carmel Town
+4917,Massena Village
+4918,Perrysburg Township
+4919,Bazetta Township
+4920,Cedarville
+4921,Arcanum
+4922,North Olmsted
+4923,Avon Lake
+4924,Henryetta
+4925,Alfalfa
+4926,Alva
+4927,Harmon
+4928,Canadian
+4929,Madill
+4930,State Park Rangers
+4931,Konawa
+4932,Sequoyah
+4933,McCurtain
+4934,Weleetka
+4935,Mount Angel
+4936,Josephine
+4937,Rainier
+4938,Molalla
+4939,Klamath
+4940,Cannon Beach
+4941,Johnsonburg
+4942,"State Police, Media"
+4943,Southern Chester County Regional
+4944,Meadville
+4945,Upper Darby Township
+4946,Pocono Mountain Regional
+4947,Pottsville
+4948,South Greensburg
+4949,"State Police, Avondale"
+4950,Upper Moreland Township
+4951,Barnwell
+4952,Sisseton-Wahpeton Tribal
+4953,Roberts
+4954,Mobridge
+4955,Cocke
+4956,Jonestown
+4957,The Colony
+4958,West
+4959,Navasota
+4960,Deer Park
+4961,Anna
+4962,Van Zandt
+4963,Coppell
+4964,Palo Pinto
+4965,Aransas Pass
+4966,Cibolo
+4967,Comanche
+4968,San Augustine
+4969,Alamo Heights
+4970,Lytle
+4971,Baird
+4972,Needville
+4973,Somervell
+4974,Willacy
+4975,Balcones Heights
+4976,Jarrell
+4977,Uvalde
+4978,Little Elm
+4979,Live Oak
+4980,Waxahachie
+4981,Lockhart
+4982,Pelican Bay
+4983,Groesbeck
+4984,Ephraim
+4985,Sunset
+4986,Weber
+4987,Sanpete
+4988,Dixie State University
+4989,South Boston
+4990,Pennington Gap
+4991,Grand Isle
+4992,College Place
+4993,Washington State Parks and Recreation Law Enforcement
+4994,Carnation
+4995,Swinomish Tribal
+4996,Galesville
+4997,Pewaukee Village
+4998,Fox Crossing
+4999,Oshkosh
+5000,De Pere
+5001,Bloomer
+5002,Elkhart Lake
+5003,New Holstein
+5004,Marathon
+5005,Plover
+5006,Mequon
+5007,Marinette
+5008,New Lisbon
+5009,Shawano
+5010,Nome
+5011,Gulf Shores
+5012,Rainbow City
+5013,Arab
+5014,Andalusia
+5015,Mobile Regional Airport
+5016,Prichard
+5017,Anniston
+5018,Opp
+5019,Daphne
+5020,Daleville
+5021,Level Plains
+5022,University of Alabama:
+5023,Vestavia Hills
+5024,Red Bay
+5025,Priceville
+5026,Opelika
+5027,Valley Head
+5028,Gadsden
+5029,Stevenson
+5030,Lowndes
+5031,Florala
+5032,Midfield
+5033,Millbrook
+5034,Moody
+5035,Alexander City
+5036,Fairhope
+5037,Luverne
+5038,Trussville
+5039,Muscle Shoals
+5040,Bay Minette
+5041,Northport
+5042,Haskell
+5043,Poinsett
+5044,Mississippi
+5045,Hot Spring
+5046,Gila River Indian Community
+5047,Clarkdale
+5048,Maricopa Community College
+5049,Cortez
+5050,Severance
+5051,Wiggins
+5052,Eagle
+5053,Department of Energy and Environmental Protection
+5054,Defense Intelligence Agency 
+5055,United States Treasury Inspector General for Tax Administration
+5056,United States Air Force Security Police 
+5057,Fitzgerald
+5058,Spalding
+5059,Emory University
+5060,Bremen
+5061,Elbert
+5062,Rabun
+5063,Lawrenceville
+5064,Troup
+5065,Norcross
+5066,Twiggs
+5067,Cherokee County Board of Education
+5068,University of North Georgia
+5069,Metter
+5070,Hartwell
+5071,Kauai Police Department
+5072,Oelwein
+5073,Muscatine
+5074,Wapello
+5075,Storm Lake
+5076,Charles City
+5077,Mason City
+5078,Albia
+5079,Coralville
+5080,Clive
+5081,Red Oak
+5082,Sac City
+5083,Winneshiek
+5084,Walcott
+5085,Fort Hall Tribal
+5086,Homedale
+5087,Emmett
+5088,Chicago Heights
+5089,Franklin Park
+5090,Lake Zurich
+5091,Metropolis
+5092,Parkland College
+5093,Palos Park
+5094,Rosemont
+5095,Yorkville
+5096,Stone Park
+5097,Southern View
+5098,South Beloit
+5099,Illinois State Police
+5100,Tippecanoe
+5101,Posey
+5102,Griffith
+5103,Chesterton
+5104,Cedar Lake
+5105,Vincennes
+5106,Indianapolis Public Schools
+5107,Kansas City Fire Department
+5108,Morris
+5109,Jewell
+5110,Marksville
+5111,Coushatta Tribal
+5112,Pearl River
+5113,East Baton Rouge
+5114,Terrebonne
+5115,Opelousas
+5116,Ponchatoula
+5117,Bastrop
+5118,Catahoula
+5119,West Carroll
+5120,St. Mary
+5121,Iberville
+5122,Arnaudville
+5123,Tangipahoa
+5124,Sandwich
+5125,Hanson
+5126,Eastham
+5127,Townsend
+5128,Swansea
+5129,Division of Law Enforcement
+5130,Hagerstown
+5131,St. Mary's
+5132,Winslow
+5133,Fort Fairfield
+5134,Penobscot
+5135,Saginaw Chippewa Tribal
+5136,Lenawee
+5137,Harbor Springs
+5138,Hannahville Tribal
+5139,Green Oak Township
+5140,White Pigeon
+5141,Gun Lake Tribal
+5142,Delta College
+5143,Kalkaska
+5144,Stearns
+5145,Rosemount
+5146,Koochiching
+5147,Deerwood
+5148,Cold Spring/Richmond
+5149,Windom
+5150,Cloquet
+5151,Clever
+5152,Bollinger
+5153,Monroe City
+5154,Webb City
+5155,Hannibal
+5156,Pevely
+5157,Platte
+5158,Buckner
+5159,Perryville
+5160,Florissant
+5161,St. Robert
+5162,Kimberling City
+5163,Sedalia
+5164,Ash Grove
+5165,St. Francois
+5166,Tarkio
+5167,Kansas City International Airport
+5168,Mountain Grove
+5169,Booneville
+5170,Grenada
+5171,Forest
+5172,Calhoun City
+5173,Kemper
+5174,Oktibbeha
+5175,Water Valley
+5176,Pontotoc
+5177,Crow Agency
+5178,Furnas
+5179,Falls City
+5180,Fletcher
+5181,Oak Island
+5182,Morehead City
+5183,Pinebluff
+5184,Valdese
+5185,Vance
+5186,Raeford
+5187,Moore County Schools
+5188,Davidson
+5189,Pembina
+5190,Turtle Mountain Agency
+5191,Hollis
+5192,Newmarket
+5193,Port Authority of New York and New Jersey
+5194,Sierra
+5195,New Mexico State University
+5196,Reno Tahoe Airport Authority
+5197,Elko
+5198,Storey
+5199,Lander
+5200,City of Las Vegas Department of Publilc Safety
+5201,Fort Edward Village
+5202,Lloyd Town
+5203,Shawnee Hills
+5204,Lawrence Township
+5205,St. Bernard
+5206,New Knoxville
+5207,Ohio University
+5208,East Cleveland
+5209,Amberley Village
+5210,Obetz
+5211,"Goshen Township, Clermont County"
+5212,Tallmadge
+5213,Durant
+5214,Vinita
+5215,Wyandotte Nation
+5216,Del City
+5217,Healdton
+5218,Glenpool
+5219,El Reno
+5220,Southeastern Oklahoma State University
+5221,Chouteau
+5222,Pawhuska
+5223,Multnomah
+5224,The Dalles
+5225,Port of Portland
+5226,Malheur
+5227,Oregon State University
+5228,"State Police, Reading"
+5229,"State Police, Mercer"
+5230,"State Police, Findlay Station"
+5231,"State Police, Somerset"
+5232,"State Police, Ebensburg"
+5233,"State Police, Erie"
+5234,"State Police, Greensburg"
+5235,"Southwest Regional, Fayette County"
+5236,"State Police, Bedford"
+5237,"State Police, Embreeville/Coatesville"
+5238,"State Police, Newport"
+5239,"State Police, Lancaster"
+5240,Department of Environmental Management
+5241,North Providence
+5242,Edisto Beach
+5243,North Augusta
+5244,Lead
+5245,Crow Creek Tribal
+5246,Sisseton
+5247,Pine Ridge Sioux Tribal
+5248,Alcester
+5249,Austin Peay State University
+5250,Lewisburg
+5251,La Vergne
+5252,Eagle Pass
+5253,Lufkin
+5254,Bonham
+5255,Donley
+5256,Humble
+5257,Gregg
+5258,Bellville
+5259,Forest Hill
+5260,Euless
+5261,Refugio
+5262,Montgomery County Constable:
+5263,White Settlement
+5264,Childress
+5265,Tom Green
+5266,Southlake
+5267,Seagoville
+5268,Gunter
+5269,Hood
+5270,Jim Wells
+5271,McLennan
+5272,St. Edwards University
+5273,Beeville
+5274,Houston Metropolitan Transit Authority
+5275,Pharr
+5276,Ingleside
+5277,Hill
+5278,Rice University
+5279,Waller
+5280,Central Texas College
+5281,Kleberg
+5282,Van Alstyne
+5283,Stephenville
+5284,Hemphill
+5285,Elsa
+5286,Horizon City
+5287,Cache
+5288,Uintah and Ouray Tribal
+5289,Cedar City
+5290,Enoch
+5291,Iron
+5292,Lone Peak
+5293,American Fork/Cedar Hills
+5294,Herriman
+5295,Tremonton Garland
+5296,Southern Utah University
+5297,Reagan National Airport
+5298,Squaxin Island Tribal
+5299,Chehalis Tribal
+5300,Gig Harbor
+5301,Maple Bluff
+5302,Mount Horeb
+5303,Hartland
+5304,Oconto
+5305,Rice Lake
+5306,Brodhead
+5307,Boscobel
+5308,Fall Creek
+5309,Monona
+5310,Two Rivers
+5311,Ronceverte
+5312,Rock Springs

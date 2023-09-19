@@ -23,15 +23,17 @@ CREATE TABLE agency_types (
 CREATE TABLE agencies (
 	agency_id INT NOT NULL, 
 	agency VARCHAR(75) NOT NULL,
-	agency_type_id INT NOT NULL, 
 	PRIMARY KEY (agency_id)
 );
 
-CREATE TABLE agency_units (
-	agency_unit_id INT NOT NULL, 
-	agency_id INT NOT NULL, 
+CREATE TABLE agency_oris (
+	ori VARCHAR(10) NOT NULL,
+	agency_id INT NOT NULL,
 	agency_unit VARCHAR(50) NOT NULL,
-	PRIMARY KEY (agency_unit_id)
+	agency_type_id INT NOT NULL,
+	PRIMARY KEY (ori),
+	FOREIGN KEY (agency_id) REFERENCES agencies(agency_id),
+	FOREIGN KEY (agency_type_id) REFERENCES agency_types(agency_type_id)
 );
 
 CREATE TABLE population_groups (
@@ -54,7 +56,7 @@ CREATE TABLE ethnicity (
 
 CREATE TABLE incidents (
 	incident_id INT NOT NULL,
-	ori INT NOT NULL,
+	ori VARCHAR(10) NOT NULL,
 	agency_id INT NOT NULL,
 	agency_unit_id INT NOT NULL,
 	state_abbr VARCHAR(2) NOT NULL,
@@ -70,17 +72,17 @@ CREATE TABLE incidents (
 	victim_count INT NOT NULL,
 	total_individual_victims INT NOT NULL,
 	PRIMARY KEY (incident_id),
-	FOREIGN KEY (agency_id) REFERENCES agencies(agency_id),
+	FOREIGN KEY (ori) REFERENCES agency_oris(ori),
 	FOREIGN KEY (population_group_code) REFERENCES population_groups(population_group_code),
 	FOREIGN KEY (offender_race_id) REFERENCES race(race_id),
-	FOREIGN KEY (offender_ethnicity_id) REFERENCES ethnicity(ethnicity_id),
+	FOREIGN KEY (offender_ethnicity_id) REFERENCES ethnicity(ethnicity_id)
 );
 
 CREATE TABLE offenses (
 	offense_id INT NOT NULL,
 	offense VARCHAR(25) NOT NULL,
 	PRIMARY KEY (offense_id)
-);	
+);
 
 CREATE TABLE incident_offenses (
 	incident_id INT NOT NULL,
@@ -104,19 +106,19 @@ CREATE TABLE incident_locations (
 	FOREIGN KEY (location_id) REFERENCES locations(location_id)
 );
 
-CREATE TABLE bias (
-	bias_id INT NOT NULL,
-	bias VARCHAR(25) NOT NULL,
-	categpry INT NOT NULL,
-	PRIMARY KEY (bias_id)
-);	
-
 CREATE TABLE bias_categories (
 	category_id INT NOT NULL,
 	category VARCHAR(20) NOT NULL,
-	PRIMARY KEY (category_id),
-	FOREIGN KEY (category_id) REFERENCES bias(category_id)
+	PRIMARY KEY (category_id)
 );
+
+CREATE TABLE bias (
+	bias_id INT NOT NULL,
+	bias VARCHAR(25) NOT NULL,
+	category_id INT NOT NULL,
+	PRIMARY KEY (bias_id),
+	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)
+);	
 
 CREATE TABLE incident_biases (
 	incident_id INT NOT NULL,
@@ -155,10 +157,10 @@ CREATE TABLE census_data (
 
 SELECT * FROM agencies;
 SELECT COUNT(*) FROM agencies;				-- x records
+SELECT * FROM agency_oris;
+SELECT COUNT(*) FROM agency_oris;			-- x records
 SELECT * FROM agency_types;
 SELECT COUNT(*) FROM agency_types;			-- x records
-SELECT * FROM agency_units;
-SELECT COUNT(*) FROM agency_units;			-- x records
 SELECT * FROM bias;
 SELECT COUNT(*) FROM bias;					-- x records
 SELECT * FROM bias_categories;

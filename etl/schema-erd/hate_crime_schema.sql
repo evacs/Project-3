@@ -29,7 +29,7 @@ CREATE TABLE agencies (
 CREATE TABLE agency_oris (
 	ori VARCHAR(10) NOT NULL,
 	agency_id INT NOT NULL,
-	agency_unit VARCHAR(50) NOT NULL,
+	agency_unit VARCHAR(50), -- This column is empty for cities and other agencies
 	agency_type_id INT NOT NULL,
 	PRIMARY KEY (ori),
 	FOREIGN KEY (agency_id) REFERENCES agencies(agency_id),
@@ -94,7 +94,7 @@ CREATE TABLE incident_offenses (
 
 CREATE TABLE locations (
 	location_id INT NOT NULL,
-	location VARCHAR(25) NOT NULL,
+	location VARCHAR(50) NOT NULL,
 	PRIMARY KEY (location_id)
 );
 

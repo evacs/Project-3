@@ -1,9 +1,9 @@
 agency_type_id,agency_type
 0,City
 1,County
-2,University or College
-3,Other
-4,Other State Agency
-5,State Police
+2,State Police
+3,Other State Agency
+4,Federal
+5,University or College
 6,Tribal
-7,Federal
+7,Other

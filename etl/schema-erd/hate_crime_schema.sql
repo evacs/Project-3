@@ -8,7 +8,7 @@
 
 CREATE TABLE states (
 	state_abbr VARCHAR(2) NOT NULL,
-	state VARCHAR(20) NOT NULL, 
+	state VARCHAR(25) NOT NULL, 
 	division VARCHAR(20) NOT NULL,
 	region VARCHAR(10) NOT NULL,
 	PRIMARY KEY (state_abbr)
@@ -50,7 +50,7 @@ CREATE TABLE race (
 
 CREATE TABLE ethnicity (
 	ethnicity_id INT NOT NULL,
-	ethnicity VARCHAR(20) NOT NULL,
+	ethnicity VARCHAR(50) NOT NULL,
 	PRIMARY KEY (ethnicity_id)
 );
 
@@ -80,7 +80,7 @@ CREATE TABLE incidents (
 
 CREATE TABLE offenses (
 	offense_id INT NOT NULL,
-	offense VARCHAR(25) NOT NULL,
+	offense VARCHAR(50) NOT NULL,
 	PRIMARY KEY (offense_id)
 );
 

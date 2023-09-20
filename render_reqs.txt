@@ -9,7 +9,7 @@ pathlib
 
 # SQL
 sqlalchemy
-flask
+# flask
 # jsonify
 warnings
 

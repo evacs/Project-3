@@ -1,0 +1,10 @@
+victim_type_id,victim_type
+0,Individual
+1,Religious Organization
+2,Government
+3,Society/Public
+4,Business
+5,Other
+6,Unknown
+7,Financial Institution
+8,Law Enforcement Officer

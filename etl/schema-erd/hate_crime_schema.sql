@@ -108,13 +108,13 @@ CREATE TABLE incident_locations (
 
 CREATE TABLE bias_categories (
 	category_id INT NOT NULL,
-	category VARCHAR(20) NOT NULL,
+	category VARCHAR(25) NOT NULL,
 	PRIMARY KEY (category_id)
 );
 
 CREATE TABLE bias (
 	bias_id INT NOT NULL,
-	bias VARCHAR(25) NOT NULL,
+	bias VARCHAR(60) NOT NULL,
 	category_id INT NOT NULL,
 	PRIMARY KEY (bias_id),
 	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)

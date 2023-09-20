@@ -1,6 +1,9 @@
+# Render Requirements File
+# Add all Python modules/libraries needed for website
 pandas
 sqlalchemy
 numpy
 requests
 pathlib
 gunicorn
+flask

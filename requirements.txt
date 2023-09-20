@@ -3,3 +3,4 @@ sqlalchemy
 numpy
 requests
 pathlib
+gunicorn

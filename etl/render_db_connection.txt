@@ -1,0 +1,8 @@
+Notes:
+
+Dependencies
+psycopg2 module is needed for SQLAlchemy
+- run "pip install psycopg2" from gitbash or terminal (make sure you're in your dev environment)
+
+pgAdmin setup
+-  

@@ -8,12 +8,12 @@ requests
 pathlib
 
 # SQL
-sqlalchemy
+# sqlalchemy
 # flask
 # jsonify
-warnings
+# warnings
 
 # Visualizations
 
 # Render
-gunicorn
+# gunicorn

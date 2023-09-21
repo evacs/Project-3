@@ -1,4 +1,5 @@
-# US Hate Crimes App 
+# Hate Crimes in the US
+# Flask App
 
 # Import dependencies
 from flask import Flask, render_template
@@ -9,7 +10,6 @@ app = Flask(__name__)
 # Define static routes
 @app.route('/')
 def index():
-    print('Server request for home page...')
     return render_template('index.html')
 
 @app.route('/api/app1')

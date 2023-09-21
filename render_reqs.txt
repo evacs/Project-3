@@ -9,11 +9,11 @@ pathlib
 
 # SQL
 # sqlalchemy
-# flask
+Flask
 # jsonify
 # warnings
 
 # Visualizations
 
 # Render
-gunicorn # Need to run apps
+Gunicorn # Need to run apps

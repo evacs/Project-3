@@ -7,4 +7,8 @@ app = Flask(__name__)
 # 3. Define static routes
 @app.route('/')
 def index():
-    return 'Hello, world!'
+    return 'Default Page for App'
+
+@app.route('/API/test')
+def test():
+    return 'This is a test API'

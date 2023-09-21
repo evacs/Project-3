@@ -9,4 +9,4 @@ app = Flask(__name__)
 # 3. Define static routes
 @app.route("/")
 def index():
-    return "Hello, world!"
+    return "app\app_test"

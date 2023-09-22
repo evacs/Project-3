@@ -58,7 +58,6 @@ CREATE TABLE incidents (
 	incident_id INT NOT NULL,
 	ori VARCHAR(10) NOT NULL,
 	agency_id INT NOT NULL,
-	agency_unit_id INT NOT NULL,
 	state_abbr VARCHAR(2) NOT NULL,
 	population_group_code VARCHAR(2) NOT NULL,
 	incident_date DATE NOT NULL,
@@ -155,10 +154,9 @@ CREATE TABLE census_data (
 
 -- 2. Review and verify imported data
 
-SELECT * FROM agencies;
-SELECT COUNT(*) FROM agencies;				-- x records
+SELECT * FROM agencies;			-- x records
 SELECT * FROM agency_oris;
-SELECT COUNT(*) FROM agency_oris;			-- x records
+SELECT COUNT(*) FROM agency_oris;			-- 7669 records
 SELECT * FROM agency_types;
 SELECT COUNT(*) FROM agency_types;			-- x records
 SELECT * FROM bias;

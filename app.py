@@ -41,14 +41,17 @@ def get_data():
         dataToReturn = {}
 
         incident_ids = []
-        state_abbrs = []
+        state_names = []
+        bias_descs = []
 
         for row in result:
             incident_ids.append(row.__dict__["incident_id"])
-            state_abbrs.append(row.__dict__["state_abbr"])
+            state_names.append(row.__dict__["state_name"])
+            bias_descs.append(row.__dict__["bias_desc"])
 
         dataToReturn["incident_id"] = incident_ids
-        dataToReturn["state_abbr"] = state_abbrs
+        dataToReturn["state_name"] = state_names
+        dataToReturn["bias_desc"] = bias_descs
         # Print a success message
         print("Table access successful")
 

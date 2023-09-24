@@ -1,0 +1,42 @@
+offense_type_id,offense_type
+0,Robbery
+1,Weapon Law Violations
+2,Destruction/Damage/Vandalism of Property
+3,Intimidation
+4,All Other Larceny
+5,Burglary/Breaking & Entering
+6,Aggravated Assault
+7,Simple Assault
+8,Motor Vehicle Theft
+9,Arson
+10,Not Specified
+11,Rape
+12,Theft From Motor Vehicle
+13,Kidnapping/Abduction
+14,Pornography/Obscene Material
+15,Theft of Motor Vehicle Parts or Accessories
+16,Impersonation
+17,Murder and Nonnegligent Manslaughter
+18,Drug Equipment Violations
+19,Drug/Narcotic Violations
+20,Shoplifting
+21,Theft From Building
+22,False Pretenses/Swindle/Confidence Game
+23,Credit Card/Automated Teller Machine Fraud
+24,Sodomy
+25,Stolen Property Offenses
+26,Extortion/Blackmail
+27,Counterfeiting/Forgery
+28,Embezzlement
+29,Prostitution
+30,Fondling
+31,Sexual Assault With An Object
+32,Pocket-picking
+33,Statutory Rape
+34,Bribery
+35,Identity Theft
+36,Wire Fraud
+37,"Human Trafficking, Commercial Sex Acts"
+38,Animal Cruelty
+39,Hacking/Computer Invasion
+40,Purse-snatching

@@ -154,38 +154,40 @@ CREATE TABLE census_data (
 
 -- 2. Review and verify imported data
 
-SELECT * FROM agencies;			-- x records
+SELECT * FROM agencies;
+SELECT COUNT(*) FROM agencies;				-- 5313 records
 SELECT * FROM agency_oris;
 SELECT COUNT(*) FROM agency_oris;			-- 7669 records
 SELECT * FROM agency_types;
-SELECT COUNT(*) FROM agency_types;			-- x records
+SELECT COUNT(*) FROM agency_types;			-- 8 records
 SELECT * FROM bias;
-SELECT COUNT(*) FROM bias;					-- x records
+SELECT COUNT(*) FROM bias;					-- 35 records
 SELECT * FROM bias_categories;
-SELECT COUNT(*) FROM bias_categories;		-- x records
+SELECT COUNT(*) FROM bias_categories;		-- 6 records
 SELECT * FROM incident_biases;
-SELECT COUNT(*) FROM incident_biases;		-- x records
+SELECT COUNT(*) FROM incident_biases;		-- 91298 records
 SELECT * FROM incident_locations;	
 SELECT COUNT(*) FROM incident_locations;	-- x records
 SELECT * FROM incident_offenses;
 SELECT COUNT(*) FROM incident_offenses;		-- x records
 SELECT * FROM incident_victim_types;
-SELECT COUNT(*) FROM incident_victim_types;	-- x records
+SELECT COUNT(*) FROM incident_victim_types;	-- 90950 records
 SELECT * FROM incidents;
-SELECT COUNT(*) FROM incidents;				-- x records
+SELECT COUNT(*) FROM incidents;				-- 89405 records
 SELECT * FROM locations;
-SELECT COUNT(*) FROM locations;				-- x records
+SELECT COUNT(*) FROM locations;				-- 46 records
 SELECT * FROM ethnicity;
-SELECT COUNT(*) FROM ethnicity;				-- x records
+SELECT COUNT(*) FROM ethnicity;				-- 5 records
 SELECT * FROM race;
-SELECT COUNT(*) FROM race;					-- x records
+SELECT COUNT(*) FROM race;					-- 8 records
 SELECT * FROM offenses;
-SELECT COUNT(*) FROM offenses;				-- x records
+SELECT COUNT(*) FROM offenses;				-- 41 records
 SELECT * FROM population_groups;
-SELECT COUNT(*) FROM population_groups;		-- x records
+SELECT COUNT(*) FROM population_groups;		-- 20 records
 SELECT * FROM states;
-SELECT COUNT(*) FROM states;				-- x records
+SELECT COUNT(*) FROM states;				-- 53 records
 SELECT * FROM victim_types;
-SELECT COUNT(*) FROM victim_types;			-- x records
+SELECT COUNT(*) FROM victim_types;			-- 9 records
 SELECT * FROM census_data;
-SELECT COUNT(*) FROM census_data;			-- x records
+SELECT COUNT(*) FROM census_data;			-- 4641 records
+

@@ -1,0 +1,62 @@
+"",Total,Total,Senate,Senate,Senate,Total House,House,,House,Legis.,Gov.,State
+STATE,Seats,Senate,Dem.,Rep.,other,House Dem.,Rep.,,other,Control,Party,Control
+Alabama,140,35,8,27,,105 28,77,,,Rep,Rep,Rep
+Alaska,60,20,7,13,,40 19,21,,,Rep,Rep,Rep
+Arizona,90,30,13,17,,60 29,31,,,Rep,Rep,Rep
+Arkansas,135,35,9,26,,100 24,76,,,Rep,Rep,Rep
+California,120,40,29,11,,80 61,19,,,Dem,Dem,Dem
+Colorado,100,35,19,16,,65 41,24,,,Dem,Dem,Dem
+Connecticut,187,36,24,12,,151 92,59,,,Dem,Dem,Dem
+Delaware,62,21,12,9,,41 26,15,,,Dem,Dem,Dem
+Florida,160,40,17,23,,120 47,73,,,Rep,Rep,Rep
+Georgia,236,56,21,35,,180 74,106,,,Rep,Rep,Rep
+Hawaii,76,25,24,1,,51 46,5,,,Dem,Dem,Dem
+Idaho,105,35,7,28,,70 14,56,,,Rep,Rep,Rep
+Illinois,177,59,40,19,,118 74,44,,,Dem,Dem,Dem
+Indiana,150,50,10,40,,100 33,67,,,Rep,Rep,Rep
+Iowa,150,50,18,32,,100 46,54,,,Rep,Rep,Rep
+Kansas,165,40,11,28,1,125 40,85,,,Rep,Dem,Divided
+Kentucky,138,38,10,28,,100 39,61,,,Rep,Rep,Rep
+Louisiana,144,39,14,25,,105 39,63,,3,Rep,Dem,Divided
+Maine,186,35,21,14,,151 89,57,,5,Dem,Dem,Dem
+Maryland,188,47,32,15,,141 98,43,,,Dem,Rep,Divided
+Massachusetts,200,40,34,6,,160 127,32,,1,Dem,Rep,Divided
+Michigan,148,38,16,22,,110 52,58,,,Rep,Dem,Divided
+Minnesota,201,67,33,34,,134 75,59,,,Divided,Dem,Divided
+Mississippi,174,52,19,33,,122 48,74,,,Rep,Rep,Rep
+Missouri,197,34,10,24,,163 47,116,,,Rep,Rep,Rep
+Montana,150,50,20,30,,100 42,58,,,Rep,Dem,Divided
+Nebraska,49,49,,,49,Unicameral - nonpartisan,,,,N/A,Rep,N/A
+Nevada,63,21,13,8,,42 29,13,,,Dem,Dem,Dem
+New Hampshire,424,24,14,10,,400 234,166,,,Dem,Rep,Divided
+New Jersey,120,40,26,14,,80 54,26,,,Dem,Dem,Dem
+New Mexico,112,42,26,16,,70 46,24,,,Dem,Dem,Dem
+New York,213,63,40,23,,150 107,43,,,Dem,Dem,Dem
+North Carolina,170,50,21,29,,120 55,65,,,Rep,Dem,Divided
+North Dakota,141,47,10,37,,94 15,79,,,Rep,Rep,Rep
+Ohio,132,33,9,24,,99 38,61,,,Rep,Rep,Rep
+Oklahoma,149,48,9,39,,101 24,77,,,Rep,Rep,Rep
+Oregon,90,30,18,12,,60 38,22,,,Dem,Dem,Dem
+Pennsylvania,253,50,21,29,,203 93,110,,,Rep,Dem,Divided
+Rhode Island,113,38,33,5,,75 66,9,,,Dem,Dem,Dem
+South Carolina,170,46,19,27,,124 44,80,,,Rep,Rep,Rep
+South Dakota,105,35,5,30,,70 11,59,,,Rep,Rep,Rep
+Tennessee,132,33,5,28,,99 26,73,,,Rep,Rep,Rep
+Texas,181,31,12,19,,150 67,83,,,Rep,Rep,Rep
+Utah,104,29,6,23,,75 17,58,,,Rep,Rep,Rep
+Vermont,180,30,22,6,2,150 95,43,,12,Dem,Rep,Divided
+Virginia,140,40,19,21,,100 49,51,,,Rep,Dem,Divided
+Washington,147,49,28,21,,98 57,41,,,Dem,Dem,Dem
+West Virginia,134,34,14,20,,100 41,59,,,Rep,Rep,Rep
+Wisconsin,132,33,14,19,,99 35,64,,,Rep,Dem,Divided
+Wyoming,90,30,3,27,,60 9,50,,1,Rep,Rep,Rep
+"",,,,,,,,,,"30R,18D,","27R,","22R, 14D,"
+Total States,7383,1972,865,1055,51,5411 2600,2789,,22,1 Div.,23D,13Div
+"",Total,Total,Senate,Senate,Senate,Total House,House,,House,Legis.,Gov.,Territory
+U.S. Territories,Seats,Senate,Dem.,Rep.,other,House Dem.,Rep.,,other,Control,Party,Control
+American Samoa,39,18,,Non-partisan,,21 Non-partisan,,,,N/A,,N/A
+District of Columbia,13,13,12,,1,Unicameral - nonpartisan,,,,Dem,N/A,N/A
+Guam,15,15,10,5,,Unicameral - nonpartisan,,,,Dem,Dem,Dem
+Mariana Islands,29,9,,,,,,,,Rep,,Divided
+Puerto Rico,78,27,7PDP,21NPP,2,51 16PDP,34NPP,,1,NPP,NPP,NPP
+Virgin Islands,15,15,11,0,4,Unicameral - nonpartisan,,,,Dem,Dem,Dem

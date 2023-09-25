@@ -119,10 +119,10 @@ CREATE TABLE bias (
 	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)
 );	
 
-CREATE TABLE incident_biases (
+CREATE TABLE incident_biases_TEST (
 	incident_id INT NOT NULL,
 	bias_id INT NOT NULL,
-	PRIMARY KEY (incident_id, bias_id),
+	CONSTRAINT incident_bias_pkey PRIMARY KEY (incident_id, bias_id),
 	FOREIGN KEY (incident_id) REFERENCES incidents(incident_id),
 	FOREIGN KEY (bias_id) REFERENCES bias(bias_id)
 );
@@ -154,40 +154,23 @@ CREATE TABLE census_data (
 
 -- 2. Review and verify imported data
 
-SELECT * FROM agencies;
-SELECT COUNT(*) FROM agencies;				-- 5313 records
-SELECT * FROM agency_oris;
-SELECT COUNT(*) FROM agency_oris;			-- 7669 records
-SELECT * FROM agency_types;
-SELECT COUNT(*) FROM agency_types;			-- 8 records
-SELECT * FROM bias;
-SELECT COUNT(*) FROM bias;					-- 35 records
-SELECT * FROM bias_categories;
-SELECT COUNT(*) FROM bias_categories;		-- 6 records
-SELECT * FROM incident_biases;
-SELECT COUNT(*) FROM incident_biases;		-- 91298 records
-SELECT * FROM incident_locations;	
-SELECT COUNT(*) FROM incident_locations;	-- x records
-SELECT * FROM incident_offenses;
-SELECT COUNT(*) FROM incident_offenses;		-- x records
-SELECT * FROM incident_victim_types;
-SELECT COUNT(*) FROM incident_victim_types;	-- 90950 records
-SELECT * FROM incidents;
-SELECT COUNT(*) FROM incidents;				-- 89405 records
-SELECT * FROM locations;
-SELECT COUNT(*) FROM locations;				-- 46 records
-SELECT * FROM ethnicity;
-SELECT COUNT(*) FROM ethnicity;				-- 5 records
-SELECT * FROM race;
-SELECT COUNT(*) FROM race;					-- 8 records
-SELECT * FROM offenses;
-SELECT COUNT(*) FROM offenses;				-- 41 records
-SELECT * FROM population_groups;
-SELECT COUNT(*) FROM population_groups;		-- 20 records
-SELECT * FROM states;
-SELECT COUNT(*) FROM states;				-- 53 records
-SELECT * FROM victim_types;
-SELECT COUNT(*) FROM victim_types;			-- 9 records
-SELECT * FROM census_data;
-SELECT COUNT(*) FROM census_data;			-- 4641 records
+SELECT * FROM agencies;					-- 5313 records
+SELECT * FROM agency_oris;				-- 7669 records
+SELECT * FROM agency_types;				-- 8 records
+SELECT * FROM bias;						-- 35 records
+SELECT * FROM bias_categories;			-- 6 records
+SELECT * FROM incident_biases;			-- 91298 records
+SELECT * FROM incident_locations;		-- 89556 records
+SELECT * FROM incident_offenses;		-- 86384 records
+SELECT * FROM incident_victim_types;	-- 90950 records
+SELECT * FROM incidents;				-- 89405 records
+SELECT * FROM locations;				-- 46 records
+SELECT * FROM ethnicity;				-- 5 records
+SELECT * FROM race;						-- 8 records
+SELECT * FROM offenses;					-- 41 records
+SELECT * FROM population_groups			-- 20 records
+SELECT * FROM states;					-- 53 records
+SELECT * FROM victim_types;				-- 9 records
+SELECT * FROM census_data;				-- 4641 records
 
+SELECT * FROM main_incidents;

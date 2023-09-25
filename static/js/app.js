@@ -51,17 +51,24 @@ d3.json("http://127.0.0.1:5000/data")
       groupedData[entry.bias_desc].x.push(entry.data_year);
       groupedData[entry.bias_desc].y.push(entry.count);
     });
-  
+
+    // Sort data within each bias_desc group by data_year
+    Object.values(groupedData).forEach(group => {
+      const sortedIndices = group.x.map((_, i) => i).sort((a, b) => group.x[a] - group.x[b]);
+      group.x = sortedIndices.map(i => group.x[i]);
+      group.y = sortedIndices.map(i => group.y[i]);
+    });
+
     const chartData = Object.values(groupedData);
   
     const layout = {
       title: "Hate Crimes by Bias Over Time",
       xaxis: { title: "Year" },
-      yaxis: { title: "Count" },
+      yaxis: { title: "Incident Count" },
       height: 600,
-      width: 800,
+      width: 1200,
     };
-  
-    // Create the line chart using Plotly
-    Plotly.newPlot("line", chartData, layout);
-  }
+
+  // Create the line chart using Plotly
+  Plotly.newPlot("chart1", chartData, layout);
+}

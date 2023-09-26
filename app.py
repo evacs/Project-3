@@ -47,36 +47,6 @@ session = Session(engine)
 #         print("Error accessing the table:", str(e))
 #         return jsonify({"error": "Table access failed"}), 500
 
-# #Define static routes
-# # Variables for related tables
-# bias = Base.classes.bias
-# bias_categories = Base.classes.bias_categories
-# main_inc = Base.classes.main_incidents
-
-# # query statement
-# sel = [main_inc.data_year, main_inc.state_name, main_inc.bias_desc,
-#         main_inc.incident_id, bias_categories.category]
-
-# # join statement
-# query = session.query(*sel)\
-#         .filter(bias.bias == main_inc.bias_desc)\
-#         .filter(bias.category_id == bias_categories.category_id)
-
-# # Query statement
-# result = query.group_by(
-#     main_inc.state_name,
-#     bias_categories.category,
-#     main_inc.data_year).all()
-
-# # Create a list of dictionaries
-# keys = ["year","state","bias","id","category"]
-# bias_dict = []
-# bias_dict = [dict(zip(keys, item)) for item in result]
-# # Assign the metadata list to the "metadata" key in the data dictionary
-# dataToReturn = {"bias_data": bias_dict}
-# print(dataToReturn[:5])
-
-
 
 
 # Launches site

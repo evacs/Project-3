@@ -9,17 +9,17 @@ from sqlalchemy.orm import Session
 app = Flask(__name__)
 
 # Create a SQLAlchemy database engine
-db_uri = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
-engine = create_engine(db_uri)
+db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
+# db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
+engine = create_engine(db_url)
 
-# reflect an existing database into a new model
+# Reflect an existing database and tables
 Base = automap_base()
-
-# reflect the tables
 Base.prepare(autoload_with=engine)
 
-print(Base.classes.keys())
 session = Session(engine)
+
+print('Connected to database and session initiated')
 
 # Define static routes
 
@@ -72,9 +72,6 @@ def get_top10_data():
         S = Base.classes.states
         I = Base.classes.incidents
 
-        # Create session
-        session = Session(engine)
-
         # Create list of all states and add to data dictionary
         states = []
         # Don't include Federal Government and Guam in list of states
@@ -119,8 +116,6 @@ def get_top10_data():
         
         dataToReturn['years'] = years
         dataToReturn['data'] = data
-        
-        session.close()
 
         # Print a success message
         print("Table access successful")

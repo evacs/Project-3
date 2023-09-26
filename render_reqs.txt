@@ -8,7 +8,7 @@ requests
 pathlib
 
 # SQL
-# sqlalchemy
+SQLAlchemy==2.0.2
 Flask
 # jsonify
 # warnings

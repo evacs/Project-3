@@ -9,8 +9,8 @@ from sqlalchemy.orm import Session
 app = Flask(__name__)
 
 # Create a SQLAlchemy database engine
-db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
-# db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
+# db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
+db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 engine = create_engine(db_url)
 
 # Reflect an existing database and tables

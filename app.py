@@ -12,65 +12,27 @@ app = Flask(__name__)
 db_uri = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 engine = create_engine(db_uri)
 
-
 # reflect an existing database into a new model
 Base = automap_base()
+
 # reflect the tables
 Base.prepare(autoload_with=engine)
 
 print(Base.classes.keys())
 session = Session(engine)
 
-years = []
-states = []
-biases = []
-bias_categories = []
-
-[years.append(year) for year in range(2009, 2022)]
-
-for row in session.query(Base.classes.states).all():
-    states.append(row.__dict__['state'])
-
-for row in session.query(Base.classes.bias).all():
-    biases.append(row.__dict__['bias'])
-
-for row in session.query(Base.classes.bias_categories).all():
-    bias_categories.append(row.__dict__['category'])
-
-#Define static routes
+# Define static routes
 
 # Launches site
 @app.route('/') 
 def index():
     return render_template('index.html')
 
-
-
 # Turns main_incidents table into a JSON dictionary
 @app.route('/data')
 def get_data():
 
     try:
-        
-        c = Base.classes.census_data
-        s = Base.classes.states
-        pop_data = session.query(c, s).filter(c.states_abbr == s.states_abbr).filter(c.race_id == -1).all()
-        
-        state_pop = []
-        for record in pop_data:
-            (c, s) = record
-            state_pop.append()
-
-            
-
-        
-        
-        for record in session.query(Base.classes.census_data).all():
-            for year in years:
-                state_pop.append()
-                
-
-
 
         result = session.query(Base.classes.main_incidents).all()
         # Convert the query result to a list of dictionaries              
@@ -98,21 +60,69 @@ def get_data():
         print("Error accessing the table:", str(e))
         return jsonify({"error": "Table access failed"}), 500
 
-@app.route('/jeff')
-def get_data_jeff():
+@app.route('/top10Data')
+def get_top10_data():
 
     try:
-
-        result = session.query(Base.classes.main_incidents).all()
-        # Convert the query result to a list of dictionaries              
+        # Create dictionary to hold all data
         dataToReturn = {}
 
+        # Store tables in variables
+        C = Base.classes.census_data
+        S = Base.classes.states
+        I = Base.classes.incidents
+
+        # Create session
+        session = Session(engine)
+
+        # Create list of all states and add to data dictionary
+        states = []
+        # Don't include Federal Government and Guam in list of states
+        query = session.query(S).filter(S.state_abbr != 'FS').filter(S.state_abbr != 'GM')
+        for row in query.all():
+            states.append(row.state)
         dataToReturn['states'] = states
-        dataToReturn['years'] = years
-        dataToReturn['biases'] = biases
 
+        # Query to get population and incident counts by state and year
+        sel = [C.year, S.state, C.population, I.incident_id]
+        query = session.query(C.year, S.state, func.min(C.population).label('population'), func.count(I.incident_id).label('incidents'))
+        query = query.filter(C.state_abbr == S.state_abbr).filter(C.race_id == -1)
+        query = query.filter(I.state_abbr == S.state_abbr).filter(extract('year', I.incident_date) == C.year)
+        query = query.group_by(C.year, S.state)
 
+        # Create lists for data and years
+        data = []
+        years = []
         
+        # Set years in list
+        [years.append(year) for year in range(2009, 2022)]
+
+        # Loop through each year to create data lists
+        for year in years:
+            states = []
+            population = []
+            incidents = []
+            incident_rate = []
+            
+            # Loop through every row for the year
+            for row in query.filter(C.year == year).all():
+                # Append data to list for the year
+                states.append(row.state)
+                population.append(row.population)
+                incidents.append(row.incidents)
+                incident_rate.append(row.incidents / row.population * 10000000)
+            
+            # Store lists in a dictionary and append to data list
+            current_year = {'year': year, 'states': states, 'population': population,
+                            'incidents': incidents, 'incident_rate': incident_rate}
+            data.append(current_year)
+        
+        dataToReturn['years'] = years
+        dataToReturn['data'] = data
+        
+        session.close()
+
+        # Print a success message
         print("Table access successful")
 
         return jsonify(dataToReturn)
@@ -120,7 +130,8 @@ def get_data_jeff():
     except Exception as e:
         # Handle and log any exceptions
         print("Error accessing the table:", str(e))
-        return jsonify({"error": "Table access failed"}), 500
+        return jsonify({"error": "Table access failed"}), 500    
+
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -119,7 +119,7 @@ CREATE TABLE bias (
 	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)
 );	
 
-CREATE TABLE incident_biases (
+CREATE TABLE incident_biases_TEST (
 	incident_id INT NOT NULL,
 	bias_id INT NOT NULL,
 	CONSTRAINT incident_bias_pkey PRIMARY KEY (incident_id, bias_id),

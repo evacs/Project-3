@@ -152,6 +152,25 @@ CREATE TABLE census_data (
 	FOREIGN KEY (race_id) REFERENCES race(race_id)
 );
 
+CREATE TABLE main_incidents (
+	incident_id INT NOT NULL,
+	data_year INT NOT NULL,
+	state_abbr VARCHAR(2) NOT NULL,
+	state_name VARCHAR(25) NOT NULL, 
+	total_offender_count INT NOT NULL,
+	offender_race VARCHAR(50) NOT NULL,
+	offender_ethnicity VARCHAR(50) NOT NULL,
+	victim_count INT,
+	offense_name VARCHAR(255) NOT NULL,
+	total_individual_victims NUMERIC,
+	bias_desc VARCHAR(255) NOT NULL,
+	victim_types VARCHAR(255) NOT NULL,
+	multiple_offense VARCHAR(1) NOT NULL,
+	multiple_bias VARCHAR(2) NOT NULL,
+	CONSTRAINT incident_pkey PRIMARY KEY (incident_id)
+);
+
+
 -- 2. Review and verify imported data
 
 SELECT * FROM agencies;					-- 5313 records
@@ -172,4 +191,4 @@ SELECT * FROM population_groups			-- 20 records
 SELECT * FROM states;					-- 53 records
 SELECT * FROM victim_types;				-- 9 records
 SELECT * FROM census_data;				-- 4641 records
-SELECT * FROM main_incidents;			-- records
+SELECT * FROM main_incidents;			-- 89405 records

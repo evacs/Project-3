@@ -1,5 +1,22 @@
 // Hate Crimes in the US Code
 
+// // General call to flask
+// d3.json("http://127.0.0.1:5000/app_route")
+//   .then(function(data) {
+//     console.log(data);     
+//   })
+//   .catch(function (error) {
+//     console.error("Error loading JSON data:", error);
+//   });
+
+d3.json("http://127.0.0.1:5000/bias")
+  .then(function(data) {
+    console.log(data);     
+  })
+  .catch(function (error) {
+    console.error("Error loading JSON data:", error);
+  });
+
 d3.json("http://127.0.0.1:5000/matt")
   .then(function (data) {
     console.log(data);
@@ -77,15 +94,13 @@ function createLineChart(selectedState, stateData) {
 
 d3.json("http://127.0.0.1:5000/time")
   .then(function(data) {
-    console.log(data.count);
+    console.log(data);
     time_data = data;
     timelineChart(time_data);
   })
   .catch(function (error) {
     console.error("Error loading JSON data:", error);
   });
-
-
 
   function timelineChart(timeData) {
     // Extract data for the chart

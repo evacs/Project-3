@@ -13,7 +13,6 @@ db_uri = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s73
 engine = create_engine(db_uri)
 
 
-
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
@@ -22,6 +21,21 @@ Base.prepare(autoload_with=engine)
 print(Base.classes.keys())
 session = Session(engine)
 
+years = []
+states = []
+biases = []
+bias_categories = []
+
+[years.append(year) for year in range(2009, 2022)]
+
+for row in session.query(Base.classes.states).all():
+    states.append(row.__dict__['state'])
+
+for row in session.query(Base.classes.bias).all():
+    biases.append(row.__dict__['bias'])
+
+for row in session.query(Base.classes.bias_categories).all():
+    bias_categories.append(row.__dict__['category'])
 
 #Define static routes
 
@@ -30,11 +44,33 @@ session = Session(engine)
 def index():
     return render_template('index.html')
 
+
+
 # Turns main_incidents table into a JSON dictionary
 @app.route('/data')
 def get_data():
 
     try:
+        
+        c = Base.classes.census_data
+        s = Base.classes.states
+        pop_data = session.query(c, s).filter(c.states_abbr == s.states_abbr).filter(c.race_id == -1).all()
+        
+        state_pop = []
+        for record in pop_data:
+            (c, s) = record
+            state_pop.append()
+
+            
+
+        
+        
+        for record in session.query(Base.classes.census_data).all():
+            for year in years:
+                state_pop.append()
+                
+
+
 
         result = session.query(Base.classes.main_incidents).all()
         # Convert the query result to a list of dictionaries              
@@ -62,17 +98,29 @@ def get_data():
         print("Error accessing the table:", str(e))
         return jsonify({"error": "Table access failed"}), 500
 
+@app.route('/jeff')
+def get_data_jeff():
+
+    try:
+
+        result = session.query(Base.classes.main_incidents).all()
+        # Convert the query result to a list of dictionaries              
+        dataToReturn = {}
+
+        dataToReturn['states'] = states
+        dataToReturn['years'] = years
+        dataToReturn['biases'] = biases
+
+
+        
+        print("Table access successful")
+
+        return jsonify(dataToReturn)
+
+    except Exception as e:
+        # Handle and log any exceptions
+        print("Error accessing the table:", str(e))
+        return jsonify({"error": "Table access failed"}), 500
+
 if __name__ == '__main__':
     app.run(debug=True)
-
-    
-# @app.route('/api/app1')
-# def app1():
-#     return 'Application 1'
-
-# @app.route('/api/app2')
-# def app2():
-#     return 'Application 2'
-
-
-

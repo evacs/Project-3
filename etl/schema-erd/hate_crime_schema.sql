@@ -11,19 +11,19 @@ CREATE TABLE states (
 	state VARCHAR(25) NOT NULL, 
 	division VARCHAR(20) NOT NULL,
 	region VARCHAR(10) NOT NULL,
-	PRIMARY KEY (state_abbr)
+	CONSTRAINT state_abbr_pkey PRIMARY KEY (state_abbr)
 );
 
 CREATE TABLE agency_types (
 	agency_type_id INT NOT NULL, 
 	agency_type VARCHAR(25) NOT NULL,
-	PRIMARY KEY (agency_type_id)
+	CONSTRAINT agency_type_id PRIMARY KEY (agency_type_id)
 );
 
 CREATE TABLE agencies (
 	agency_id INT NOT NULL, 
 	agency VARCHAR(75) NOT NULL,
-	PRIMARY KEY (agency_id)
+	CONSTRAINT agency_id_pkey PRIMARY KEY (agency_id)
 );
 
 CREATE TABLE agency_oris (
@@ -31,7 +31,7 @@ CREATE TABLE agency_oris (
 	agency_id INT NOT NULL,
 	agency_unit VARCHAR(50), -- This column is empty for cities and other agencies
 	agency_type_id INT NOT NULL,
-	PRIMARY KEY (ori),
+	CONSTRAINT ori_pkey PRIMARY KEY (ori),
 	FOREIGN KEY (agency_id) REFERENCES agencies(agency_id),
 	FOREIGN KEY (agency_type_id) REFERENCES agency_types(agency_type_id)
 );
@@ -39,19 +39,19 @@ CREATE TABLE agency_oris (
 CREATE TABLE population_groups (
 	population_group_code VARCHAR(2) NOT NULL, 
 	population_group VARCHAR(70) NOT NULL,
-	PRIMARY KEY (population_group_code)
+	CONSTRAINT population_group_pkey PRIMARY KEY (population_group_code)
 );
 
 CREATE TABLE race (
 	race_id INT NOT NULL,
 	race VARCHAR(50) NOT NULL,
-	PRIMARY KEY (race_id)
+	CONSTRAINT race_id_pkey PRIMARY KEY (race_id)
 );
 
 CREATE TABLE ethnicity (
 	ethnicity_id INT NOT NULL,
 	ethnicity VARCHAR(50) NOT NULL,
-	PRIMARY KEY (ethnicity_id)
+	CONSTRAINT ethnicity_id_pkey PRIMARY KEY (ethnicity_id)
 );
 
 CREATE TABLE incidents (
@@ -70,7 +70,7 @@ CREATE TABLE incidents (
 	offender_ethnicity_id INT NOT NULL,
 	victim_count INT NOT NULL,
 	total_individual_victims INT NOT NULL,
-	PRIMARY KEY (incident_id),
+	CONSTRAINT incident_id_pkey PRIMARY KEY (incident_id),
 	FOREIGN KEY (ori) REFERENCES agency_oris(ori),
 	FOREIGN KEY (population_group_code) REFERENCES population_groups(population_group_code),
 	FOREIGN KEY (offender_race_id) REFERENCES race(race_id),
@@ -80,13 +80,13 @@ CREATE TABLE incidents (
 CREATE TABLE offenses (
 	offense_id INT NOT NULL,
 	offense VARCHAR(50) NOT NULL,
-	PRIMARY KEY (offense_id)
+	CONSTRAINT offense_id_pkey PRIMARY KEY (offense_id)
 );
 
 CREATE TABLE incident_offenses (
 	incident_id INT NOT NULL,
 	offense_id INT NOT NULL,
-	PRIMARY KEY (incident_id, offense_id),
+	CONSTRAINT incident_offense_pkey PRIMARY KEY (incident_id, offense_id),
 	FOREIGN KEY (incident_id) REFERENCES incidents(incident_id),
 	FOREIGN KEY (offense_id) REFERENCES offenses(offense_id)
 );
@@ -94,13 +94,13 @@ CREATE TABLE incident_offenses (
 CREATE TABLE locations (
 	location_id INT NOT NULL,
 	location VARCHAR(50) NOT NULL,
-	PRIMARY KEY (location_id)
+	CONSTRAINT location_id_pkey PRIMARY KEY (location_id)
 );
 
 CREATE TABLE incident_locations (
 	incident_id INT NOT NULL,
 	location_id INT NOT NULL,
-	PRIMARY KEY (incident_id, location_id),
+	CONSTRAINT incident_location_pkey PRIMARY KEY (incident_id, location_id),
 	FOREIGN KEY (incident_id) REFERENCES incidents(incident_id),
 	FOREIGN KEY (location_id) REFERENCES locations(location_id)
 );
@@ -108,18 +108,18 @@ CREATE TABLE incident_locations (
 CREATE TABLE bias_categories (
 	category_id INT NOT NULL,
 	category VARCHAR(25) NOT NULL,
-	PRIMARY KEY (category_id)
+	CONSTRAINT category_id_pkey PRIMARY KEY (category_id)
 );
 
 CREATE TABLE bias (
 	bias_id INT NOT NULL,
 	bias VARCHAR(60) NOT NULL,
 	category_id INT NOT NULL,
-	PRIMARY KEY (bias_id),
+	CONSTRAINT bias_id_pkey PRIMARY KEY (bias_id),
 	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)
 );	
 
-CREATE TABLE incident_biases_TEST (
+CREATE TABLE incident_biases (
 	incident_id INT NOT NULL,
 	bias_id INT NOT NULL,
 	CONSTRAINT incident_bias_pkey PRIMARY KEY (incident_id, bias_id),
@@ -130,13 +130,13 @@ CREATE TABLE incident_biases_TEST (
 CREATE TABLE victim_types (
 	victim_type_id INT NOT NULL,
 	victim_type VARCHAR(25) NOT NULL,
-	PRIMARY KEY (victim_type_id)
+	CONSTRAINT victim_type_id_pkey PRIMARY KEY (victim_type_id)
 );
 
 CREATE TABLE incident_victim_types (
 	incident_id INT NOT NULL,
 	victim_type_id INT NOT NULL,
-	PRIMARY KEY (incident_id, victim_type_id),
+	CONSTRAINT incident_victim_type_pkey PRIMARY KEY (incident_id, victim_type_id),
 	FOREIGN KEY (incident_id) REFERENCES incidents(incident_id),
 	FOREIGN KEY (victim_type_id) REFERENCES victim_types(victim_type_id)
 );
@@ -147,7 +147,7 @@ CREATE TABLE census_data (
 	state_abbr VARCHAR(2) NOT NULL,
 	race_id INT NOT NULL,
 	population INT NOT NULL,
-	PRIMARY KEY (id),
+	CONSTRAINT id_pkey PRIMARY KEY (id),
 	FOREIGN KEY (state_abbr) REFERENCES states(state_abbr),
 	FOREIGN KEY (race_id) REFERENCES race(race_id)
 );

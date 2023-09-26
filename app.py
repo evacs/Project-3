@@ -36,26 +36,22 @@ def get_data():
 
     try:
 
-        result = session.query(Base.classes.main_incidents).all()
-        # Convert the query result to a list of dictionaries              
-        dataToReturn = {}
-
-        incident_ids = []
-        state_names = []
-        bias_descs = []
-
-        for row in result:
-            incident_ids.append(row.__dict__["incident_id"])
-            state_names.append(row.__dict__["state_name"])
-            bias_descs.append(row.__dict__["bias_desc"])
-
-        dataToReturn["incident_id"] = incident_ids
-        dataToReturn["state_name"] = state_names
-        dataToReturn["bias_desc"] = bias_descs
-        # Print a success message
-        print("Table access successful")
-
-        return jsonify(dataToReturn)
+        sel = [states.state_abbr, census_data.year, census_data.population, incidents.incident_id]
+        query1 = db.session.query(*sel)
+        query1 = query1.filter(states.state_abbr == census_data.state_abbr)
+        query1 = query1.filter(states.state_abbr == incidents.state_abbr)
+    
+        result = query1.all()
+    
+        # You can customize the format of the response as needed
+        response_data = {
+            'state_abbr': result[0],
+            'year': result[1],
+            'population': result[2],
+            'incident_id': result[3]
+        }
+    
+        return jsonify(response_data)
 
     except Exception as e:
         # Handle and log any exceptions

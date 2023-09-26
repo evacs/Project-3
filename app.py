@@ -35,7 +35,14 @@ def index():
 def get_data():
 
     try:
-
+        bias = Base.classes.bias
+        bias_categories = Base.classes.bias_categories
+        states = Base.classes.states
+        incidents = Base.classes.incidents
+        incident_biases = Base.classes.incident_biases_2
+        states = Base.classes.states
+        census_data = Base.classes.census_data
+        
         sel = [states.state_abbr, census_data.year, census_data.population, incidents.incident_id]
         query1 = db.session.query(*sel)
         query1 = query1.filter(states.state_abbr == census_data.state_abbr)

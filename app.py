@@ -9,19 +9,22 @@ from sqlalchemy.orm import Session
 app = Flask(__name__)
 
 # Create a SQLAlchemy database engine
-# db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
-db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
+db_url = f'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
+# db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 engine = create_engine(db_url)
 
-# Reflect an existing database and tables
+
+
+# reflect an existing database into a new model
 Base = automap_base()
+# reflect the tables
 Base.prepare(autoload_with=engine)
 
+print(Base.classes.keys())
 session = Session(engine)
 
-print('Connected to database and session initiated')
 
-# Define static routes
+#Define static routes
 
 # Launches site
 @app.route('/') 
@@ -60,73 +63,17 @@ def get_data():
         print("Error accessing the table:", str(e))
         return jsonify({"error": "Table access failed"}), 500
 
-@app.route('/top10Data')
-def get_top10_data():
-
-    try:
-        # Create dictionary to hold all data
-        dataToReturn = {}
-
-        # Store tables in variables
-        C = Base.classes.census_data
-        S = Base.classes.states
-        I = Base.classes.incidents
-
-        # Create list of all states and add to data dictionary
-        states = []
-        # Don't include Federal Government and Guam in list of states
-        query = session.query(S).filter(S.state_abbr != 'FS').filter(S.state_abbr != 'GM')
-        for row in query.all():
-            states.append(row.state)
-        dataToReturn['states'] = states
-
-        # Query to get population and incident counts by state and year
-        sel = [C.year, S.state, C.population, I.incident_id]
-        query = session.query(C.year, S.state, func.min(C.population).label('population'), func.count(I.incident_id).label('incidents'))
-        query = query.filter(C.state_abbr == S.state_abbr).filter(C.race_id == -1)
-        query = query.filter(I.state_abbr == S.state_abbr).filter(extract('year', I.incident_date) == C.year)
-        query = query.group_by(C.year, S.state)
-
-        # Create lists for data and years
-        data = []
-        years = []
-        
-        # Set years in list
-        [years.append(year) for year in range(2009, 2022)]
-
-        # Loop through each year to create data lists
-        for year in years:
-            states = []
-            population = []
-            incidents = []
-            incident_rate = []
-            
-            # Loop through every row for the year
-            for row in query.filter(C.year == year).all():
-                # Append data to list for the year
-                states.append(row.state)
-                population.append(row.population)
-                incidents.append(row.incidents)
-                incident_rate.append(row.incidents / row.population * 10000000)
-            
-            # Store lists in a dictionary and append to data list
-            current_year = {'year': year, 'states': states, 'population': population,
-                            'incidents': incidents, 'incident_rate': incident_rate}
-            data.append(current_year)
-        
-        dataToReturn['years'] = years
-        dataToReturn['data'] = data
-
-        # Print a success message
-        print("Table access successful")
-
-        return jsonify(dataToReturn)
-
-    except Exception as e:
-        # Handle and log any exceptions
-        print("Error accessing the table:", str(e))
-        return jsonify({"error": "Table access failed"}), 500    
-
-
 if __name__ == '__main__':
     app.run(debug=True)
+
+    
+# @app.route('/api/app1')
+# def app1():
+#     return 'Application 1'
+
+# @app.route('/api/app2')
+# def app2():
+#     return 'Application 2'
+
+
+

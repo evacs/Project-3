@@ -10,7 +10,7 @@ CREATE TABLE states (
 	state_abbr VARCHAR(2) NOT NULL,
 	state VARCHAR(25) NOT NULL, 
 	division VARCHAR(20) NOT NULL,
-	region VARCHAR(10) NOT NULL,
+	region VARCHAR(20) NOT NULL,
 	CONSTRAINT state_abbr_pkey PRIMARY KEY (state_abbr)
 );
 
@@ -119,7 +119,7 @@ CREATE TABLE bias (
 	FOREIGN KEY (category_id) REFERENCES bias_categories(category_id)
 );	
 
-CREATE TABLE incident_biases_TEST (
+CREATE TABLE incident_biases (
 	incident_id INT NOT NULL,
 	bias_id INT NOT NULL,
 	CONSTRAINT incident_bias_pkey PRIMARY KEY (incident_id, bias_id),
@@ -172,5 +172,4 @@ SELECT * FROM population_groups			-- 20 records
 SELECT * FROM states;					-- 53 records
 SELECT * FROM victim_types;				-- 9 records
 SELECT * FROM census_data;				-- 4641 records
-
-SELECT * FROM main_incidents;
+SELECT * FROM main_incidents;			-- records

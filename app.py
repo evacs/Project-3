@@ -9,8 +9,21 @@ import datetime as dt
 
 app = Flask(__name__)
 
+# # LOCAL DB:
+# ---------------------------------------------------------------------------------
+# DB_USERNAME = 'postgres'
+# DB_PASSWORD = 'PASSWORD'
+# DB_HOST = 'localhost'  # e.g., localhost or database server IP
+# DB_PORT = '5432'  # PostgreSQL default port is 5432
+# DB_NAME = 'hatecrimes' # your db name
+# db_uri = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
+# --------------------------------------------------------------------------------------
+
+
 # Create a SQLAlchemy database engine
+# Jeff's Login:
 db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
+# Online Server:
 # db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 engine = create_engine(db_url)
 
@@ -192,7 +205,30 @@ def get_top10_data():
     except Exception as e:
         # Handle and log any exceptions
         print("Error accessing the table:", str(e))
-        return jsonify({"error": "Table access failed"}), 500    
+        return jsonify({"error": "Table access failed"}), 500   
+
+@app.route('/state_offense')
+def get_data_state_offense():
+    try:
+        main_incidents = Base.classes.main_incidents
+        results = session.query(
+            main_incidents.state_name,
+            main_incidents.offense_name,
+            main_incidents.data_year,
+            func.count(main_incidents.incident_id).label("count")
+        ).group_by(
+            main_incidents.state_name,
+            main_incidents.offense_name,
+            main_incidents.data_year
+        ).all()
+        data_list = [{"state_name": row.state_name, "offense_name": row.offense_name, "data_year": row.data_year, "count": row.count} for row in results]
+        dataToReturn = {"state_offense_data": data_list}
+        print("Table access successful")
+        return jsonify(dataToReturn)
+​
+    except Exception as e:
+        print("Error accessing the table:", str(e))
+        return jsonify({"error": "Table access failed"}), 500
 
 
 # THIS GOES AT THE END OF THE FILE ONLY 

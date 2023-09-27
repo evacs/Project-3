@@ -204,3 +204,67 @@ function createTop10Chart(info) {
   Plotly.newPlot('top10bar', data, layout);
     
 }
+
+d3.json("http://127.0.0.1:5000/state_offense")
+    .then(function(data) {
+        const uniqueStates = new Set();
+        const uniqueYears = new Set();
+        data.state_offense_data.forEach(entry => {
+            uniqueStates.add(entry.state_name);
+            uniqueYears.add(entry.data_year);
+        });
+        const stateFilter = d3.select("#stateFilter");
+        uniqueStates.forEach(state => {
+            stateFilter.append("option").attr("value", state).text(state);
+        });
+        const yearFilter = d3.select("#yearFilter");
+        uniqueYears.forEach(year => {
+            yearFilter.append("option").attr("value", year).text(year);
+        });
+        renderStateOffenseChart(data, "All", "All");
+        stateFilter.on("change", function() {
+            const selectedState = this.value;
+            const selectedYear = yearFilter.node().value;
+            renderStateOffenseChart(data, selectedState, selectedYear);
+        });
+        yearFilter.on("change", function() {
+            const selectedYear = this.value;
+            const selectedState = stateFilter.node().value;
+            renderStateOffenseChart(data, selectedState, selectedYear);
+        });
+    })
+    .catch(function(error) {
+        console.error("Error loading JSON data:", error);
+    });
+​
+function renderStateOffenseChart(data, selectedState, selectedYear) {
+    let filteredData = data.state_offense_data;
+    if (selectedState !== "All") {
+        filteredData = filteredData.filter(entry => entry.state_name === selectedState);
+    }
+    if (selectedYear !== "All") {
+        filteredData = filteredData.filter(entry => entry.data_year === parseInt(selectedYear));
+    }
+    const offenseCount = {};
+    filteredData.forEach(entry => {
+        if (!offenseCount[entry.offense_name]) {
+            offenseCount[entry.offense_name] = 0;
+        }
+        offenseCount[entry.offense_name] += entry.count;
+    });
+    const sortedOffenses = Object.keys(offenseCount).sort((a, b) => offenseCount[b] - offenseCount[a]).slice(0, 10);
+    const topOffenseCounts = sortedOffenses.map(offense => offenseCount[offense]);
+    const chartData = [{
+        type: 'bar',
+        x: topOffenseCounts,
+        y: sortedOffenses,
+        orientation: 'h'
+    }];
+    const layout = {
+        title: `Top 10 Hate Crimes by Offense in ${selectedState} for ${selectedYear}`,
+        yaxis: { title: "Offense Name", automargin: true },
+        xaxis: { title: "Count" },
+        margin: { l: 250 }
+    };
+    Plotly.newPlot("chart4", chartData, layout);
+}

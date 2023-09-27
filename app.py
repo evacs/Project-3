@@ -225,7 +225,7 @@ def get_data_state_offense():
         dataToReturn = {"state_offense_data": data_list}
         print("Table access successful")
         return jsonify(dataToReturn)
-​
+    
     except Exception as e:
         print("Error accessing the table:", str(e))
         return jsonify({"error": "Table access failed"}), 500

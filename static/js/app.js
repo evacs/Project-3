@@ -235,9 +235,9 @@ d3.json("http://127.0.0.1:5000/state_offense")
     })
     .catch(function(error) {
         console.error("Error loading JSON data:", error);
-    });
-​
-function renderStateOffenseChart(data, selectedState, selectedYear) {
+  });
+  
+  function renderStateOffenseChart(data, selectedState, selectedYear) {
     let filteredData = data.state_offense_data;
     if (selectedState !== "All") {
         filteredData = filteredData.filter(entry => entry.state_name === selectedState);

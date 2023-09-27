@@ -9,8 +9,21 @@ import datetime as dt
 
 app = Flask(__name__)
 
+# # LOCAL DB:
+# ---------------------------------------------------------------------------------
+# DB_USERNAME = 'postgres'
+# DB_PASSWORD = 'PASSWORD'
+# DB_HOST = 'localhost'  # e.g., localhost or database server IP
+# DB_PORT = '5432'  # PostgreSQL default port is 5432
+# DB_NAME = 'hatecrimes' # your db name
+# db_uri = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
+# --------------------------------------------------------------------------------------
+
+
 # Create a SQLAlchemy database engine
+# Jeff's Login:
 db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
+# Online Server:
 # db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 engine = create_engine(db_url)
 

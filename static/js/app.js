@@ -190,13 +190,15 @@ function createTop10Chart(info) {
   console.log('Initial Bar Chart Data:', data)
        
   let layout = {
-    title: 'Top 10 States with the Most Incidents',
+    title: 'States with the Most Incidents',
+    yaxis: { title: "State", automargin: true },
+    xaxis: { title: "Hate Crime Incidents" },
     height: 425,
     width: 500,
     margin: {
       l: 120, // Create gap between demographic info and chart,
-      t: 0, // Align chart with top of subject drop down
-      b: 25 // Reduce gap with bubble chart
+      // t: 0, // Align chart with top of subject drop down
+      // b: 25 // Reduce gap with bubble chart
     }
   };
     

@@ -2,52 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hate Crimes in the US</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hate Crimes in the US</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #F5F6F7;
+        }
+    </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Hate Crimes in the United States</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Type of Crime</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Statistics</h3>
-          </div>
-          <div id="statistics" class="panel-body"></div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="chart1"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-      <div class="col-md-5">
-        <div id="chart2"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="chart3"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-    </div>
-  </div>
+    <div class="container-fluid"> 
 
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="./static/js/app.js"></script>
+        <!-- Jumbotron Header -->
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+                <h1>Hate Crimes in the United States</h1>
+                <p>Use the interactive charts below to explore the dataset</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- State Selector and Statistics Panel on the left -->
+            <div class="col-md-2">
+
+                <!-- State Selector -->
+                <div class="well">
+                    <h5>State</h5>
+                    <select id="selDataset" onchange="optionChanged(this.value)"></select>
+                </div>
+
+                <!-- Statistics Panel -->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Statistics</h3>
+                    </div>
+                    <div id="statistics" class="panel-body"></div>
+                </div>
+
+            </div>
+
+            <!-- Charts on the right -->
+            <div class="col-md-10">
+                <!-- Chart 1 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="chart1"></div>
+                    </div>
+                </div>
+
+                <!-- Chart 2 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="chart2"></div>
+                    </div>
+                </div>
+
+                <!-- Total Hate Crimes Over Time Chart -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="chart3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./static/js/app.js"></script>
 
 </body>
 

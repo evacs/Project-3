@@ -7,61 +7,70 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hate Crimes in the US</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Hate Crimes in the United States</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Select Bias</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Statistics</h3>
+    <ul class="nav nav-tabs" id="myTabs">
+      <li class="nav-item">
+        <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1">Tab 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2">Tab 2</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+        <!-- Content for Tab 1 goes here -->
+        <div class="row">
+          <div class="col-md-12 jumbotron text-center">
+            <h1>Hate Crimes in the United States</h1>
+            <p>Use the interactive charts below to explore the dataset</p>
           </div>
-          <div id="statistics" class="panel-body"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="well">
+              <h5>Select Bias</h5>
+              <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Statistics</h3>
+              </div>
+              <div id="statistics" class="panel-body"></div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="chart1"></div> <!-- Chart 1: Rename div ID -->
+          </div>
+            
         </div>
       </div>
-      <div class="col-md-5">
-        <div id="chart1"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-      <div class="col-md-5">
-        <div id="chart2"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="chart3"></div> <!-- Chart 1: Rename div ID -->
-      </div>
-    </div>
-  </div>
-  <div class="d-flex align-items-start">
-    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
-      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-    </div>
-    <div class="tab-content" id="v-pills-tabContent">
-      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+    </div>    
+    
+    <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+      <!-- Content for Tab 2 goes here -->
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>Hate Crimes in the United States</h1>
+          <p>The US at a Glance</p>          
+        </div>
+        <div class="col-md-5">
+          <div id="chart2"></div> <!-- Chart 1: Rename div ID -->
+        </div>        
     </div>
   </div>
-
+  
+  
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="./static/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

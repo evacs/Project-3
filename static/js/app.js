@@ -81,7 +81,7 @@ function createLineChart(selectedState, stateData) {
     xaxis: { title: "Year" },
     yaxis: { title: "Incident Count" },
     height: 600,
-    width: 1200,
+    width: 1000,
   };
 
   // Create the line chart using Plotly

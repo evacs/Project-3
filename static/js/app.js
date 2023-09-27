@@ -1,4 +1,11 @@
-d3.json("http://127.0.0.1:5000/bias")
+// Local URL
+// url = 'http://127.0.0.1:5000'
+// Render hosting production URL
+url = 'https://us-hate-crimes.onrender.com'
+// Render hosting development URL
+// url = 'https://us-hate-crimes-dev.onrender.com'
+
+d3.json(url + '/bias')
   .then(function(data) {
     console.log(data);     
   })
@@ -6,7 +13,7 @@ d3.json("http://127.0.0.1:5000/bias")
     console.error("Error loading JSON data:", error);
   });
 
-d3.json("http://127.0.0.1:5000/matt")
+d3.json(url + '/matt')
   .then(function (data) {
     console.log(data);
 
@@ -81,7 +88,7 @@ function createLineChart(selectedState, stateData) {
   Plotly.newPlot("chart1", chartData, layout);
 }
 
-d3.json("http://127.0.0.1:5000/time")
+d3.json(url + '/time')
   .then(function(data) {
     console.log(data);
     time_data = data;
@@ -122,7 +129,7 @@ d3.json("http://127.0.0.1:5000/time")
     Plotly.newPlot('chart2', plotData, layout);
   }
   
-d3.json("http://127.0.0.1:5000/top10Data")
+d3.json(url + '/top10Data')
   .then(function (data) { 
     console.log('Top 10 Data', data);
     
@@ -207,7 +214,7 @@ function createTop10Chart(info) {
     
 }
 
-d3.json("http://127.0.0.1:5000/state_offense")
+d3.json(url + '/state_offense')
     .then(function(data) {
         const uniqueStates = new Set();
         const uniqueYears = new Set();

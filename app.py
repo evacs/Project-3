@@ -29,30 +29,70 @@ print('Connected to database and session initiated')
 def index():
     return render_template('index.html')
 
-# Turns main_incidents table into a JSON dictionary
-@app.route('/data')
-def get_data():
+
+# gets data based on bias
+@app.route('/bias')
+def get_data_bias():
 
     try:
+        # Variables for related tables
+        bias = Base.classes.bias
+        bias_categories = Base.classes.bias_categories
+        main_inc = Base.classes.main_incidents
+        
+        # query statement
+        sel = [main_inc.data_year, main_inc.state_name, main_inc.bias_desc,
+               main_inc.incident_id, bias_categories.category]
 
-        result = session.query(Base.classes.main_incidents).all()
-        # Convert the query result to a list of dictionaries              
-        dataToReturn = {}
+        # join statement
+        query = session.query(*sel)\
+                .filter(bias.bias == main_inc.bias_desc)\
+                .filter(bias.category_id == bias_categories.category_id)
 
-        incident_ids = []
-        state_names = []
-        bias_descs = []
+        # Query statement
+        result = query.all()
 
-        for row in result:
-            incident_ids.append(row.__dict__["incident_id"])
-            state_names.append(row.__dict__["state_name"])
-            bias_descs.append(row.__dict__["bias_desc"])
+        # Create a list of dictionaries
+        keys = ["year","state","bias","id","category"]
+        bias_dict = []
+        bias_dict = [dict(zip(keys, item)) for item in result]
+        # Assign the metadata list to the "metadata" key in the data dictionary
+        dataToReturn = {"bias_data": bias_dict}
+                
+        return jsonify(dataToReturn)   
+       
 
-        dataToReturn["incident_id"] = incident_ids
-        dataToReturn["state_name"] = state_names
-        dataToReturn["bias_desc"] = bias_descs
-        # Print a success message
-        print("Table access successful")
+    except Exception as e:
+        # Handle and log any exceptions
+        print("Error accessing the table:", str(e))
+        return jsonify({"error": "Table access failed"}), 500
+
+# Route to access data for time vs bias per state chart
+@app.route('/matt')
+def get_data_matt():
+    try:
+        # Variables for related tables
+        bias = Base.classes.bias
+        bias_categories = Base.classes.bias_categories
+        main_inc = Base.classes.main_incidents
+
+        # Query statement
+        result = session.query(
+            main_inc.data_year,
+            main_inc.state_name,
+            bias_categories.category,  # Use category instead of bias_desc
+            func.count(main_inc.incident_id).label("count")
+        ).join(bias, bias.bias == main_inc.bias_desc)\
+         .join(bias_categories, bias_categories.category_id == bias.category_id)\
+         .group_by(main_inc.data_year, main_inc.state_name, bias_categories.category)\
+         .order_by(main_inc.data_year.asc()).all()
+
+        # Create a list of dictionaries
+        keys = ["year", "state", "category", "count"]  # Update keys to include "category"
+        category_dict = [dict(zip(keys, item)) for item in result]
+
+        # Assign the metadata list to the "metadata" key in the data dictionary
+        dataToReturn = {"state_data": category_dict}
 
         return jsonify(dataToReturn)
 
@@ -61,6 +101,35 @@ def get_data():
         print("Error accessing the table:", str(e))
         return jsonify({"error": "Table access failed"}), 500
 
+
+@app.route('/time')
+def get_data_time():
+    try:
+        
+        main_incidents = Base.classes.main_incidents
+        
+        result = session.query(
+            main_incidents.data_year,
+            func.count(main_incidents.incident_id).label("count")  # Change label to "count"
+        ).group_by(
+            main_incidents.data_year
+        ).order_by(main_incidents.data_year.asc()).all()               
+                
+        # Convert the query result to a list of dictionaries
+        data_list = [{"data_year": row.data_year, "count": row.count} for row in result]
+
+        dataToReturn = {"time_data": data_list}
+
+        # Print a success message
+        print("Table access successful")
+        
+        # return jsonify(data_list)
+        return jsonify(dataToReturn)        
+        
+    except Exception as e:
+        print("Error accessing the table:", str(e))
+        return jsonify({"error": "Table access failed"}), 500
+    
 @app.route('/top10Data')
 def get_top10_data():
 
@@ -118,10 +187,6 @@ def get_top10_data():
         
         dataToReturn['years'] = years
         dataToReturn['data'] = data
-
-        # Print a success message
-        print("Table access successful")
-
         return jsonify(dataToReturn)
 
     except Exception as e:
@@ -130,5 +195,9 @@ def get_top10_data():
         return jsonify({"error": "Table access failed"}), 500    
 
 
+# THIS GOES AT THE END OF THE FILE ONLY 
+session.close()   
 if __name__ == '__main__':
     app.run(debug=True)
+
+

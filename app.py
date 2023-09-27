@@ -25,7 +25,7 @@ app = Flask(__name__)
 # Online Server External Connection (pgAdmin on local computer):
 # db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
 # Online Server Internal Connection (hosted website on Render):
-db_url = 'postgres://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a/us_hate_crimes'
+db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a/us_hate_crimes'
 engine = create_engine(db_url)
 
 # Reflect an existing database and tables

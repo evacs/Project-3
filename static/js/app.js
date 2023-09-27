@@ -147,22 +147,18 @@ d3.json(url + '/top10Data')
     let initial_year = 2021;
 
     createYearDropDown(years);
-    createTop10Chart(chart_data[initial_year - 2009]);
+    createTop10Chart1(chart_data[initial_year - 2009]);
+    createTop10Chart2(chart_data[initial_year - 2009]);
     
     // Set up an event listener for the select element change event
     selectYear.on("change", function() {
       let year = this.value; // Get the selected year from the dropdown
       console.log(year);
-      createTop10Chart(chart_data[year - 2009]);
+      createTop10Chart1(chart_data[year - 2009]);
+      createTop10Chart2(chart_data[year - 2009]);
     });
 
   });
-
-function yearChanged(year) {
-  
-  let new_chart_data = chart_data[year - 2009];
-  createTop10Chart(new_chart_data);
-}
 
 function createYearDropDown(years) {
     
@@ -174,7 +170,7 @@ function createYearDropDown(years) {
   };
 }
     
-function createTop10Chart(info) {
+function createTop10Chart1(info) {
 
   let states = info.states;
   let incidents = info.incidents;
@@ -194,23 +190,55 @@ function createTop10Chart(info) {
   }];
     
   // Log data for review
-  console.log('Initial Bar Chart Data:', data)
+  console.log('Initial Bar Chart Data:', data);
        
   let layout = {
-    title: 'States with the Most Incidents',
+    title: 'Most Hate Crimes by State',
     yaxis: { title: "State", automargin: true },
-    xaxis: { title: "Hate Crime Incidents" },
+    xaxis: { title: "Incident Count" },
     height: 425,
-    width: 500,
-    margin: {
-      l: 120, // Create gap between demographic info and chart,
-      // t: 0, // Align chart with top of subject drop down
-      // b: 25 // Reduce gap with bubble chart
-    }
+    width: 500
   };
     
   // Plot chart
-  Plotly.newPlot('top10bar', data, layout);
+  Plotly.newPlot('top10bar1', data, layout);
+    
+}
+
+function createTop10Chart2(info) {
+
+  let states = info.states;
+  let incidents = info.incidents;
+  let incident_rate = info.incident_rate;
+  let population = info.population;
+  
+  states = states.slice(0, 10).reverse();
+  incidents = incidents.slice(0, 10).reverse();
+  incident_rate = incident_rate.slice(0, 10).reverse();
+  population = population.slice(0, 10).reverse();
+
+  // Create data variable for plotting charts
+  let data = [{
+    x: incident_rate,
+    y: states,
+    text: population,
+    type: 'bar',
+    orientation: 'h'
+  }];
+    
+  // Log data for review
+  console.log('Initial Bar Chart Data:', data);
+       
+  let layout = {
+    title: 'Incident Rates by State',
+    yaxis: { title: "State", automargin: true },
+    xaxis: { title: "Incident Rate (per 10M people)" },
+    height: 425,
+    width: 500
+  };
+    
+  // Plot chart
+  Plotly.newPlot('top10bar2', data, layout);
     
 }
 

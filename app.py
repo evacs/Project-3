@@ -205,7 +205,30 @@ def get_top10_data():
     except Exception as e:
         # Handle and log any exceptions
         print("Error accessing the table:", str(e))
-        return jsonify({"error": "Table access failed"}), 500    
+        return jsonify({"error": "Table access failed"}), 500   
+
+@app.route('/state_offense')
+def get_data_state_offense():
+    try:
+        main_incidents = Base.classes.main_incidents
+        results = session.query(
+            main_incidents.state_name,
+            main_incidents.offense_name,
+            main_incidents.data_year,
+            func.count(main_incidents.incident_id).label("count")
+        ).group_by(
+            main_incidents.state_name,
+            main_incidents.offense_name,
+            main_incidents.data_year
+        ).all()
+        data_list = [{"state_name": row.state_name, "offense_name": row.offense_name, "data_year": row.data_year, "count": row.count} for row in results]
+        dataToReturn = {"state_offense_data": data_list}
+        print("Table access successful")
+        return jsonify(dataToReturn)
+​
+    except Exception as e:
+        print("Error accessing the table:", str(e))
+        return jsonify({"error": "Table access failed"}), 500
 
 
 # THIS GOES AT THE END OF THE FILE ONLY 

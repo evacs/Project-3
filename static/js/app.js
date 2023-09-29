@@ -121,7 +121,6 @@ d3.json(url + '/time')
       title: "Total Hate Crimes Over Time",
       xaxis: { title: "Year" },
       yaxis: { title: "Incident Count" },
-      margin: {b: 20}
     };
   
     // Create a data array with the trace
@@ -200,7 +199,6 @@ function createTop10Chart1(info) {
     xaxis: { title: "Incident Count" },
     // height: 425,
     // width: 500
-    margin: {b: 20}
   };
     
   // Plot chart
@@ -238,7 +236,6 @@ function createTop10Chart2(info) {
     xaxis: { title: "Incident Rate (per 10M people)" },
     // height: 425,
     // width: 500
-    margin: { b: 20 }
   };
     
   // Plot chart

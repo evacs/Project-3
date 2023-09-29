@@ -80,8 +80,9 @@ function createLineChart(selectedState, stateData) {
     title: "Hate Crimes by Bias Category Over Time",
     xaxis: { title: "Year" },
     yaxis: { title: "Incident Count" },
-    height: 600,
-    width: 1000,
+    // height: 600,
+    // width: 1000,
+    margin: {b: 20}
   };
 
   // Create the line chart using Plotly
@@ -120,6 +121,7 @@ d3.json(url + '/time')
       title: "Total Hate Crimes Over Time",
       xaxis: { title: "Year" },
       yaxis: { title: "Incident Count" },
+      margin: {b: 20}
     };
   
     // Create a data array with the trace
@@ -196,8 +198,9 @@ function createTop10Chart1(info) {
     title: 'Most Hate Crimes by State',
     yaxis: { title: "State", automargin: true },
     xaxis: { title: "Incident Count" },
-    height: 425,
-    width: 500
+    // height: 425,
+    // width: 500
+    margin: {b: 20}
   };
     
   // Plot chart
@@ -233,8 +236,9 @@ function createTop10Chart2(info) {
     title: 'Incident Rates by State',
     yaxis: { title: "State", automargin: true },
     xaxis: { title: "Incident Rate (per 10M people)" },
-    height: 425,
-    width: 500
+    // height: 425,
+    // width: 500
+    margin: { b: 20 }
   };
     
   // Plot chart

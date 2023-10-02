@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hate Crimes in the US</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             background-color: #1a1a2e;
@@ -29,13 +29,7 @@
             padding: 20px;
             margin: 20px 0;
         }
-        
-        .no-space-left {
-            padding-left: 0;
-        }
-        .no-space-right {
-            padding-right: 0;
-        }
+
         select {
             width: 100%;
             padding: 10px;
@@ -48,65 +42,57 @@
 </head>
 
 <body>
-    
-    <div class="container"> 
+    <div class="container mt-5"> 
         <div class="row">
             <div class="col-md-12 jumbotron text-center">
                 <h1>Hate Crimes in the United States</h1>
                 <p>Use the interactive charts below to explore the dataset</p>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-10">
+            <div class="col-md-10 mb-4">
                 <div id="chart2"></div>
             </div>
         </div>
-        <div class="row"></div>
+
         <div class="row">
             <div class="col-md-2">
-                <!-- State Selector -->
                 <div class="well">
                     <h5>State</h5>
                     <select id="selDataset"></select>
                 </div>
             </div>
-
-            <!-- Charts on the right -->
             <div class="col-md-10">
-                <!-- Chart 1 -->
-                <div id="chart1"></div>
+                <div id="chart1" class="mb-4"></div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-2">
-                <!-- Year Selector for -->
                 <div class="well">
                     <h5>Year</h5>
                     <select id="selYear"></select>
                 </div>
             </div>
-            <div class="col-md-5 no-space-right">
-                <div id="top10bar1"></div>
+            <div class="col-md-5">
+                <div id="top10bar1" class="mb-4"></div>
             </div>
-            <div class="col-md-5 no-space-left">
-                <div id="top10bar2"></div>
+            <div class="col-md-5">
+                <div id="top10bar2" class="mb-4"></div>
             </div>
-        </div>       
+        </div>
+
         <div class="row">
             <div class="col-md-2">
-                <!-- Year Selector -->
-                <div class="row">
-                    <div class="well">
-                        <h5>Year</h5>
-                        <select id="yearFilter"></select>
-                    </div>
+                <div class="well">
+                    <h5>Year</h5>
+                    <select id="yearFilter"></select>
                 </div>
-                <div class="row">
-                    <div class="well">
-                        <h5>State</h5>
-                        <select id="stateFilter"></select>
-                    </div>
+                <div class="well">
+                    <h5>State</h5>
+                    <select id="stateFilter"></select>
                 </div>
             </div>
             <div class="col-md-10">
@@ -115,7 +101,6 @@
         </div>
     </div>
 
-    <!-- Scripts -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="./static/js/app.js"></script>

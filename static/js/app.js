@@ -1,9 +1,6 @@
 // Local URL
+// Note: If hosted, replace this with website URL
 url = 'http://127.0.0.1:5000'
-// Render hosting production URL
-// url = 'https://us-hate-crimes.onrender.com'
-// Render hosting development URL
-// url = 'https://us-hate-crimes-dev.onrender.com'
 
 d3.json(url + '/bias')
   .then(function(data) {

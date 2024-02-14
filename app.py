@@ -1,6 +1,7 @@
 # Hate Crimes in the US
 # Flask App
 
+# Load dependencies
 from flask import Flask, jsonify, render_template
 from sqlalchemy import create_engine, text, func, extract
 from sqlalchemy.ext.automap import automap_base
@@ -8,24 +9,12 @@ from sqlalchemy.orm import Session
 
 app = Flask(__name__)
 
-# # LOCAL DB:
-# ---------------------------------------------------------------------------------
-# DB_USERNAME = 'postgres'
-# DB_PASSWORD = 'PASSWORD'
-# DB_HOST = 'localhost'  # e.g., localhost or database server IP
-# DB_PORT = '5432'  # PostgreSQL default port is 5432
-# DB_NAME = 'hatecrimes' # your db name
-# db_uri = f'postgresql://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
-# --------------------------------------------------------------------------------------
-
+# Get database information from config file
+# Note: config.py must be created locally and is not stored in Github
+from config import db_username, db_password, db_host, db_port, db_name
 
 # Create a SQLAlchemy database engine
-# Jeff's Login:
-# db_url = 'postgresql://postgres:bootcamp2023@localhost:5432/us_hate_crimes'
-# Online Server External Connection (pgAdmin on local computer):
-# db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a.oregon-postgres.render.com:5432/us_hate_crimes'
-# Online Server Internal Connection (hosted website on Render):
-db_url = 'postgresql://admin:fRFTp6MgD7AgfQYMYmyM5jaR8KAfKyXV@dpg-ck56k66ru70s738p5s4g-a/us_hate_crimes'
+db_url = f'postgresql://{db_username}:{db_password}@{db_host}:{db_port}/{db_name}'
 engine = create_engine(db_url)
 
 # Reflect an existing database and tables
